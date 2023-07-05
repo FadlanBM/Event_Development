@@ -24,12 +24,17 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final ImageView btnBackRegister;
 
   @NonNull
+  public final TextView btnSignIn;
+
+  @NonNull
   public final TextView txtRegister;
 
   private ActivityRegisterBinding(@NonNull RelativeLayout rootView,
-      @NonNull ImageView btnBackRegister, @NonNull TextView txtRegister) {
+      @NonNull ImageView btnBackRegister, @NonNull TextView btnSignIn,
+      @NonNull TextView txtRegister) {
     this.rootView = rootView;
     this.btnBackRegister = btnBackRegister;
+    this.btnSignIn = btnSignIn;
     this.txtRegister = txtRegister;
   }
 
@@ -66,13 +71,20 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_sign_in;
+      TextView btnSignIn = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignIn == null) {
+        break missingId;
+      }
+
       id = R.id.txt_register;
       TextView txtRegister = ViewBindings.findChildViewById(rootView, id);
       if (txtRegister == null) {
         break missingId;
       }
 
-      return new ActivityRegisterBinding((RelativeLayout) rootView, btnBackRegister, txtRegister);
+      return new ActivityRegisterBinding((RelativeLayout) rootView, btnBackRegister, btnSignIn,
+          txtRegister);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

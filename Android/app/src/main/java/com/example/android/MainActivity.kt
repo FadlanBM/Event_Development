@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.android.databinding.ActivityMainBinding
-import com.example.android.databinding.FragmentGalleryBinding
 
 class MainActivity : AppCompatActivity() {
     private var _binding: ActivityMainBinding? = null

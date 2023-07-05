@@ -3,23 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_dashboardpage">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.android.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_dashboardpage"
+        android:name="com.example.android.ui.dashboard.DashboardpageFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboardpage" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.android.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_management_Event"
+        android:name="com.example.android.ui.management_event.Management_EventFragment"
+        android:label="Managemnet Event"
+        tools:layout="@layout/fragment_managementevent" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.android.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_linkevent"
+        android:name="com.example.android.ui.link_event.Link_EventFragment"
+        android:label="Link Event"
+        tools:layout="@layout/fragment_linkevent" />
+    <fragment
+        android:id="@+id/nav_participant_event"
+        android:name="com.example.android.ui.participant.Participant_EventFragment"
+        android:label="Participant Event"
+        tools:layout="@layout/fragment_participant_event" />
 </navigation>

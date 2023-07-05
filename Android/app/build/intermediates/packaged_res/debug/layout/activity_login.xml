@@ -21,9 +21,16 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_below="@+id/btn_back_login">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:gravity="center"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="@dimen/_25ssp"/>
         <com.airbnb.lottie.LottieAnimationView
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_260sdp"
+            android:layout_height="@dimen/_250sdp"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
             app:lottie_rawRes="@raw/login_orange"/>
@@ -41,7 +48,6 @@
             android:layout_width="match_parent"
             app:passwordToggleEnabled="true"
             style="@style/Widget.Material3.Button.OutlinedButton"
-            android:layout_marginTop="@dimen/_8sdp"
             android:layout_height="wrap_content">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -52,7 +58,7 @@
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
             android:layout_height="@dimen/_45sdp"
-            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginHorizontal="@dimen/_20sdp"
             app:cornerRadius="@dimen/_10sdp"
             android:backgroundTint="@color/colorhighlight"
@@ -76,6 +82,7 @@
                 android:text="Sign Up"
                 android:layout_marginStart="@dimen/_3sdp"
                 android:textColor="@color/purple_200"
+                android:id="@+id/txt_sign_up"
                 />
         </LinearLayout>
     </LinearLayout>
