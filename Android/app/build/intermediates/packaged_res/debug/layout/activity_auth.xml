@@ -24,7 +24,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welcome!"
+            android:text="Welcome Back!"
             android:gravity="center"
             android:textSize="@dimen/_25sdp"
             android:fontFamily="@font/poppinsbold"/>

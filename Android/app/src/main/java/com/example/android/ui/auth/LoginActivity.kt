@@ -36,5 +36,8 @@ class LoginActivity : AppCompatActivity() {
         binding.btnBackLogin.setOnClickListener {
             onBackPressed()
         }
+        binding.txtSignUp.setOnClickListener {
+            startActivity(Intent(this,RegisterActivity::class.java))
+        }
     }
 }

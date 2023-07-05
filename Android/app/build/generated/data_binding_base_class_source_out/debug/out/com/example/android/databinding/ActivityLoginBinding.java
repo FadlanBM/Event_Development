@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -22,9 +23,14 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final ImageView btnBackLogin;
 
-  private ActivityLoginBinding(@NonNull RelativeLayout rootView, @NonNull ImageView btnBackLogin) {
+  @NonNull
+  public final TextView txtSignUp;
+
+  private ActivityLoginBinding(@NonNull RelativeLayout rootView, @NonNull ImageView btnBackLogin,
+      @NonNull TextView txtSignUp) {
     this.rootView = rootView;
     this.btnBackLogin = btnBackLogin;
+    this.txtSignUp = txtSignUp;
   }
 
   @Override
@@ -60,7 +66,13 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((RelativeLayout) rootView, btnBackLogin);
+      id = R.id.txt_sign_up;
+      TextView txtSignUp = ViewBindings.findChildViewById(rootView, id);
+      if (txtSignUp == null) {
+        break missingId;
+      }
+
+      return new ActivityLoginBinding((RelativeLayout) rootView, btnBackLogin, txtSignUp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
