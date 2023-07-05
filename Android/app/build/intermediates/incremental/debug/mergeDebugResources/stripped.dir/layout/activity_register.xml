@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.RegisterActivity">
+    <ImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="30sp"
+        android:src="@drawable/arrow_left"
+        android:layout_margin="@dimen/_20sdp"
+        android:id="@+id/btn_back_register"/>
+
+    <TextView
+        android:id="@+id/txt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_back_register"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppinsbold"
+        android:text="SIGN UP"
+        android:textSize="@dimen/_20sdp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/txt_register">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            app:lottie_rawRes="@raw/hello" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:layout_marginHorizontal="@dimen/_20sdp"/>
+        </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:layout_marginHorizontal="@dimen/_20sdp"/>
+        </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:layout_marginHorizontal="@dimen/_20sdp"/>
+        </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:layout_marginHorizontal="@dimen/_20sdp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            app:cornerRadius="@dimen/_10sdp"
+            android:backgroundTint="@color/colorhighlight"
+            android:text="Sign Up"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="already have an account?"
+                android:fontFamily="@font/poppinsmedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sign In"
+                android:textColor="@color/purple_200"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:fontFamily="@font/poppinsmedium"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
