@@ -20,11 +20,11 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ImageView btnBack;
+  public final ImageView btnBackLogin;
 
-  private ActivityLoginBinding(@NonNull RelativeLayout rootView, @NonNull ImageView btnBack) {
+  private ActivityLoginBinding(@NonNull RelativeLayout rootView, @NonNull ImageView btnBackLogin) {
     this.rootView = rootView;
-    this.btnBack = btnBack;
+    this.btnBackLogin = btnBackLogin;
   }
 
   @Override
@@ -54,13 +54,13 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_back;
-      ImageView btnBack = ViewBindings.findChildViewById(rootView, id);
-      if (btnBack == null) {
+      id = R.id.btn_back_login;
+      ImageView btnBackLogin = ViewBindings.findChildViewById(rootView, id);
+      if (btnBackLogin == null) {
         break missingId;
       }
 
-      return new ActivityLoginBinding((RelativeLayout) rootView, btnBack);
+      return new ActivityLoginBinding((RelativeLayout) rootView, btnBackLogin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

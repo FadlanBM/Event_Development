@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Code_Event_Activity">
 <ImageView
-    android:layout_width="@dimen/_30sdp"
-    android:layout_height="@dimen/_30sdp"
+    android:layout_width="@dimen/_25sdp"
+    android:layout_height="@dimen/_25sdp"
     android:src="@drawable/arrow_left"
     android:layout_margin="@dimen/_20sdp"
     android:id="@+id/btn_back_code"/>
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_back_code"
-        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:orientation="vertical">
         <com.airbnb.lottie.LottieAnimationView
             android:layout_width="match_parent"
@@ -38,12 +38,13 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_marginTop="@dimen/_40sdp"
+            style="@style/Widget.Material3.Button.OutlinedButton"
             android:layout_height="wrap_content">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="@dimen/_20sdp"
-                android:text="Insert Code Here"/>
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:hint="Insert Code Here"/>
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"

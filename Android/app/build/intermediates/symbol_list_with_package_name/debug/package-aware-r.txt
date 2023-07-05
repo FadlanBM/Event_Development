@@ -3475,10 +3475,12 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btn_back
 id btn_back_auth
 id btn_back_code
+id btn_back_login
 id btn_back_register
+id btn_sign_in
+id btn_sign_up
 id btn_to_account
 id btn_to_code
 id buttonPanel

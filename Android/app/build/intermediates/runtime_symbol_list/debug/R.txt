@@ -3474,10 +3474,12 @@ int id bounce 0x7f090062
 int id bounceBoth 0x7f090063
 int id bounceEnd 0x7f090064
 int id bounceStart 0x7f090065
-int id btn_back 0x7f090066
 int id btn_back_auth 0x7f090067
 int id btn_back_code 0x7f090068
+int id btn_back_login 0x7f090205
 int id btn_back_register 0x7f090069
+int id btn_sign_in 0x7f090203
+int id btn_sign_up 0x7f090204
 int id btn_to_account 0x7f09006a
 int id btn_to_code 0x7f09006b
 int id buttonPanel 0x7f09006c

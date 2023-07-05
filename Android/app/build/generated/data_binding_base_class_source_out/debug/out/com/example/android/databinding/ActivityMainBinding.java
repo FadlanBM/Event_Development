@@ -4,7 +4,6 @@ package com.example.android.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -22,9 +21,6 @@ public final class ActivityMainBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ImageView btnBack;
-
-  @NonNull
   public final MaterialButton btnToAccount;
 
   @NonNull
@@ -33,11 +29,10 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView txtOr;
 
-  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull ImageView btnBack,
+  private ActivityMainBinding(@NonNull RelativeLayout rootView,
       @NonNull MaterialButton btnToAccount, @NonNull MaterialButton btnToCode,
       @NonNull TextView txtOr) {
     this.rootView = rootView;
-    this.btnBack = btnBack;
     this.btnToAccount = btnToAccount;
     this.btnToCode = btnToCode;
     this.txtOr = txtOr;
@@ -70,12 +65,6 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_back;
-      ImageView btnBack = ViewBindings.findChildViewById(rootView, id);
-      if (btnBack == null) {
-        break missingId;
-      }
-
       id = R.id.btn_to_account;
       MaterialButton btnToAccount = ViewBindings.findChildViewById(rootView, id);
       if (btnToAccount == null) {
@@ -94,8 +83,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, btnBack, btnToAccount, btnToCode,
-          txtOr);
+      return new ActivityMainBinding((RelativeLayout) rootView, btnToAccount, btnToCode, txtOr);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

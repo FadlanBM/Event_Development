@@ -20,9 +20,6 @@ class MainActivity : AppCompatActivity() {
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnBack.setOnClickListener {
-            onBackPressed()
-        }
         binding.btnToCode.setOnClickListener {
             startActivity(Intent(this,Code_Event_Activity::class.java))
         }

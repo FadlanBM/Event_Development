@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.android.R;
+import com.google.android.material.button.MaterialButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -24,12 +25,21 @@ public final class ActivityAuthBinding implements ViewBinding {
   public final ImageView btnBackAuth;
 
   @NonNull
+  public final MaterialButton btnSignIn;
+
+  @NonNull
+  public final MaterialButton btnSignUp;
+
+  @NonNull
   public final TextView txtOr;
 
   private ActivityAuthBinding(@NonNull RelativeLayout rootView, @NonNull ImageView btnBackAuth,
+      @NonNull MaterialButton btnSignIn, @NonNull MaterialButton btnSignUp,
       @NonNull TextView txtOr) {
     this.rootView = rootView;
     this.btnBackAuth = btnBackAuth;
+    this.btnSignIn = btnSignIn;
+    this.btnSignUp = btnSignUp;
     this.txtOr = txtOr;
   }
 
@@ -66,13 +76,26 @@ public final class ActivityAuthBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_sign_in;
+      MaterialButton btnSignIn = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignIn == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_sign_up;
+      MaterialButton btnSignUp = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignUp == null) {
+        break missingId;
+      }
+
       id = R.id.txt_or;
       TextView txtOr = ViewBindings.findChildViewById(rootView, id);
       if (txtOr == null) {
         break missingId;
       }
 
-      return new ActivityAuthBinding((RelativeLayout) rootView, btnBackAuth, txtOr);
+      return new ActivityAuthBinding((RelativeLayout) rootView, btnBackAuth, btnSignIn, btnSignUp,
+          txtOr);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
