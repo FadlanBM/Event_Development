@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.app-mergeDebugResources-49:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.example.android.app-mergeDebugResources-58:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\7fc3028c45a0b57b361d4f727fd04c9e\\transformed\\core-1.10.1\\res\\values-en-rAU\\values-en-rAU.xml",

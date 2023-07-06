@@ -90,4 +90,11 @@
                 />
         </LinearLayout>
     </LinearLayout>
+    <ProgressBar
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_320sdp"
+        android:id="@+id/loading"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/_140sdp"/>
 </RelativeLayout>

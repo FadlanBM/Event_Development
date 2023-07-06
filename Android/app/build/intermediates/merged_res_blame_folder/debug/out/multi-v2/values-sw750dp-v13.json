@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.app-mergeDebugResources-49:/values-sw750dp-v13/values-sw750dp-v13.xml",
+            "outputFile": "com.example.android.app-mergeDebugResources-58:/values-sw750dp-v13/values-sw750dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\b5765fbc098ba7dea3cccccb8c6c15e5\\transformed\\ssp-android-1.1.0\\res\\values-sw750dp-v13\\values-sw750dp-v13.xml",

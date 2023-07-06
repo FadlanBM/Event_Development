@@ -5,11 +5,18 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.android.AuthActivity
 import com.example.android.R
+import com.example.android.core.data.resourch.network.State
 import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.databinding.ActivityAuthBinding
 import com.example.android.databinding.ActivityLoginBinding
+import com.inyongtisto.myhelper.extension.isEmpty
+import com.inyongtisto.myhelper.extension.showToast
+import com.inyongtisto.myhelper.extension.toGone
+import com.inyongtisto.myhelper.extension.toVisible
+import com.inyongtisto.myhelper.extension.toastError
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class LoginActivity : AppCompatActivity() {
@@ -53,19 +60,37 @@ class LoginActivity : AppCompatActivity() {
                     // Tambahkan kode yang ingin Anda jalankan saat pengguna menekan "Tidak"
                     dialog.dismiss() // Menutup dialog
                 })
-            builder.show()        }
+            builder.show()
+        }
         setData()
     }
 
-    fun setData(){
+  private fun setData(){
         viewModel.text.observe(this){
             binding.tbEmail.setText(it)
         }
         binding.btnLogin.setOnClickListener {
-            val body=LoginRequest(binding.tbEmail.text.toString(),binding.tbPassword.text.toString())
-            viewModel.login(body).observe(this,{
-
-            })
+            login()
+        }
+    }
+    private fun login(){
+        if (binding.tbEmail.isEmpty()) return
+        if (binding.tbPassword.isEmpty()) return
+        val body=LoginRequest(binding.tbEmail.text.toString(),binding.tbPassword.text.toString())
+        viewModel.login(body).observe(this){
+            when (it.state){
+                State.SUCCESS->{
+                    binding.loading.toGone()
+                    showToast("Selamat datang " + it?.body?.name)
+                }
+                State.ERROR->{
+                    binding.loading.toGone()
+                    toastError(it.message?:"terjadi kesalahan")
+                }
+                State.LOADING->{
+                    binding.loading.toVisible()
+                }
+            }
         }
     }
 

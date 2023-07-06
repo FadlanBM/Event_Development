@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.app-mergeDebugResources-49:/values-fr/values-fr.xml",
+            "outputFile": "com.example.android.app-mergeDebugResources-58:/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\7fc3028c45a0b57b361d4f727fd04c9e\\transformed\\core-1.10.1\\res\\values-fr\\values-fr.xml",
@@ -71,6 +71,23 @@
                         "startOffsets": "333,444,559,669,751,857,987,1065,1141,1232,1325,1423,1518,1618,1711,1804,1899,1990,2081,2167,2277,2388,2491,2602,2710,2817,2976,9096",
                         "endColumns": "110,114,109,81,105,129,77,75,90,92,97,94,99,92,92,94,90,90,85,109,110,102,110,107,106,158,98,86",
                         "endOffsets": "439,554,664,746,852,982,1060,1136,1227,1320,1418,1513,1613,1706,1799,1894,1985,2076,2162,2272,2383,2486,2597,2705,2812,2971,3070,9178"
+                    }
+                },
+                {
+                    "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\7e4da3e856c0f97a469338877055037d\\transformed\\ucrop-2.2.6\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,182",
+                        "endColumns": "68,57,52",
+                        "endOffsets": "119,177,230"
+                    },
+                    "to": {
+                        "startLines": "106,107,108",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "9284,9353,9411",
+                        "endColumns": "68,57,52",
+                        "endOffsets": "9348,9406,9459"
                     }
                 }
             ]

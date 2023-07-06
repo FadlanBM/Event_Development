@@ -11,6 +11,22 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <queries>
+
+        <!-- Query Camera Packages -->
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+        <!-- Query Open Document -->
+        <intent>
+            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+        </intent>
+    </queries>
 
     <permission
         android:name="com.example.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -65,6 +81,29 @@
             android:exported="false" >
         </activity>
 
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.android.com.squareup.picasso"
+            android:exported="false" />
+
+        <activity
+            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.Transparent.ImagePicker" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <provider
+            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+            android:authorities="com.example.android.imagepicker.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/image_picker_provider_paths" />
+        </provider>
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.android.androidx-startup"

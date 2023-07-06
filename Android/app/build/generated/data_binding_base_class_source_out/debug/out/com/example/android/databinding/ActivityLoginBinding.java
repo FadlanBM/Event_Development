@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -29,6 +30,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final MaterialButton btnLogin;
 
   @NonNull
+  public final ProgressBar loading;
+
+  @NonNull
   public final TextInputEditText tbEmail;
 
   @NonNull
@@ -38,11 +42,13 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextView txtSignUp;
 
   private ActivityLoginBinding(@NonNull RelativeLayout rootView, @NonNull ImageView btnBackLogin,
-      @NonNull MaterialButton btnLogin, @NonNull TextInputEditText tbEmail,
-      @NonNull TextInputEditText tbPassword, @NonNull TextView txtSignUp) {
+      @NonNull MaterialButton btnLogin, @NonNull ProgressBar loading,
+      @NonNull TextInputEditText tbEmail, @NonNull TextInputEditText tbPassword,
+      @NonNull TextView txtSignUp) {
     this.rootView = rootView;
     this.btnBackLogin = btnBackLogin;
     this.btnLogin = btnLogin;
+    this.loading = loading;
     this.tbEmail = tbEmail;
     this.tbPassword = tbPassword;
     this.txtSignUp = txtSignUp;
@@ -87,6 +93,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loading;
+      ProgressBar loading = ViewBindings.findChildViewById(rootView, id);
+      if (loading == null) {
+        break missingId;
+      }
+
       id = R.id.tb_email;
       TextInputEditText tbEmail = ViewBindings.findChildViewById(rootView, id);
       if (tbEmail == null) {
@@ -105,8 +117,8 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((RelativeLayout) rootView, btnBackLogin, btnLogin, tbEmail,
-          tbPassword, txtSignUp);
+      return new ActivityLoginBinding((RelativeLayout) rootView, btnBackLogin, btnLogin, loading,
+          tbEmail, tbPassword, txtSignUp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
