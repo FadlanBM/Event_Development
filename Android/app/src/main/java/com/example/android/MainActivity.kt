@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnToAccount.setOnClickListener {
             startActivity(Intent(this,AuthActivity::class.java))
+            finish()
         }
     }
 }

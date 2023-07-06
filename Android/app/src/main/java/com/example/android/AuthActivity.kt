@@ -10,6 +10,9 @@ import com.example.android.ui.auth.RegisterActivity
 import com.example.android.util.Preft
 
 class AuthActivity : AppCompatActivity() {
+    override fun onBackPressed() {
+        startActivity(Intent(this,MainActivity::class.java))
+    }
     private var _binding: ActivityAuthBinding? = null
 
     // This property is only valid between onCreateView and

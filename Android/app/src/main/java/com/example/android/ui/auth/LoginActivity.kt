@@ -5,6 +5,7 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.android.AuthActivity
 import com.example.android.R
 import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.databinding.ActivityAuthBinding
@@ -21,6 +22,7 @@ class LoginActivity : AppCompatActivity() {
         builder.setTitle("Keluar")
         builder.setMessage("Apakah Anda yakin ingin membatalkan login?")
         builder.setPositiveButton("Ya", DialogInterface.OnClickListener { dialog, which ->
+            startActivity(Intent(this,AuthActivity::class.java))
             finish()
         })
         builder.setNegativeButton("Tidak",
@@ -40,8 +42,18 @@ class LoginActivity : AppCompatActivity() {
             onBackPressed()
         }
         binding.txtSignUp.setOnClickListener {
-            startActivity(Intent(this,RegisterActivity::class.java))
-        }
+            val builder: AlertDialog.Builder = AlertDialog.Builder(this)
+            builder.setTitle("Beralih")
+            builder.setMessage("Apakah Anda yakin belum punya akun ?")
+            builder.setPositiveButton("Ya", DialogInterface.OnClickListener { dialog, which ->
+                startActivity(Intent(this,RegisterActivity::class.java))
+            })
+            builder.setNegativeButton("Tidak",
+                DialogInterface.OnClickListener { dialog, which ->
+                    // Tambahkan kode yang ingin Anda jalankan saat pengguna menekan "Tidak"
+                    dialog.dismiss() // Menutup dialog
+                })
+            builder.show()        }
         setData()
     }
 

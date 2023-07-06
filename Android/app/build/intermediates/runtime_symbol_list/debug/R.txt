@@ -4379,6 +4379,7 @@ int id text_input_start_icon 0x7f0901eb
 int id text_link_event 0x7f0901ec
 int id text_management_Event 0x7f0901ed
 int id text_participant_event 0x7f0901ee
+int id text_splash 0x7f090220
 int id textinput_counter 0x7f0901ef
 int id textinput_error 0x7f0901f0
 int id textinput_helper_text 0x7f0901f1
@@ -4548,6 +4549,7 @@ int layout activity_dashboard 0x7f0c001e
 int layout activity_login 0x7f0c001f
 int layout activity_main 0x7f0c0020
 int layout activity_register 0x7f0c0021
+int layout activity_splash_screen 0x7f0c007a
 int layout app_bar_dashboard 0x7f0c0022
 int layout content_dashboard 0x7f0c0023
 int layout custom_dialog 0x7f0c0024
@@ -4647,6 +4649,7 @@ int raw floating 0x7f120001
 int raw form 0x7f120002
 int raw formregistration 0x7f120003
 int raw hello 0x7f120004
+int raw loadinganim 0x7f120009
 int raw loadingsplash 0x7f120005
 int raw login_icon 0x7f120006
 int raw login_orange 0x7f120007

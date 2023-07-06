@@ -82,6 +82,7 @@ id text_dashboardpage
 id text_link_event
 id text_management_Event
 id text_participant_event
+id text_splash
 id toolbar
 id txt_or
 id txt_register
@@ -92,6 +93,7 @@ layout activity_dashboard
 layout activity_login
 layout activity_main
 layout activity_register
+layout activity_splash_screen
 layout app_bar_dashboard
 layout content_dashboard
 layout fragment_dashboardpage
@@ -109,6 +111,7 @@ raw floating
 raw form
 raw formregistration
 raw hello
+raw loadinganim
 raw loadingsplash
 raw login_icon
 raw login_orange

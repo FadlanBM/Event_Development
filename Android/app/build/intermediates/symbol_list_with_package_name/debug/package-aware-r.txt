@@ -4380,6 +4380,7 @@ id text_input_start_icon
 id text_link_event
 id text_management_Event
 id text_participant_event
+id text_splash
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -4549,6 +4550,7 @@ layout activity_dashboard
 layout activity_login
 layout activity_main
 layout activity_register
+layout activity_splash_screen
 layout app_bar_dashboard
 layout content_dashboard
 layout custom_dialog
@@ -4648,6 +4650,7 @@ raw floating
 raw form
 raw formregistration
 raw hello
+raw loadinganim
 raw loadingsplash
 raw login_icon
 raw login_orange

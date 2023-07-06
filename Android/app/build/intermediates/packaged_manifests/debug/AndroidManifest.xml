@@ -35,6 +35,15 @@
         android:theme="@style/Theme.Android"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.android.SplashScreenActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.example.android.Code_Event_Activity"
             android:exported="false" />
         <activity
@@ -53,12 +62,7 @@
             android:theme="@style/Theme.Android.NoActionBar" />
         <activity
             android:name="com.example.android.MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false" >
         </activity>
 
         <provider
