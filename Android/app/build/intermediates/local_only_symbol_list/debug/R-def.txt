@@ -59,6 +59,7 @@ id btn_back_auth
 id btn_back_code
 id btn_back_login
 id btn_back_register
+id btn_login
 id btn_logout
 id btn_sign_in
 id btn_sign_up
@@ -74,6 +75,8 @@ id nav_linkevent
 id nav_management_Event
 id nav_participant_event
 id nav_view
+id tb_email
+id tb_password
 id textView
 id text_dashboardpage
 id text_link_event
@@ -128,3 +131,4 @@ style Theme.Android.NoActionBar
 style Theme.Android.PopupOverlay
 xml backup_rules
 xml data_extraction_rules
+xml internet_security

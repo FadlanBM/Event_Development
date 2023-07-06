@@ -6,10 +6,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.android.R
+import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.databinding.ActivityAuthBinding
 import com.example.android.databinding.ActivityLoginBinding
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class LoginActivity : AppCompatActivity() {
+    private val viewModel: LoginViewModel by viewModel()
     private var _binding: ActivityLoginBinding? = null
     private val binding get() = _binding!!
 
@@ -39,5 +42,19 @@ class LoginActivity : AppCompatActivity() {
         binding.txtSignUp.setOnClickListener {
             startActivity(Intent(this,RegisterActivity::class.java))
         }
+        setData()
     }
+
+    fun setData(){
+        viewModel.text.observe(this){
+            binding.tbEmail.setText(it)
+        }
+        binding.btnLogin.setOnClickListener {
+            val body=LoginRequest(binding.tbEmail.text.toString(),binding.tbPassword.text.toString())
+            viewModel.login(body).observe(this,{
+
+            })
+        }
+    }
+
 }

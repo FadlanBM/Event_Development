@@ -16,7 +16,7 @@ class Preft(activity: Activity) {
         sp!!.edit().putBoolean(login,Value)
     }
     fun getIsLogin():Boolean{
-       return sp!!.getBoolean(login,true)
+       return sp!!.getBoolean(login,false)
     }
 
 }
