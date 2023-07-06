@@ -5,6 +5,7 @@ import com.example.android.core.data.resourch.RemoteDataSourch
 import com.example.android.core.data.resourch.network.Resourch
 import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.util.Preft
+import com.inyongtisto.myhelper.extension.getErrorBody
 import kotlinx.coroutines.flow.flow
 import java.lang.Exception
 
@@ -14,11 +15,12 @@ class AppRepository (val remote:RemoteDataSourch) {
         try {
             remote.login(data).let {
                 if (it.isSuccessful){
+                    Preft.isLogin=true
                     val body=it.body()
                     emit(Resourch.success(body?.data))
                     Log.d("TAG","Berhasil Login")
                 }else{
-                    emit(Resourch.error(it.body()?.message?:"Email/Password Salah",null))
+                    emit(Resourch.error(it.getErrorBody()?.message?:"Email/Password Salah",null))
                     Log.d("TAG","ERROR")
                 }
             }

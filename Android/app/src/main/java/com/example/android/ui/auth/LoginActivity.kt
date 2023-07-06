@@ -12,7 +12,9 @@ import com.example.android.core.data.resourch.network.State
 import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.databinding.ActivityAuthBinding
 import com.example.android.databinding.ActivityLoginBinding
+import com.inyongtisto.myhelper.extension.dismisLoading
 import com.inyongtisto.myhelper.extension.isEmpty
+import com.inyongtisto.myhelper.extension.showLoading
 import com.inyongtisto.myhelper.extension.showToast
 import com.inyongtisto.myhelper.extension.toGone
 import com.inyongtisto.myhelper.extension.toVisible
@@ -80,15 +82,15 @@ class LoginActivity : AppCompatActivity() {
         viewModel.login(body).observe(this){
             when (it.state){
                 State.SUCCESS->{
-                    binding.loading.toGone()
+                    dismisLoading()
                     showToast("Selamat datang " + it?.body?.name)
                 }
                 State.ERROR->{
-                    binding.loading.toGone()
+                    dismisLoading()
                     toastError(it.message?:"terjadi kesalahan")
                 }
                 State.LOADING->{
-                    binding.loading.toVisible()
+                    showLoading()
                 }
             }
         }

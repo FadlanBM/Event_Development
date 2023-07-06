@@ -69,6 +69,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\jdk_sourch\grad
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b2d7d3e6bf0808a77727d30f0faaa397\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\39459f055b9d154ab95f8db80dfa3d75\transformed\sdp-android-1.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.intuit.ssp:ssp-android:1.1.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b5765fbc098ba7dea3cccccb8c6c15e5\transformed\ssp-android-1.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.chibatching.kotpref:kotpref:2.13.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\159853d64b12242d928be3fe57e75174\transformed\kotpref-2.13.1\AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f119bdb365b1597e9e64c5ab17213442\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\91eddf74005e4a65e830f9cd43dc2cfd\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\4e2ce8199fd9aefd9afc9f3a29c76247\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -380,6 +381,8 @@ MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\jdk_sourch\gradle-8.2\caches\t
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\39459f055b9d154ab95f8db80dfa3d75\transformed\sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.ssp:ssp-android:1.1.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b5765fbc098ba7dea3cccccb8c6c15e5\transformed\ssp-android-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.ssp:ssp-android:1.1.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b5765fbc098ba7dea3cccccb8c6c15e5\transformed\ssp-android-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.chibatching.kotpref:kotpref:2.13.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\159853d64b12242d928be3fe57e75174\transformed\kotpref-2.13.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.chibatching.kotpref:kotpref:2.13.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\159853d64b12242d928be3fe57e75174\transformed\kotpref-2.13.1\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f119bdb365b1597e9e64c5ab17213442\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f119bdb365b1597e9e64c5ab17213442\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\91eddf74005e4a65e830f9cd43dc2cfd\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44

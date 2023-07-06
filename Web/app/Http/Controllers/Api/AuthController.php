@@ -32,7 +32,7 @@ class AuthController extends Controller
     public function login(Request $request){    
         $validasi=Validator::make($request->all(),[
             'email'=>'required',
-            'password'=>'required|min:6'
+            'password'=>'required'
         ]);
 
         if ($validasi->fails()) {
@@ -47,7 +47,7 @@ class AuthController extends Controller
                 return $this->error_400("Passowd salah");
             }
         }else{
-            return $this->error_400("Email Salah");
+            return $this->error_400("Email Tidak di temukan");
         }
 
     }

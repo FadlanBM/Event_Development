@@ -34,8 +34,7 @@ class AuthActivity : AppCompatActivity() {
         binding.btnBackAuth.setOnClickListener {
             onBackPressed()
         }
-        val sp=Preft(this)
-        if (sp.getIsLogin()){
+        if (Preft.isLogin){
             startActivity(Intent(this,DashboardActivity::class.java))
         }else{
         }

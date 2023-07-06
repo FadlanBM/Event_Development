@@ -67,8 +67,11 @@ dependencies {
     //koin
     implementation "io.insert-koin:koin-android:3.0.1"
     implementation "io.insert-koin:koin-android-compat:3.0.1"
-
+    
+    //Tisto
     implementation 'com.github.TistoW:MyHelper:2.0.32'
 
+    //SharePref
+    implementation 'com.chibatching.kotpref:kotpref:2.13.1'
 
 }
