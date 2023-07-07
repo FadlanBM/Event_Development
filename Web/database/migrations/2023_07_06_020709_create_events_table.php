@@ -11,9 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('events', function (Blueprint $table) {
-            $table->increments('eventid');
-            // $table->integer('userid');
+        Schema::create('event', function (Blueprint $table) {
+            $table->id('eventid');
+            $table->foreign('user_id')->references('user_id')->on('user');
             $table->string('uraian');
             $table->string('tujuan');
             $table->date('tanggal');
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('events');
+        Schema::dropIfExists('event');
     }
 };

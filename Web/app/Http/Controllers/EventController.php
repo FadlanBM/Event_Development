@@ -13,7 +13,7 @@ class EventController extends Controller
      */
     public function index()
     {
-        //
+        return view('event.index');
     }
 
     /**
@@ -21,7 +21,7 @@ class EventController extends Controller
      */
     public function create()
     {
-        //
+        return view('event.create');
     }
 
     /**
@@ -29,7 +29,20 @@ class EventController extends Controller
      */
     public function store(StoreEventRequest $request)
     {
-        //
+        $request->validate([
+            'uraian'=>'required',
+            'tujuan'=>'required',
+            'tanggal'=>'required',
+            'waktu'=>'required'
+        ]);
+        $data =  [
+            'uraian' => $request -> uraian,
+            'tujuan' => $request -> tujuan,
+            'tanggal' => $request -> tanggal,
+            'waktu' => $request -> waktu
+        ];
+        Event::create($data);
+        return redirect('/event');
     }
 
     /**
