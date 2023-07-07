@@ -43,30 +43,40 @@
 
             <!-- TOMBOL TAMBAH DATA -->
             <div class="pb-3">
-                <a href='' class="btn btn-primary">+ Tambah Data</a>
+                <a href='{{url('event/create')}}' class="btn btn-primary">+ Tambah Data</a>
             </div>
 
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th class="col-md-1">No</th>
+                        <th class="col-md-1">Event id</th>
                         <th class="col-md-3">Uraian</th>
-                        <th class="col-md-4">Tujuan</th>
-                        <th class="col-md-2">Tanggal</th>
+                        <th class="col-md-3">Tujuan</th>
+                        <th class="col-md-3">Tanggal</th>
                         <th class="col-md-2">Waktu</th>
+                        <th class="col-md-3">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
+                    @foreach ($data as $item)
                     <tr>
-                        <td>1</td>
-                        <td>1001</td>
-                        <td>Ani</td>
-                        <td>Ilmu Komputer</td>
+                        <td>{{$item->eventid}}</td>
+                        <td>{{$item->uraian}}</td>
+                        <td>{{$item->tujuan}}</td>
+                        <td>{{$item->tanggal}}</td>
+                        <td>{{$item->waktu}}</td>
                         <td>
-                            <a href='' class="btn btn-warning btn-sm">Edit</a>
-                            <a href='' class="btn btn-danger btn-sm">Del</a>
+                            <a href='{{ url('event/'.$item->eventid.'/edit') }}' class="btn btn-warning btn-sm">Edit</a>
+                            <form class="d-inline"  action="{{url('event/'. $item->eventid)}}" method="post">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" name="submit" class="btn btn-danger btn-sm">Del
+                            </form>
+                            {{-- <a href='' class="btn btn-danger btn-sm">Del</a> --}}
                         </td>
                     </tr>
+                    @endforeach
+                   
                 </tbody>
             </table>
 

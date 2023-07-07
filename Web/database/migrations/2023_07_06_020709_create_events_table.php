@@ -12,12 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('event', function (Blueprint $table) {
-            $table->id('eventid');
-            $table->foreign('user_id')->references('user_id')->on('user');
-            $table->string('uraian');
-            $table->string('tujuan');
-            $table->date('tanggal');
-            $table->time('waktu');
+            $table->id('eventid')->nullable();
+            // $table->foreign('user_id')->nullable()->references('user_id')->on('user');
+            $table->string('uraian')->nullable();
+            $table->string('tujuan')->nullable();
+            $table->date('tanggal')->nullable();
+            $table->time('waktu')->nullable();
             $table->timestamps();
         });
     }
