@@ -17,6 +17,16 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
+    return Inertia::render ('Home', [
+        'canJoin' => Route::has('join'),
+    ]);
+});
+
+Route::get('/join', function () {
+    return Inertia::render ('Join');
+});
+
+Route::get('/welcome', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
