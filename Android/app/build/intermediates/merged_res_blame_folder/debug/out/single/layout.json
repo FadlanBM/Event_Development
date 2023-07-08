@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-59:\\layout\\activity_dashboard.xml",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\layout\\activity_dashboard.xml"
-    },
-    {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-59:\\layout\\activity_auth.xml",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\layout\\activity_auth.xml"
+    },
+    {
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-59:\\layout\\activity_dashboard.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\layout\\activity_dashboard.xml"
     },
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-59:\\layout\\content_dashboard.xml",
@@ -14,10 +14,6 @@
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-59:\\layout\\app_bar_dashboard.xml",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\layout\\app_bar_dashboard.xml"
-    },
-    {
-        "merged": "com.example.android.app-mergeDebugResources-59:/layout/activity_login.xml",
-        "source": "com.example.android.app-main-62:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-59:\\layout\\activity_login.xml",
@@ -58,5 +54,9 @@
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-59:\\layout\\fragment_linkevent.xml",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\layout\\fragment_linkevent.xml"
+    },
+    {
+        "merged": "com.example.android.app-mergeDebugResources-59:/layout/nav_header_dashboard.xml",
+        "source": "com.example.android.app-main-62:/layout/nav_header_dashboard.xml"
     }
 ]

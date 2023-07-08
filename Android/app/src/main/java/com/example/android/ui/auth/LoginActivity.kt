@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.android.AuthActivity
+import com.example.android.DashboardActivity
 import com.example.android.R
 import com.example.android.core.data.resourch.network.State
 import com.example.android.core.data.resourch.request.LoginRequest
@@ -14,6 +15,7 @@ import com.example.android.databinding.ActivityAuthBinding
 import com.example.android.databinding.ActivityLoginBinding
 import com.inyongtisto.myhelper.extension.dismisLoading
 import com.inyongtisto.myhelper.extension.isEmpty
+import com.inyongtisto.myhelper.extension.pushActivity
 import com.inyongtisto.myhelper.extension.showLoading
 import com.inyongtisto.myhelper.extension.showToast
 import com.inyongtisto.myhelper.extension.toGone
@@ -68,9 +70,6 @@ class LoginActivity : AppCompatActivity() {
     }
 
   private fun setData(){
-        viewModel.text.observe(this){
-            binding.tbEmail.setText(it)
-        }
         binding.btnLogin.setOnClickListener {
             login()
         }
@@ -84,6 +83,7 @@ class LoginActivity : AppCompatActivity() {
                 State.SUCCESS->{
                     dismisLoading()
                     showToast("Selamat datang " + it?.body?.name)
+                    pushActivity(DashboardActivity::class.java)
                 }
                 State.ERROR->{
                     dismisLoading()

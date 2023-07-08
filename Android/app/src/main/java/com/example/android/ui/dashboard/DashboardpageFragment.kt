@@ -1,6 +1,7 @@
 package com.example.android.ui.dashboard
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.android.databinding.FragmentDashboardpageBinding
 import com.example.android.databinding.FragmentLinkeventBinding
+import com.example.android.util.Preft
+import com.inyongtisto.myhelper.extension.logs
 
 class DashboardpageFragment : Fragment() {
 
@@ -23,15 +26,13 @@ class DashboardpageFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val slideshowViewModel =
             ViewModelProvider(this).get(DashboardpageViewModel::class.java)
 
         _binding = FragmentDashboardpageBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textDashboardpage
-        slideshowViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+        binding.btnLogout.setOnClickListener {
+            Preft.isLogin=false
         }
         return root
     }

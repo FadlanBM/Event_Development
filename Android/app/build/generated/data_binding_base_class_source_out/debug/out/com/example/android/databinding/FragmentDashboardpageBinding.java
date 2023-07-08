@@ -23,13 +23,13 @@ public final class FragmentDashboardpageBinding implements ViewBinding {
   public final TextView btnLogout;
 
   @NonNull
-  public final TextView textDashboardpage;
+  public final TextView setText;
 
   private FragmentDashboardpageBinding(@NonNull RelativeLayout rootView,
-      @NonNull TextView btnLogout, @NonNull TextView textDashboardpage) {
+      @NonNull TextView btnLogout, @NonNull TextView setText) {
     this.rootView = rootView;
     this.btnLogout = btnLogout;
-    this.textDashboardpage = textDashboardpage;
+    this.setText = setText;
   }
 
   @Override
@@ -65,14 +65,13 @@ public final class FragmentDashboardpageBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.text_dashboardpage;
-      TextView textDashboardpage = ViewBindings.findChildViewById(rootView, id);
-      if (textDashboardpage == null) {
+      id = R.id.set_text;
+      TextView setText = ViewBindings.findChildViewById(rootView, id);
+      if (setText == null) {
         break missingId;
       }
 
-      return new FragmentDashboardpageBinding((RelativeLayout) rootView, btnLogout,
-          textDashboardpage);
+      return new FragmentDashboardpageBinding((RelativeLayout) rootView, btnLogout, setText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

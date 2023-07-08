@@ -4,6 +4,7 @@ import android.util.Log
 import com.example.android.core.data.resourch.RemoteDataSourch
 import com.example.android.core.data.resourch.network.Resourch
 import com.example.android.core.data.resourch.request.LoginRequest
+import com.example.android.core.data.resourch.request.RegisterRequest
 import com.example.android.util.Preft
 import com.inyongtisto.myhelper.extension.getErrorBody
 import kotlinx.coroutines.flow.flow
@@ -14,6 +15,27 @@ class AppRepository (val remote:RemoteDataSourch) {
         emit(Resourch.loading(null))
         try {
             remote.login(data).let {
+                if (it.isSuccessful){
+                    Preft.isLogin=true
+                    val body=it.body()
+                    val user=body?.data
+                    Preft.setUser(user)
+                    emit(Resourch.success(user))
+                    Log.d("TAG","Berhasil Login")
+                }else{
+                    emit(Resourch.error(it.getErrorBody()?.message?:"Email/Password Salah",null))
+                    Log.d("TAG","ERROR")
+                }
+            }
+        }catch (e:Exception){
+            emit(Resourch.error(e.message?:"terjadi Kesalahan",null))
+            Log.d("TAG","ERROR ="+e.message)
+        }
+    }
+    fun register(data: RegisterRequest) = flow {
+        emit(Resourch.loading(null))
+        try {
+            remote.register(data).let {
                 if (it.isSuccessful){
                     Preft.isLogin=true
                     val body=it.body()

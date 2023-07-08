@@ -4372,6 +4372,7 @@ int id btn_close 0x7f0a006c
 int id btn_confirm 0x7f0a006d
 int id btn_login 0x7f0a006e
 int id btn_logout 0x7f0a006f
+int id btn_logout_kuy 0x7f0a027e
 int id btn_sign_in 0x7f0a0070
 int id btn_sign_up 0x7f0a0071
 int id btn_simpan 0x7f0a0072
@@ -4469,6 +4470,10 @@ int id easeOut 0x7f0a00cd
 int id east 0x7f0a00ce
 int id edge 0x7f0a00cf
 int id edit_query 0x7f0a00d0
+int id edt_comfirm_password 0x7f0a0277
+int id edt_email 0x7f0a0278
+int id edt_name 0x7f0a0279
+int id edt_password 0x7f0a027a
 int id edt_search 0x7f0a00d1
 int id elastic 0x7f0a00d2
 int id embed 0x7f0a00d3
@@ -4741,6 +4746,7 @@ int id search_voice_btn 0x7f0a01dd
 int id select_dialog_listview 0x7f0a01de
 int id selected 0x7f0a01df
 int id selection_type 0x7f0a01e0
+int id set_text 0x7f0a027d
 int id sharedValueSet 0x7f0a01e1
 int id sharedValueUnset 0x7f0a01e2
 int id shortcut 0x7f0a01e3
@@ -4811,8 +4817,6 @@ int id textSpacerNoButtons 0x7f0a0223
 int id textSpacerNoTitle 0x7f0a0224
 int id textStart 0x7f0a0225
 int id textTop 0x7f0a0226
-int id textView 0x7f0a0227
-int id text_dashboardpage 0x7f0a0228
 int id text_input_end_icon 0x7f0a0229
 int id text_input_error_icon 0x7f0a022a
 int id text_input_start_icon 0x7f0a022b
@@ -4853,9 +4857,11 @@ int id tv_actionSecondary 0x7f0a024d
 int id tv_conifrm 0x7f0a024e
 int id tv_subtitle 0x7f0a024f
 int id tv_title 0x7f0a0250
+int id txt_email 0x7f0a027b
 int id txt_or 0x7f0a0251
 int id txt_register 0x7f0a0252
 int id txt_sign_up 0x7f0a0253
+int id txt_user 0x7f0a027c
 int id ucrop 0x7f0a0254
 int id ucrop_frame 0x7f0a0255
 int id ucrop_photobox 0x7f0a0256

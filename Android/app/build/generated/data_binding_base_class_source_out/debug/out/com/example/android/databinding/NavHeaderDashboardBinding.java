@@ -4,6 +4,7 @@ package com.example.android.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -21,16 +22,24 @@ public final class NavHeaderDashboardBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final Button btnLogoutKuy;
+
+  @NonNull
   public final ImageView imageView;
 
   @NonNull
-  public final TextView textView;
+  public final TextView txtEmail;
 
-  private NavHeaderDashboardBinding(@NonNull LinearLayout rootView, @NonNull ImageView imageView,
-      @NonNull TextView textView) {
+  @NonNull
+  public final TextView txtUser;
+
+  private NavHeaderDashboardBinding(@NonNull LinearLayout rootView, @NonNull Button btnLogoutKuy,
+      @NonNull ImageView imageView, @NonNull TextView txtEmail, @NonNull TextView txtUser) {
     this.rootView = rootView;
+    this.btnLogoutKuy = btnLogoutKuy;
     this.imageView = imageView;
-    this.textView = textView;
+    this.txtEmail = txtEmail;
+    this.txtUser = txtUser;
   }
 
   @Override
@@ -60,19 +69,32 @@ public final class NavHeaderDashboardBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_logout_kuy;
+      Button btnLogoutKuy = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogoutKuy == null) {
+        break missingId;
+      }
+
       id = R.id.imageView;
       ImageView imageView = ViewBindings.findChildViewById(rootView, id);
       if (imageView == null) {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.txt_email;
+      TextView txtEmail = ViewBindings.findChildViewById(rootView, id);
+      if (txtEmail == null) {
         break missingId;
       }
 
-      return new NavHeaderDashboardBinding((LinearLayout) rootView, imageView, textView);
+      id = R.id.txt_user;
+      TextView txtUser = ViewBindings.findChildViewById(rootView, id);
+      if (txtUser == null) {
+        break missingId;
+      }
+
+      return new NavHeaderDashboardBinding((LinearLayout) rootView, btnLogoutKuy, imageView,
+          txtEmail, txtUser);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

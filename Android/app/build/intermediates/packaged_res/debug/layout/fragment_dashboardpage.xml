@@ -7,16 +7,15 @@
     tools:context=".ui.dashboard.DashboardpageFragment">
 
     <TextView
-        android:id="@+id/text_dashboardpage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        />
-    <TextView
+        android:id="@+id/btn_logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Logut"
         android:layout_centerInParent="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/btn_logout"/>
+        android:text="Logut" />
+    <TextView
+        android:id="@+id/set_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Logut" />
 </RelativeLayout>

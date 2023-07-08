@@ -5,12 +5,25 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.android.AuthActivity
+import com.example.android.DashboardActivity
 import com.example.android.R
+import com.example.android.core.data.resourch.network.State
+import com.example.android.core.data.resourch.request.LoginRequest
+import com.example.android.core.data.resourch.request.RegisterRequest
 import com.example.android.databinding.ActivityLoginBinding
 import com.example.android.databinding.ActivityRegisterBinding
+import com.inyongtisto.myhelper.extension.dismisLoading
+import com.inyongtisto.myhelper.extension.isEmpty
+import com.inyongtisto.myhelper.extension.pushActivity
+import com.inyongtisto.myhelper.extension.showLoading
+import com.inyongtisto.myhelper.extension.showToast
+import com.inyongtisto.myhelper.extension.toastError
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class RegisterActivity : AppCompatActivity() {
+    private val viewModel: RegisterViewModel by viewModel()
     private var _binding: ActivityRegisterBinding? = null
     private val binding get() = _binding!!
 
@@ -52,6 +65,39 @@ class RegisterActivity : AppCompatActivity() {
                     dialog.dismiss() // Menutup dialog
                 })
             builder.show()
+        }
+setData()
+    }
+    private fun setData(){
+        binding.btnSignUp.setOnClickListener {
+            if (binding.edtComfirmPassword.text.toString()!=binding.edtPassword.text.toString()){
+                toastError("Password comfirm tidak sama")
+            }else{
+                register()
+            }
+        }
+    }
+    private fun register(){
+        if (binding.edtName.isEmpty()) return
+        if (binding.edtEmail.isEmpty()) return
+        if (binding.edtPassword.isEmpty()) return
+        if (binding.edtComfirmPassword.isEmpty()) return
+        val body= RegisterRequest(binding.edtName.text.toString(),binding.edtEmail.text.toString(),binding.edtPassword.text.toString())
+        viewModel.register(body).observe(this){
+            when (it.state){
+                State.SUCCESS->{
+                    dismisLoading()
+                    showToast("Selamat datang " + it?.body?.name)
+                    pushActivity(DashboardActivity::class.java)
+                }
+                State.ERROR->{
+                    dismisLoading()
+                    toastError(it.message?:"terjadi kesalahan")
+                }
+                State.LOADING->{
+                    showLoading()
+                }
+            }
         }
     }
 }
