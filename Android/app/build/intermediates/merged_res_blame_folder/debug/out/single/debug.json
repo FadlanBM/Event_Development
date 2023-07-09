@@ -40,6 +40,10 @@
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\layout\\nav_header_dashboard.xml"
     },
     {
+        "merged": "com.example.android.app-merged_res-60:/menu_dashboard.xml.flat",
+        "source": "com.example.android.app-main-62:/menu/dashboard.xml"
+    },
+    {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-60:\\menu_activity_main_drawer.xml.flat",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\menu\\activity_main_drawer.xml"
     },
@@ -150,10 +154,6 @@
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-60:\\font_poppinsthinitalic.ttf.flat",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\font\\poppinsthinitalic.ttf"
-    },
-    {
-        "merged": "com.example.android.app-merged_res-60:/layout_nav_header_dashboard.xml.flat",
-        "source": "com.example.android.app-main-62:/layout/nav_header_dashboard.xml"
     },
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-60:\\font_poppinsblackitalic.ttf.flat",

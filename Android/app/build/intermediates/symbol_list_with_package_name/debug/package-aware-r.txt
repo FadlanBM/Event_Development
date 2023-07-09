@@ -4313,6 +4313,7 @@ id action0
 id actionDown
 id actionDownUp
 id actionUp
+id action_account
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -4329,7 +4330,6 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -4373,7 +4373,6 @@ id btn_close
 id btn_confirm
 id btn_login
 id btn_logout
-id btn_logout_kuy
 id btn_sign_in
 id btn_sign_up
 id btn_simpan
@@ -4862,7 +4861,7 @@ id txt_email
 id txt_or
 id txt_register
 id txt_sign_up
-id txt_user
+id txt_username
 id ucrop
 id ucrop_frame
 id ucrop_photobox

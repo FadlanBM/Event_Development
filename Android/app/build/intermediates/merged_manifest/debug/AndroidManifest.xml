@@ -51,6 +51,9 @@
         android:theme="@style/Theme.Android"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.android.ui.auth.ProfileActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.android.SplashScreenActivity"
             android:exported="true" >
             <intent-filter>
@@ -78,8 +81,7 @@
             android:theme="@style/Theme.Android.NoActionBar" />
         <activity
             android:name="com.example.android.MainActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"

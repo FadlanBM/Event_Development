@@ -53,7 +53,7 @@ font poppinssemibold
 font poppinssemibolditalic
 font poppinsthin
 font poppinsthinitalic
-id action_settings
+id action_account
 id app_bar_dashboard
 id btn_back_auth
 id btn_back_code
@@ -61,7 +61,6 @@ id btn_back_login
 id btn_back_register
 id btn_login
 id btn_logout
-id btn_logout_kuy
 id btn_sign_in
 id btn_sign_up
 id btn_to_account
@@ -93,7 +92,7 @@ id txt_email
 id txt_or
 id txt_register
 id txt_sign_up
-id txt_user
+id txt_username
 layout activity_auth
 layout activity_code_event
 layout activity_dashboard

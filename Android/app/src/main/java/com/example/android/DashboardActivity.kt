@@ -1,11 +1,15 @@
 package com.example.android
 
+import android.R.id
 import android.app.AlertDialog
 import android.content.DialogInterface
 import android.content.Intent
+import android.nfc.Tag
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -17,14 +21,14 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.example.android.databinding.ActivityDashboardBinding
 import com.example.android.databinding.NavHeaderDashboardBinding
-import com.example.android.ui.auth.ProfileActivity
 import com.example.android.util.Preft
 
 class DashboardActivity : AppCompatActivity() {
 
+    //    private lateinit var binding2: NavHeaderDashboardBinding
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityDashboardBinding
-    private lateinit var binding2: NavHeaderDashboardBinding
+
 
     override fun onBackPressed() {
         val builder: AlertDialog.Builder = AlertDialog.Builder(this)
@@ -47,7 +51,7 @@ class DashboardActivity : AppCompatActivity() {
 
         binding = ActivityDashboardBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding2 = NavHeaderDashboardBinding.inflate(layoutInflater)
+//        binding2 = NavHeaderDashboardBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setSupportActionBar(binding.appBarDashboard.toolbar)
@@ -68,12 +72,8 @@ class DashboardActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+//        setUser()
 
-        setUser()
-        binding2.txtUser.text="sadsadasd"
-        binding2.btnLogoutKuy.setOnClickListener {
-            Log.d("TAG","Hello test")
-        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -82,18 +82,28 @@ class DashboardActivity : AppCompatActivity() {
         return true
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.action_account->{
+                Toast.makeText(this, "Menu Item is Pressed", Toast.LENGTH_SHORT).show()
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_dashboard)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
-    private fun setUser(){
-        val user= Preft.getUser()
-        if (user !=null){
-            binding2.apply {
-                txtUser.text="dasdasd"
-                txtEmail.text=user.email
-            }
-        }
-    }
+//    private fun setUser(){
+//        val user= Preft.getUser()
+//        if (user !=null){
+//            binding2.apply {
+//                txtUser.text="dasdasd"
+//                txtEmail.text=user.email
+//            }
+//        }
+//    }
+
 }
