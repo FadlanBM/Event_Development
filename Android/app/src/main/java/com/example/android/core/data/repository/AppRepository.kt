@@ -39,10 +39,12 @@ class AppRepository (val remote:RemoteDataSourch) {
                 if (it.isSuccessful){
                     Preft.isLogin=true
                     val body=it.body()
-                    emit(Resourch.success(body?.data))
+                    val user=body?.data
+                    Preft.setUser(user)
+                    emit(Resourch.success(user))
                     Log.d("TAG","Berhasil Login")
                 }else{
-                    emit(Resourch.error(it.getErrorBody()?.message?:"Email/Password Salah",null))
+                    emit(Resourch.error(it.getErrorBody()?.message?:"The email has already been taken ",null))
                     Log.d("TAG","ERROR")
                 }
             }

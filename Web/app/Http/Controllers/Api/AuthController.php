@@ -25,7 +25,7 @@ class AuthController extends Controller
         if ($user) {
             return $this->valid_200('Berhasil register',$user);
         }else{
-            return $this->error_400("gagal Register");
+            return $this->error_400("Terjadi Kesalahan");
         }
     }
 

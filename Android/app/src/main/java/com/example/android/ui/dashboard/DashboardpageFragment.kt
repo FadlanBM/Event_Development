@@ -31,9 +31,6 @@ class DashboardpageFragment : Fragment() {
         _binding = FragmentDashboardpageBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        binding.btnLogout.setOnClickListener {
-            Preft.isLogin=false
-        }
         return root
     }
 

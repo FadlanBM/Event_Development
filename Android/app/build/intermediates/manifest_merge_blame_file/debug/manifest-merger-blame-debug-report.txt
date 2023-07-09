@@ -149,7 +149,7 @@
 81            android:theme="@style/Theme.Android.NoActionBar" />
 81-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:50:13-61
 82        <activity
-82-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:51:9-53:49
+82-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:51:9-53:40
 83            android:name="com.example.android.MainActivity"
 83-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:52:13-41
 84            android:exported="false" />

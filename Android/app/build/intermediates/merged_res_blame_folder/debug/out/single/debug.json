@@ -16,6 +16,10 @@
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-60:\\layout_activity_profile.xml.flat",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\layout\\activity_profile.xml"
+    },
+    {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-60:\\xml_backup_rules.xml.flat",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\xml\\backup_rules.xml"
     },
@@ -38,10 +42,6 @@
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-60:\\layout_nav_header_dashboard.xml.flat",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\layout\\nav_header_dashboard.xml"
-    },
-    {
-        "merged": "com.example.android.app-merged_res-60:/menu_dashboard.xml.flat",
-        "source": "com.example.android.app-main-62:/menu/dashboard.xml"
     },
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-60:\\menu_activity_main_drawer.xml.flat",
@@ -202,6 +202,10 @@
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-60:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-62:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-60:/layout_fragment_dashboardpage.xml.flat",
+        "source": "com.example.android.app-main-62:/layout/fragment_dashboardpage.xml"
     },
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-60:\\drawable_ic_menu_gallery.xml.flat",

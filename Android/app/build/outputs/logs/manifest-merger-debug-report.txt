@@ -248,7 +248,7 @@ ADDED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:
 	android:name
 		ADDED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:47:13-46
 activity#com.example.android.MainActivity
-ADDED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:51:9-53:49
+ADDED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:51:9-53:40
 	android:exported
 		ADDED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:53:13-37
 	android:name

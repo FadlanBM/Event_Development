@@ -54,13 +54,13 @@ font poppinssemibolditalic
 font poppinsthin
 font poppinsthinitalic
 id action_account
+id action_logout
 id app_bar_dashboard
 id btn_back_auth
 id btn_back_code
 id btn_back_login
 id btn_back_register
 id btn_login
-id btn_logout
 id btn_sign_in
 id btn_sign_up
 id btn_to_account
@@ -80,7 +80,6 @@ id nav_linkevent
 id nav_management_Event
 id nav_participant_event
 id nav_view
-id set_text
 id tb_email
 id tb_password
 id text_link_event
@@ -98,6 +97,7 @@ layout activity_code_event
 layout activity_dashboard
 layout activity_login
 layout activity_main
+layout activity_profile
 layout activity_register
 layout activity_splash_screen
 layout app_bar_dashboard

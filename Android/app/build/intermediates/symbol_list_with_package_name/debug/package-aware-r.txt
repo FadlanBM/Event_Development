@@ -4325,6 +4325,7 @@ id action_container
 id action_context_bar
 id action_divider
 id action_image
+id action_logout
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
@@ -4372,7 +4373,6 @@ id btn_back_register
 id btn_close
 id btn_confirm
 id btn_login
-id btn_logout
 id btn_sign_in
 id btn_sign_up
 id btn_simpan
@@ -4746,7 +4746,6 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
-id set_text
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -5017,6 +5016,7 @@ layout activity_code_event
 layout activity_dashboard
 layout activity_login
 layout activity_main
+layout activity_profile
 layout activity_register
 layout activity_splash_screen
 layout alert_dialog

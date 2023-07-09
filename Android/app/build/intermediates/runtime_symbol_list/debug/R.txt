@@ -4324,6 +4324,7 @@ int id action_container 0x7f0a003b
 int id action_context_bar 0x7f0a003c
 int id action_divider 0x7f0a003d
 int id action_image 0x7f0a003e
+int id action_logout 0x7f0a027f
 int id action_menu_divider 0x7f0a003f
 int id action_menu_presenter 0x7f0a0040
 int id action_mode_bar 0x7f0a0041
@@ -4371,7 +4372,6 @@ int id btn_back_register 0x7f0a006b
 int id btn_close 0x7f0a006c
 int id btn_confirm 0x7f0a006d
 int id btn_login 0x7f0a006e
-int id btn_logout 0x7f0a006f
 int id btn_sign_in 0x7f0a0071
 int id btn_sign_up 0x7f0a0072
 int id btn_simpan 0x7f0a0073
@@ -4745,7 +4745,6 @@ int id search_voice_btn 0x7f0a01e2
 int id select_dialog_listview 0x7f0a01e3
 int id selected 0x7f0a01e4
 int id selection_type 0x7f0a01e5
-int id set_text 0x7f0a01e6
 int id sharedValueSet 0x7f0a01e7
 int id sharedValueUnset 0x7f0a01e8
 int id shortcut 0x7f0a01e9
@@ -5016,6 +5015,7 @@ int layout activity_code_event 0x7f0d001d
 int layout activity_dashboard 0x7f0d001e
 int layout activity_login 0x7f0d001f
 int layout activity_main 0x7f0d0020
+int layout activity_profile 0x7f0d0099
 int layout activity_register 0x7f0d0021
 int layout activity_splash_screen 0x7f0d0022
 int layout alert_dialog 0x7f0d0023

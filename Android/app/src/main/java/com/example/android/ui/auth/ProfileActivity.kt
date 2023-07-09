@@ -7,9 +7,6 @@ import com.example.android.R
 class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.nav_header_dashboard)
-
-
+        setContentView(R.layout.activity_profile)
     }
-
 }
