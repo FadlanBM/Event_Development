@@ -4368,6 +4368,7 @@ int id btn_actionSecondary 0x7f0a0067
 int id btn_back_auth 0x7f0a0068
 int id btn_back_code 0x7f0a0069
 int id btn_back_login 0x7f0a006a
+int id btn_back_profile 0x7f0a0280
 int id btn_back_register 0x7f0a006b
 int id btn_close 0x7f0a006c
 int id btn_confirm 0x7f0a006d

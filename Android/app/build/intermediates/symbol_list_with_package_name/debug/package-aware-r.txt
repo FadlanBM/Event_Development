@@ -4369,6 +4369,7 @@ id btn_actionSecondary
 id btn_back_auth
 id btn_back_code
 id btn_back_login
+id btn_back_profile
 id btn_back_register
 id btn_close
 id btn_confirm
