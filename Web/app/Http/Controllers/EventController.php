@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Event;
 use App\Http\Requests\StoreEventRequest;
 use App\Http\Requests\UpdateEventRequest;
+use Inertia\Inertia;
 
 class EventController extends Controller
 {
@@ -13,7 +14,7 @@ class EventController extends Controller
      */
     public function index()
     {
-        //
+        return Inertia::render('Event');
     }
 
     /**
@@ -29,7 +30,13 @@ class EventController extends Controller
      */
     public function store(StoreEventRequest $request)
     {
-        //
+        $event=new Event();
+        $event->uraian = $request->uraian;
+        $event->tujuan = $request->tujuan;
+        $event->tanggal = $request->tanggal;
+        $event->waktu = $request->waktu;
+        $event->save();
+        return redirect()->back()->with('message','Event added successfully');
     }
 
     /**

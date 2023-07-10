@@ -9,9 +9,11 @@ class Event extends Model
 {
     use HasFactory;
 
-    protected $table='event';
-    // protected $primary='eventid';
-
-    // public $incrementing = true;
-    // public $timestamps = true;
+    protected $table='events';
+     protected $fillable = [
+        'uraian',
+        'tujuan',
+        'tanggal',
+        'waktu',
+    ];
 }
