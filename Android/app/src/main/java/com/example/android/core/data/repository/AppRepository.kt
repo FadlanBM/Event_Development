@@ -5,6 +5,7 @@ import com.example.android.core.data.resourch.RemoteDataSourch
 import com.example.android.core.data.resourch.network.Resourch
 import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.core.data.resourch.request.RegisterRequest
+import com.example.android.core.data.resourch.request.UpdateProfileRequest
 import com.example.android.util.Preft
 import com.inyongtisto.myhelper.extension.getErrorBody
 import kotlinx.coroutines.flow.flow
@@ -51,6 +52,23 @@ class AppRepository (val remote:RemoteDataSourch) {
         }catch (e:Exception){
             emit(Resourch.error(e.message?:"terjadi Kesalahan",null))
             Log.d("TAG","ERROR ="+e.message)
+        }
+    }
+    fun updateUser(data: UpdateProfileRequest) = flow {
+        emit(Resourch.loading(null))
+        try {
+            remote.updateUser(data).let {
+                if (it.isSuccessful){
+                    val body=it.body()
+                    val user=body?.data
+                    Preft.setUser(user)
+                    emit(Resourch.success(user))
+                }else{
+                    emit(Resourch.error(it.getErrorBody()?.message?:"The update account error ",null))
+                }
+            }
+        }catch (e:Exception){
+            emit(Resourch.error(e.message?:"terjadi Kesalahan",null))
         }
     }
 }

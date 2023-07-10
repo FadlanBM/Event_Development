@@ -29,6 +29,17 @@ class AuthController extends Controller
         }
     }
 
+    public function update(Request $request, $id){    
+
+        $user=User::where('id',$id)->first();
+        if ($user) {
+            $user->update($request->all());
+            return $this->valid_200("Success",$user);
+        }
+        return $this->error_400("Gagal Update");
+
+    }
+
     public function login(Request $request){    
         $validasi=Validator::make($request->all(),[
             'email'=>'required',

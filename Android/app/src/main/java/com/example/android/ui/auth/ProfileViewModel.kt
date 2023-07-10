@@ -1,0 +1,12 @@
+package com.example.android.ui.auth
+
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.asLiveData
+import com.example.android.core.data.repository.AppRepository
+import com.example.android.core.data.resourch.request.UpdateProfileRequest
+
+class ProfileViewModel(private val repo:AppRepository):ViewModel() {
+    fun updateUser(data: UpdateProfileRequest)=repo.updateUser(data).asLiveData()
+
+}

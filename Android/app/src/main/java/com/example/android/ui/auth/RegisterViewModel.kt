@@ -7,6 +7,7 @@ import androidx.lifecycle.asLiveData
 import com.example.android.core.data.repository.AppRepository
 import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.core.data.resourch.request.RegisterRequest
+import com.example.android.core.data.resourch.request.UpdateProfileRequest
 
 class RegisterViewModel(val repo:AppRepository):ViewModel() {
     fun register(data: RegisterRequest)=repo.register(data).asLiveData()

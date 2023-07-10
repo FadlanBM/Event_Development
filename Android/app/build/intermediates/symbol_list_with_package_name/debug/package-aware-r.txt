@@ -4095,6 +4095,7 @@ drawable design_snackbar_background
 drawable dialog_background
 drawable dialog_background_dark
 drawable dialog_bg
+drawable edit
 drawable error_center_x
 drawable error_circle
 drawable gray_button_background
@@ -4208,6 +4209,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile
+drawable profile_shape
 drawable red_button_background
 drawable side_nav_bar
 drawable success_bow
@@ -4369,7 +4372,6 @@ id btn_actionSecondary
 id btn_back_auth
 id btn_back_code
 id btn_back_login
-id btn_back_profile
 id btn_back_register
 id btn_close
 id btn_confirm
@@ -4379,6 +4381,7 @@ id btn_sign_up
 id btn_simpan
 id btn_to_account
 id btn_to_code
+id btn_update
 id buttonPanel
 id buttons_container
 id cache_measures
@@ -4809,6 +4812,7 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id tb_email
+id tb_name
 id tb_password
 id text
 id text2

@@ -7,6 +7,6 @@ import androidx.lifecycle.asLiveData
 import com.example.android.core.data.repository.AppRepository
 import com.example.android.core.data.resourch.request.LoginRequest
 
-class LoginViewModel(val repo:AppRepository):ViewModel() {
+class LoginViewModel(private val repo:AppRepository):ViewModel() {
     fun login(data: LoginRequest)=repo.login(data).asLiveData()
 }
