@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.app-mergeDebugResources-58:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.example.android.app-mergeDebugResources-59:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\b989374e0f5fdf74249d412a5719e994\\transformed\\material-1.9.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
@@ -40,23 +40,6 @@
                     }
                 },
                 {
-                    "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\7e4da3e856c0f97a469338877055037d\\transformed\\ucrop-2.2.6\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,132,186,240,287",
-                        "endColumns": "76,53,53,46,116",
-                        "endOffsets": "127,181,235,282,399"
-                    },
-                    "to": {
-                        "startLines": "106,107,108,109,110",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "8192,8269,8323,8377,8424",
-                        "endColumns": "76,53,53,46,116",
-                        "endOffsets": "8264,8318,8372,8419,8536"
-                    }
-                },
-                {
                     "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\7fc3028c45a0b57b361d4f727fd04c9e\\transformed\\core-1.10.1\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -71,6 +54,23 @@
                         "startOffsets": "3203,3295,3394,3488,3582,3675,3768,8091",
                         "endColumns": "91,98,93,93,92,92,95,100",
                         "endOffsets": "3290,3389,3483,3577,3670,3763,3859,8187"
+                    }
+                },
+                {
+                    "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\3adbc1f2054f9c398e345010ac5643bf\\transformed\\ucrop-2.2.8\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,174,228,282,329,446,490",
+                        "endColumns": "41,76,53,53,46,116,43,42",
+                        "endOffsets": "92,169,223,277,324,441,485,528"
+                    },
+                    "to": {
+                        "startLines": "106,107,108,109,110,111,112,113",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "8192,8234,8311,8365,8419,8466,8583,8627",
+                        "endColumns": "41,76,53,53,46,116,43,42",
+                        "endOffsets": "8229,8306,8360,8414,8461,8578,8622,8665"
                     }
                 },
                 {

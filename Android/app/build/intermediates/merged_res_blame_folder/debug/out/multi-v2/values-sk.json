@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.app-mergeDebugResources-58:/values-sk/values-sk.xml",
+            "outputFile": "com.example.android.app-mergeDebugResources-59:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\7e9e844f8bed5bdeb15244b149d0e6f4\\transformed\\navigation-ui-2.6.0\\res\\values-sk\\values-sk.xml",
@@ -18,23 +18,6 @@
                         "startOffsets": "8672,8778",
                         "endColumns": "105,126",
                         "endOffsets": "8773,8900"
-                    }
-                },
-                {
-                    "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\7e4da3e856c0f97a469338877055037d\\transformed\\ucrop-2.2.6\\res\\values-sk\\values-sk.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,182",
-                        "endColumns": "69,56,50",
-                        "endOffsets": "120,177,228"
-                    },
-                    "to": {
-                        "startLines": "108,109,110",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "9168,9238,9295",
-                        "endColumns": "69,56,50",
-                        "endOffsets": "9233,9290,9341"
                     }
                 },
                 {
@@ -88,6 +71,23 @@
                         "endLines": "7,35,36,37,38,39,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,105",
                         "endColumns": "12,74,74,77,91,82,91,127,80,64,98,75,64,89,63,65,53,68,59,53,116,59,61,53,71,129,86,91,138,68,77,87,53,50,65,71,76,82,71,76,72,70,87,71,91,95,73,73,95,51,66,86,86,61,63,62,105,95,97,97,57,54,78",
                         "endOffsets": "423,3210,3285,3363,3455,3538,4367,4495,4576,4641,4740,4816,4881,4971,5035,5101,5155,5224,5284,5338,5455,5515,5577,5631,5703,5833,5920,6012,6151,6220,6298,6386,6440,6491,6557,6629,6706,6789,6861,6938,7011,7082,7170,7242,7334,7430,7504,7578,7674,7726,7793,7880,7967,8029,8093,8156,8262,8358,8456,8554,8612,8667,8979"
+                    }
+                },
+                {
+                    "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\3adbc1f2054f9c398e345010ac5643bf\\transformed\\ucrop-2.2.8\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,182",
+                        "endColumns": "69,56,50",
+                        "endOffsets": "120,177,228"
+                    },
+                    "to": {
+                        "startLines": "108,109,110",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "9168,9238,9295",
+                        "endColumns": "69,56,50",
+                        "endOffsets": "9233,9290,9341"
                     }
                 }
             ]

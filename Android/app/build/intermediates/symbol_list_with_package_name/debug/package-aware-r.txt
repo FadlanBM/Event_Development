@@ -4536,6 +4536,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id image_profile
 id image_view_crop
 id image_view_logo
 id image_view_state_aspect_ratio
@@ -4545,6 +4546,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id initial
 id invisible
 id inward
 id italic
@@ -5352,7 +5354,9 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string permission_camera_denied
+string permission_camera_extended_denied
 string permission_dialog_message
+string permission_gallery_denied
 string permission_warning_dialog
 string search_menu_title
 string searchbar_scrolling_view_behavior

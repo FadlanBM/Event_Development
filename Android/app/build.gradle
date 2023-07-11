@@ -73,5 +73,9 @@ dependencies {
 
     //SharePref
     implementation 'com.chibatching.kotpref:kotpref:2.13.1'
+//    Drjacky
+    implementation 'com.github.Drjacky:ImagePicker:2.3.22'
 
+//    Picasso
+    implementation 'com.squareup.picasso:picasso:2.8'
 }

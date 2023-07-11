@@ -1,19 +1,25 @@
 package com.example.android.ui.auth
 
+import android.app.Activity
 import android.app.AlertDialog
 import android.content.DialogInterface
+import android.content.Intent
 import android.os.Bundle
+import androidx.activity.result.contract.ActivityResultContracts
 import com.example.android.R
 import com.example.android.core.data.resourch.network.State
 import com.example.android.core.data.resourch.request.UpdateProfileRequest
 import com.example.android.databinding.ActivityProfileBinding
 import com.example.android.ui.base.Myactivity
 import com.example.android.util.Preft
+import com.github.drjacky.imagepicker.ImagePicker
+import com.github.drjacky.imagepicker.constant.ImageProvider
 import com.inyongtisto.myhelper.extension.int
 import com.inyongtisto.myhelper.extension.isEmpty
 import com.inyongtisto.myhelper.extension.setToolbar
 import com.inyongtisto.myhelper.extension.showToast
 import com.inyongtisto.myhelper.extension.toastError
+import com.squareup.picasso.Picasso
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class ProfileActivity : Myactivity() {
@@ -47,7 +53,31 @@ class ProfileActivity : Myactivity() {
         binding.btnUpdate.setOnClickListener {
             update()
         }
+
+        binding.imageProfile.setOnClickListener {
+            picimage()
+        }
     }
+
+    private fun picimage(){
+        ImagePicker.with(this)
+            //...
+            .cropSquare()    //Crop square image, its same as crop(1f, 1f)
+            .maxResultSize(1080, 1080, true) //true: Keep Ratio
+            .provider(ImageProvider.BOTH) //Or bothCameraGallery()
+            .createIntentFromDialog { launcher.launch(it) }
+    }
+
+    private val launcher =
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
+            if (it.resultCode == Activity.RESULT_OK) {
+                val uri = it.data?.data!!
+                // Use the uri to load the image
+                // Only if you are not using crop feature:
+                Picasso.get().load(uri).into(binding.imageProfile)
+            }
+        }
+
     private fun update(){
         if (binding.tbEmail.isEmpty()) return
         if (binding.tbEmail.isEmpty()) return

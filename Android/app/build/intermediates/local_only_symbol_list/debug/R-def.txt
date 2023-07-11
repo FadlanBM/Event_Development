@@ -76,6 +76,8 @@ id edt_name
 id edt_password
 id fab
 id imageView
+id image_profile
+id initial
 id loading
 id mobile_navigation
 id nav_dashboardpage

@@ -31,251 +31,318 @@
 17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 17-->[com.github.TistoW:MyHelper:2.0.32] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b7613d9b40f388af36ec626e0af68144\transformed\MyHelper-2.0.32\AndroidManifest.xml:18:5-79
 17-->[com.github.TistoW:MyHelper:2.0.32] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b7613d9b40f388af36ec626e0af68144\transformed\MyHelper-2.0.32\AndroidManifest.xml:18:22-76
-18
-19    <queries>
-19-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:9:5-19:15
-20
-21        <!-- Query Camera Packages -->
-22        <intent>
-22-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:12:9-14:18
-23            <action android:name="android.media.action.IMAGE_CAPTURE" />
-23-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:13:13-73
-23-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:13:21-70
-24        </intent>
-25        <!-- Query Open Document -->
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:9:5-80
+18-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:9:22-77
+19    <uses-permission
+19-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:10:5-12:38
+20        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+20-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:11:9-65
+21        android:maxSdkVersion="28" />
+21-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:12:9-35
+22
+23    <queries>
+23-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:14:5-36:15
+24
+25        <!-- Gallery -->
 26        <intent>
-26-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:16:9-18:18
-27            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
-27-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:17:13-79
-27-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:17:21-76
-28        </intent>
-29    </queries>
+26-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:17:9-23:18
+27            <action android:name="android.intent.action.GET_CONTENT" />
+27-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:18:13-72
+27-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:18:21-69
+28
+29            <category android:name="android.intent.category.OPENABLE" />
+29-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:20:13-73
+29-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:20:23-70
 30
-31    <permission
-31-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
-32        android:name="com.example.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-32-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
-33        android:protectionLevel="signature" />
-33-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
-34
-35    <uses-permission android:name="com.example.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-35-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
-35-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
-36
-37    <application
-37-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:9:5-54:19
-38        android:name="com.example.android.util.MyApp"
-38-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:10:9-35
-39        android:allowBackup="true"
-39-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:11:9-35
-40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-40-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
-41        android:dataExtractionRules="@xml/data_extraction_rules"
-41-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:12:9-65
-42        android:debuggable="true"
-43        android:extractNativeLibs="false"
-44        android:fullBackupContent="@xml/backup_rules"
-44-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:13:9-54
-45        android:icon="@mipmap/ic_launcher"
-45-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:14:9-43
-46        android:label="@string/app_name"
-46-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:15:9-41
-47        android:networkSecurityConfig="@xml/internet_security"
-47-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:16:9-63
-48        android:roundIcon="@mipmap/ic_launcher_round"
-48-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:17:9-54
-49        android:supportsRtl="true"
-49-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:18:9-35
-50        android:testOnly="true"
-51        android:theme="@style/Theme.Android"
-51-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:19:9-45
-52        android:usesCleartextTraffic="true" >
-52-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:20:9-44
-53        <activity
-53-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:22:9-24:40
-54            android:name="com.example.android.ui.auth.ProfileActivity"
-54-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:23:13-52
-55            android:exported="false" />
-55-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:24:13-37
-56        <activity
-56-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:25:9-33:20
-57            android:name="com.example.android.SplashScreenActivity"
-57-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:26:13-49
-58            android:exported="true" >
-58-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:27:13-36
-59            <intent-filter>
-59-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:28:13-32:29
-60                <action android:name="android.intent.action.MAIN" />
-60-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:29:17-69
-60-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:29:25-66
-61
-62                <category android:name="android.intent.category.LAUNCHER" />
-62-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:31:17-77
-62-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:31:27-74
-63            </intent-filter>
-64        </activity>
-65        <activity
-65-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:34:9-36:40
-66            android:name="com.example.android.Code_Event_Activity"
-66-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:35:13-48
-67            android:exported="false" />
-67-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:36:13-37
-68        <activity
-68-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:37:9-39:40
-69            android:name="com.example.android.ui.auth.RegisterActivity"
-69-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:38:13-53
-70            android:exported="false" />
-70-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:39:13-37
-71        <activity
-71-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:40:9-42:40
-72            android:name="com.example.android.ui.auth.LoginActivity"
-72-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:41:13-50
-73            android:exported="false" />
-73-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:42:13-37
-74        <activity
-74-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:43:9-45:40
-75            android:name="com.example.android.AuthActivity"
-75-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:44:13-41
-76            android:exported="false" />
-76-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:45:13-37
-77        <activity
-77-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:46:9-50:64
-78            android:name="com.example.android.DashboardActivity"
-78-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:47:13-46
-79            android:exported="false"
-79-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:48:13-37
-80            android:label="@string/title_activity_dashboard"
-80-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:49:13-61
-81            android:theme="@style/Theme.Android.NoActionBar" />
-81-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:50:13-61
-82        <activity
-82-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:51:9-53:40
-83            android:name="com.example.android.MainActivity"
-83-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:52:13-41
-84            android:exported="false" />
-84-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:53:13-37
-85
-86        <provider
-86-->[com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
-87            android:name="com.squareup.picasso.PicassoProvider"
-87-->[com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
-88            android:authorities="com.example.android.com.squareup.picasso"
-88-->[com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
-89            android:exported="false" />
-89-->[com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
-90
+31            <data android:mimeType="image/*" />
+31-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:22:13-48
+31-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:22:19-45
+32        </intent>
+33        <intent>
+33-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:24:9-28:18
+34            <action android:name="android.intent.action.PICK" />
+34-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:25:13-65
+34-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:25:21-62
+35
+36            <data android:mimeType="image/*" />
+36-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:22:13-48
+36-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:22:19-45
+37        </intent>
+38        <intent>
+38-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:29:9-31:18
+39            <action android:name="android.intent.action.CHOOSER" />
+39-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:30:13-68
+39-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:30:21-65
+40        </intent>
+41        <!-- Camera -->
+42        <intent>
+42-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:33:9-35:18
+43            <action android:name="android.media.action.IMAGE_CAPTURE" />
+43-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:34:13-73
+43-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:34:21-70
+44        </intent>
+45        <!-- Query Open Document -->
+46        <intent>
+46-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:16:9-18:18
+47            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+47-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:17:13-79
+47-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:17:21-76
+48        </intent>
+49    </queries>
+50
+51    <permission
+51-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+52        android:name="com.example.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+52-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+53        android:protectionLevel="signature" />
+53-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+54
+55    <uses-permission android:name="com.example.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+55-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+55-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+56
+57    <application
+57-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:9:5-54:19
+58        android:name="com.example.android.util.MyApp"
+58-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:10:9-35
+59        android:allowBackup="true"
+59-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:11:9-35
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+61        android:dataExtractionRules="@xml/data_extraction_rules"
+61-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:12:9-65
+62        android:debuggable="true"
+63        android:extractNativeLibs="false"
+64        android:fullBackupContent="@xml/backup_rules"
+64-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:13:9-54
+65        android:icon="@mipmap/ic_launcher"
+65-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:14:9-43
+66        android:label="@string/app_name"
+66-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:15:9-41
+67        android:networkSecurityConfig="@xml/internet_security"
+67-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:16:9-63
+68        android:roundIcon="@mipmap/ic_launcher_round"
+68-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:17:9-54
+69        android:supportsRtl="true"
+69-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:18:9-35
+70        android:testOnly="true"
+71        android:theme="@style/Theme.Android"
+71-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:19:9-45
+72        android:usesCleartextTraffic="true" >
+72-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:20:9-44
+73        <activity
+73-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:22:9-24:40
+74            android:name="com.example.android.ui.auth.ProfileActivity"
+74-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:23:13-52
+75            android:exported="false" />
+75-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:24:13-37
+76        <activity
+76-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:25:9-33:20
+77            android:name="com.example.android.SplashScreenActivity"
+77-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:26:13-49
+78            android:exported="true" >
+78-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:27:13-36
+79            <intent-filter>
+79-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:28:13-32:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:29:17-69
+80-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:29:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:31:17-77
+82-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:31:27-74
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:34:9-36:40
+86            android:name="com.example.android.Code_Event_Activity"
+86-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:35:13-48
+87            android:exported="false" />
+87-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:36:13-37
+88        <activity
+88-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:37:9-39:40
+89            android:name="com.example.android.ui.auth.RegisterActivity"
+89-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:38:13-53
+90            android:exported="false" />
+90-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:39:13-37
 91        <activity
-91-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:22:9-25:68
-92            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
-92-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:23:13-81
-93            android:screenOrientation="unspecified"
-93-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:24:13-52
-94            android:theme="@style/Theme.Transparent.ImagePicker" />
-94-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:25:13-65
-95        <activity
-95-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:26:9-29:72
-96            android:name="com.yalantis.ucrop.UCropActivity"
-96-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:27:13-60
-97            android:screenOrientation="portrait"
-97-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:28:13-49
-98            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-98-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:29:13-69
-99
-100        <provider
-100-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:31:9-39:20
-101            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
-101-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:32:13-85
-102            android:authorities="com.example.android.imagepicker.provider"
-102-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:33:13-72
-103            android:exported="false"
-103-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:34:13-37
-104            android:grantUriPermissions="true" >
-104-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:35:13-47
-105            <meta-data
-105-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:36:13-38:71
-106                android:name="android.support.FILE_PROVIDER_PATHS"
-106-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:37:17-67
-107                android:resource="@xml/image_picker_provider_paths" />
-107-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:38:17-68
-108        </provider>
-109        <provider
-109-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-110            android:name="androidx.startup.InitializationProvider"
-110-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-111            android:authorities="com.example.android.androidx-startup"
-111-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-112            android:exported="false" >
-112-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-113            <meta-data
-113-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-114                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-114-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-115                android:value="androidx.startup" />
-115-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-116            <meta-data
-116-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-117                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-117-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-118                android:value="androidx.startup" />
-118-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-119            <meta-data
-119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-120                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-121                android:value="androidx.startup" />
-121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-122        </provider>
-123
-124        <uses-library
-124-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-125            android:name="androidx.window.extensions"
-125-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-126            android:required="false" />
-126-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-127        <uses-library
-127-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-128            android:name="androidx.window.sidecar"
-128-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-129            android:required="false" />
-129-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-130
-131        <receiver
-131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-132            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-133            android:directBootAware="false"
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-134            android:enabled="true"
-134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-135            android:exported="true"
-135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-136            android:permission="android.permission.DUMP" >
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-137            <intent-filter>
-137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-138                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-139            </intent-filter>
-140            <intent-filter>
-140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-141                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-142            </intent-filter>
-143            <intent-filter>
-143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-144                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-145            </intent-filter>
-146            <intent-filter>
-146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-147                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-148            </intent-filter>
-149        </receiver>
-150    </application>
-151
-152</manifest>
+91-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:40:9-42:40
+92            android:name="com.example.android.ui.auth.LoginActivity"
+92-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:41:13-50
+93            android:exported="false" />
+93-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:42:13-37
+94        <activity
+94-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:43:9-45:40
+95            android:name="com.example.android.AuthActivity"
+95-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:44:13-41
+96            android:exported="false" />
+96-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:45:13-37
+97        <activity
+97-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:46:9-50:64
+98            android:name="com.example.android.DashboardActivity"
+98-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:47:13-46
+99            android:exported="false"
+99-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:48:13-37
+100            android:label="@string/title_activity_dashboard"
+100-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:49:13-61
+101            android:theme="@style/Theme.Android.NoActionBar" />
+101-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:50:13-61
+102        <activity
+102-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:51:9-53:40
+103            android:name="com.example.android.MainActivity"
+103-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:52:13-41
+104            android:exported="false" />
+104-->D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:53:13-37
+105
+106        <provider
+106-->[com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+107            android:name="com.squareup.picasso.PicassoProvider"
+107-->[com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+108            android:authorities="com.example.android.com.squareup.picasso"
+108-->[com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+109            android:exported="false" />
+109-->[com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+110
+111        <activity
+111-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:39:9-42:68
+112            android:name="com.github.drjacky.imagepicker.ImagePickerActivity"
+112-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:40:13-78
+113            android:screenOrientation="unspecified"
+113-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:41:13-52
+114            android:theme="@style/Theme.Transparent.ImagePicker" />
+114-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:42:13-65
+115        <activity
+115-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:43:9-46:72
+116            android:name="com.yalantis.ucrop.UCropActivity"
+116-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:44:13-60
+117            android:screenOrientation="portrait"
+117-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:45:13-49
+118            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+118-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:46:13-69
+119
+120        <provider
+120-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:48:9-56:20
+121            android:name="com.github.drjacky.imagepicker.ImagePickerFileProvider"
+121-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:49:13-82
+122            android:authorities="com.example.android.imagepicker.provider"
+122-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:50:13-72
+123            android:exported="false"
+123-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:51:13-37
+124            android:grantUriPermissions="true" >
+124-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:52:13-47
+125            <meta-data
+125-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:53:13-55:71
+126                android:name="android.support.FILE_PROVIDER_PATHS"
+126-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:54:17-67
+127                android:resource="@xml/image_picker_provider_paths" />
+127-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:55:17-68
+128        </provider>
+129
+130        <activity
+130-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:22:9-25:68
+131            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+131-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:23:13-81
+132            android:screenOrientation="unspecified"
+132-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:24:13-52
+133            android:theme="@style/Theme.Transparent.ImagePicker" />
+133-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:25:13-65
+134
+135        <provider
+135-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:31:9-39:20
+136            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+136-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:32:13-85
+137            android:authorities="com.example.android.imagepicker.provider"
+137-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:33:13-72
+138            android:exported="false"
+138-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:34:13-37
+139            android:grantUriPermissions="true" >
+139-->[com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:35:13-47
+140            <meta-data
+140-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:53:13-55:71
+141                android:name="android.support.FILE_PROVIDER_PATHS"
+141-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:54:17-67
+142                android:resource="@xml/image_picker_provider_paths" />
+142-->[com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:55:17-68
+143        </provider>
+144        <provider
+144-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+145            android:name="androidx.startup.InitializationProvider"
+145-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+146            android:authorities="com.example.android.androidx-startup"
+146-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+147            android:exported="false" >
+147-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+148            <meta-data
+148-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+149                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+149-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+150                android:value="androidx.startup" />
+150-->[androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+151            <meta-data
+151-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+152                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+152-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+153                android:value="androidx.startup" />
+153-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+154            <meta-data
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+155                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+156                android:value="androidx.startup" />
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+157        </provider>
+158
+159        <uses-library
+159-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+160            android:name="androidx.window.extensions"
+160-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+161            android:required="false" />
+161-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+162        <uses-library
+162-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+163            android:name="androidx.window.sidecar"
+163-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+164            android:required="false" />
+164-->[androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+165
+166        <receiver
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+167            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+168            android:directBootAware="false"
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+169            android:enabled="true"
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+170            android:exported="true"
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+171            android:permission="android.permission.DUMP" >
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+172            <intent-filter>
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+173                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+174            </intent-filter>
+175            <intent-filter>
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+176                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+177            </intent-filter>
+178            <intent-filter>
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+179                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+180            </intent-filter>
+181            <intent-filter>
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+182                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+183            </intent-filter>
+184        </receiver>
+185    </application>
+186
+187</manifest>

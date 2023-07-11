@@ -4,7 +4,9 @@ package com.example.android.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
@@ -25,6 +27,12 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final MaterialButton btnUpdate;
 
   @NonNull
+  public final ImageView imageProfile;
+
+  @NonNull
+  public final TextView initial;
+
+  @NonNull
   public final TextInputEditText tbEmail;
 
   @NonNull
@@ -34,10 +42,13 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final Toolbar toolbar;
 
   private ActivityProfileBinding(@NonNull LinearLayout rootView, @NonNull MaterialButton btnUpdate,
+      @NonNull ImageView imageProfile, @NonNull TextView initial,
       @NonNull TextInputEditText tbEmail, @NonNull TextInputEditText tbName,
       @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.btnUpdate = btnUpdate;
+    this.imageProfile = imageProfile;
+    this.initial = initial;
     this.tbEmail = tbEmail;
     this.tbName = tbName;
     this.toolbar = toolbar;
@@ -76,6 +87,18 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.image_profile;
+      ImageView imageProfile = ViewBindings.findChildViewById(rootView, id);
+      if (imageProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.initial;
+      TextView initial = ViewBindings.findChildViewById(rootView, id);
+      if (initial == null) {
+        break missingId;
+      }
+
       id = R.id.tb_email;
       TextInputEditText tbEmail = ViewBindings.findChildViewById(rootView, id);
       if (tbEmail == null) {
@@ -94,8 +117,8 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProfileBinding((LinearLayout) rootView, btnUpdate, tbEmail, tbName,
-          toolbar);
+      return new ActivityProfileBinding((LinearLayout) rootView, btnUpdate, imageProfile, initial,
+          tbEmail, tbName, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -7,8 +7,9 @@ INJECTED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.x
 MERGED from [com.github.TistoW:MyHelper:2.0.32] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b7613d9b40f388af36ec626e0af68144\transformed\MyHelper-2.0.32\AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\31ca3c30469f7d853f5439cdd566c041\transformed\viewbinding-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:2:1-59:12
 MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:2:1-42:12
-MERGED from [com.github.yalantis:ucrop:2.2.6] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7e4da3e856c0f97a469338877055037d\transformed\ucrop-2.2.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.yalantis:ucrop:2.2.8] C:\jdk_sourch\gradle-8.2\caches\transforms-3\3adbc1f2054f9c398e345010ac5643bf\transformed\ucrop-2.2.8\AndroidManifest.xml:2:1-11:12
 MERGED from [io.insert-koin:koin-android-compat:3.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f90de17ba8f9814a7b1cfb2140b42af0\transformed\koin-android-compat-3.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [io.insert-koin:koin-android:3.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b3a9971d33e6e67fb4161847d31690dd\transformed\koin-android-3.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-common:2.6.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\ca191abff17b4b1c64fa19379c29838e\transformed\navigation-common-2.6.0\AndroidManifest.xml:17:1-22:12
@@ -26,21 +27,21 @@ MERGED from [com.airbnb.android:lottie:6.0.1] C:\jdk_sourch\gradle-8.2\caches\tr
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\c123a6636d6a24bf4a7fc264b95249f5\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.DantSu:ESCPOS-ThermalPrinter-Android:3.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\efdf1df2399fe9acd58543786898d972\transformed\ESCPOS-ThermalPrinter-Android-3.2.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\6714c1b506c6a9f1a0aee459907b35e6\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\5e496e028b044e8c9f3f742f154d03ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f56b7589d74d597a81f84015f05c572a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\5e496e028b044e8c9f3f742f154d03ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\c173c6c7b88bf064ca5f1f2f49acd1b0\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\28ef68b75f7710f6c46074318e67b78b\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\2e1cd829a2e446a550f0a0d7cd4c4d4a\transformed\glide-4.14.2\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\1bdd4611eeef44793e46786aa04b5d75\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.6.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\81626d97026f60387f3c408531c18c8b\transformed\fragment-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\1bdd4611eeef44793e46786aa04b5d75\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7d4994e3bf005b0411ca66e6e28ff10b\transformed\activity-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\eeedff85c46f673f7c205d847ce45d19\transformed\activity-ktx-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\abf9e207ce70c47c32c8d79719bf6e0b\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\ed7f7a9a8bb32ee0bc9a5629ce5553c7\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\9e990a125d8b8ce9cc8fcde491de588e\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\71caac8dfe95a10bacd59b2805b17199\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\abf9e207ce70c47c32c8d79719bf6e0b\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\ed7f7a9a8bb32ee0bc9a5629ce5553c7\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\db7e0f410f40b1e05705551f9efbbdcf\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7094958e4243a8a43476cb54ee23b56d\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\ced23011021edf0bd2ee6b6313d8e06f\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -59,9 +60,9 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\jdk_sourch\gradle-8.2\
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\80297976b4a634fcb01e029a2460684a\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\a7c5a4a20b94147e26bd2b121d7df76a\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\2c488e6ccbda0d6c1a98962f9fab91b6\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.4.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\94feddec81c04ba2dd8afc92ad968020\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\df5b6cf4d5044a183e66597542ae2574\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\196fcd7eb5805e5e8f07ea4142c897fc\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.4.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\94feddec81c04ba2dd8afc92ad968020\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\1a07c66214a5b54541a6c3f4da5af146\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
@@ -72,6 +73,8 @@ MERGED from [com.intuit.ssp:ssp-android:1.1.0] C:\jdk_sourch\gradle-8.2\caches\t
 MERGED from [com.chibatching.kotpref:kotpref:2.13.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\159853d64b12242d928be3fe57e75174\transformed\kotpref-2.13.1\AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f119bdb365b1597e9e64c5ab17213442\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\91eddf74005e4a65e830f9cd43dc2cfd\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.5] C:\jdk_sourch\gradle-8.2\caches\transforms-3\89d0b72ef79d9c29ef9edc9a5b51f38d\transformed\exifinterface-1.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\95944658358d5002c22c5bf10cfe5aae\transformed\documentfile-1.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\4e2ce8199fd9aefd9afc9f3a29c76247\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\ae944a0fb9216d0c6de63568da2f1f98\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
@@ -79,15 +82,13 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\jdk_sourch\gradle-8.2\ca
 MERGED from [androidx.tracing:tracing:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f78bc9433c867e0848e2cb92dd5d3d31\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\17b2b59ffd7e7161e3c7c9dc538ff658\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\4da5e4b4515c1aa1c063efdc8529c2c2\transformed\gifdecoder-4.14.2\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\jdk_sourch\gradle-8.2\caches\transforms-3\770bfffb212fd07fbf720898d72d7691\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\95944658358d5002c22c5bf10cfe5aae\transformed\documentfile-1.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\5b0fa06cbc82e5ee4fdf226774c20126\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\8ea54add171e1baebe36fcb6150a20c0\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\35f1d0cf4476208cfcf61aafc272aaa4\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\3032ac9cc9147db680ce2ba114487a46\transformed\library-1.6.2\AndroidManifest.xml:2:1-13:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\072328f5fd77beb4ff51b42fccde75ba\transformed\rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
-MERGED from [com.pnikosis:materialish-progress:1.7] C:\jdk_sourch\gradle-8.2\caches\transforms-3\76415cc5d5dd19ba5d2ec186ba4923e8\transformed\materialish-progress-1.7\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:exifinterface:27.1.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\d7bac477c56c33bf2f04ea2534faeea4\transformed\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\jdk_sourch\gradle-8.2\caches\transforms-3\76415cc5d5dd19ba5d2ec186ba4923e8\transformed\materialish-progress-1.7\AndroidManifest.xml:2:1-13:12
 INJECTED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:2:1-56:12
 INJECTED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:2:1-56:12
 INJECTED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:2:1-56:12
@@ -129,6 +130,8 @@ application
 ADDED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml:9:5-54:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:38:5-57:19
+MERGED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:38:5-57:19
 MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:21:5-40:19
 MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:21:5-40:19
 MERGED from [io.insert-koin:koin-android-compat:3.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f90de17ba8f9814a7b1cfb2140b42af0\transformed\koin-android-compat-3.0.1\AndroidManifest.xml:7:5-20
@@ -141,10 +144,10 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\jdk_sourch\gra
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\jdk_sourch\gradle-8.2\caches\transforms-3\3ddbae31be47b514a6f00071873ba41e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:6.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\8c2e52cd7a4ab2a32b740375e79e26d8\transformed\lottie-6.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:6.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\8c2e52cd7a4ab2a32b740375e79e26d8\transformed\lottie-6.0.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\5e496e028b044e8c9f3f742f154d03ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\5e496e028b044e8c9f3f742f154d03ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\2e1cd829a2e446a550f0a0d7cd4c4d4a\transformed\glide-4.14.2\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\2e1cd829a2e446a550f0a0d7cd4c4d4a\transformed\glide-4.14.2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
@@ -263,10 +266,12 @@ MERGED from [androidx.databinding:viewbinding:8.0.2] C:\jdk_sourch\gradle-8.2\ca
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\31ca3c30469f7d853f5439cdd566c041\transformed\viewbinding-8.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.yalantis:ucrop:2.2.6] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7e4da3e856c0f97a469338877055037d\transformed\ucrop-2.2.6\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.yalantis:ucrop:2.2.6] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7e4da3e856c0f97a469338877055037d\transformed\ucrop-2.2.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.8] C:\jdk_sourch\gradle-8.2\caches\transforms-3\3adbc1f2054f9c398e345010ac5643bf\transformed\ucrop-2.2.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.8] C:\jdk_sourch\gradle-8.2\caches\transforms-3\3adbc1f2054f9c398e345010ac5643bf\transformed\ucrop-2.2.8\AndroidManifest.xml:7:5-9:41
 MERGED from [io.insert-koin:koin-android-compat:3.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f90de17ba8f9814a7b1cfb2140b42af0\transformed\koin-android-compat-3.0.1\AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-android-compat:3.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f90de17ba8f9814a7b1cfb2140b42af0\transformed\koin-android-compat-3.0.1\AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-android:3.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b3a9971d33e6e67fb4161847d31690dd\transformed\koin-android-3.0.1\AndroidManifest.xml:5:5-44
@@ -301,36 +306,36 @@ MERGED from [com.github.DantSu:ESCPOS-ThermalPrinter-Android:3.2.0] C:\jdk_sourc
 MERGED from [com.github.DantSu:ESCPOS-ThermalPrinter-Android:3.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\efdf1df2399fe9acd58543786898d972\transformed\ESCPOS-ThermalPrinter-Android-3.2.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\6714c1b506c6a9f1a0aee459907b35e6\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\6714c1b506c6a9f1a0aee459907b35e6\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\5e496e028b044e8c9f3f742f154d03ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\5e496e028b044e8c9f3f742f154d03ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f56b7589d74d597a81f84015f05c572a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f56b7589d74d597a81f84015f05c572a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\5e496e028b044e8c9f3f742f154d03ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\5e496e028b044e8c9f3f742f154d03ee\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\c173c6c7b88bf064ca5f1f2f49acd1b0\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\c173c6c7b88bf064ca5f1f2f49acd1b0\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\28ef68b75f7710f6c46074318e67b78b\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\28ef68b75f7710f6c46074318e67b78b\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\2e1cd829a2e446a550f0a0d7cd4c4d4a\transformed\glide-4.14.2\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\2e1cd829a2e446a550f0a0d7cd4c4d4a\transformed\glide-4.14.2\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\1bdd4611eeef44793e46786aa04b5d75\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\1bdd4611eeef44793e46786aa04b5d75\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.6.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\81626d97026f60387f3c408531c18c8b\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.6.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\81626d97026f60387f3c408531c18c8b\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\1bdd4611eeef44793e46786aa04b5d75\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\1bdd4611eeef44793e46786aa04b5d75\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7d4994e3bf005b0411ca66e6e28ff10b\transformed\activity-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7d4994e3bf005b0411ca66e6e28ff10b\transformed\activity-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\eeedff85c46f673f7c205d847ce45d19\transformed\activity-ktx-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\eeedff85c46f673f7c205d847ce45d19\transformed\activity-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\abf9e207ce70c47c32c8d79719bf6e0b\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\abf9e207ce70c47c32c8d79719bf6e0b\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\ed7f7a9a8bb32ee0bc9a5629ce5553c7\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\ed7f7a9a8bb32ee0bc9a5629ce5553c7\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\9e990a125d8b8ce9cc8fcde491de588e\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\9e990a125d8b8ce9cc8fcde491de588e\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\71caac8dfe95a10bacd59b2805b17199\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\71caac8dfe95a10bacd59b2805b17199\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\abf9e207ce70c47c32c8d79719bf6e0b\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\abf9e207ce70c47c32c8d79719bf6e0b\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\ed7f7a9a8bb32ee0bc9a5629ce5553c7\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\ed7f7a9a8bb32ee0bc9a5629ce5553c7\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\db7e0f410f40b1e05705551f9efbbdcf\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\db7e0f410f40b1e05705551f9efbbdcf\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7094958e4243a8a43476cb54ee23b56d\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
@@ -367,12 +372,12 @@ MERGED from [androidx.customview:customview:1.1.0] C:\jdk_sourch\gradle-8.2\cach
 MERGED from [androidx.customview:customview:1.1.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\a7c5a4a20b94147e26bd2b121d7df76a\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\2c488e6ccbda0d6c1a98962f9fab91b6\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\2c488e6ccbda0d6c1a98962f9fab91b6\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.4.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\94feddec81c04ba2dd8afc92ad968020\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\94feddec81c04ba2dd8afc92ad968020\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\df5b6cf4d5044a183e66597542ae2574\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\df5b6cf4d5044a183e66597542ae2574\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\196fcd7eb5805e5e8f07ea4142c897fc\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\196fcd7eb5805e5e8f07ea4142c897fc\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.4.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\94feddec81c04ba2dd8afc92ad968020\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.4.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\94feddec81c04ba2dd8afc92ad968020\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\af185bd52ba09ac9808f0af9b898e405\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.10.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\7fc3028c45a0b57b361d4f727fd04c9e\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
@@ -393,6 +398,10 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\jdk_sourch\gradle-8.
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f119bdb365b1597e9e64c5ab17213442\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\91eddf74005e4a65e830f9cd43dc2cfd\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\91eddf74005e4a65e830f9cd43dc2cfd\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.5] C:\jdk_sourch\gradle-8.2\caches\transforms-3\89d0b72ef79d9c29ef9edc9a5b51f38d\transformed\exifinterface-1.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.5] C:\jdk_sourch\gradle-8.2\caches\transforms-3\89d0b72ef79d9c29ef9edc9a5b51f38d\transformed\exifinterface-1.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\95944658358d5002c22c5bf10cfe5aae\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\95944658358d5002c22c5bf10cfe5aae\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\4e2ce8199fd9aefd9afc9f3a29c76247\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\4e2ce8199fd9aefd9afc9f3a29c76247\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\ae944a0fb9216d0c6de63568da2f1f98\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
@@ -407,10 +416,6 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\jdk_sourch\gradle-8.2\cac
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\17b2b59ffd7e7161e3c7c9dc538ff658\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\4da5e4b4515c1aa1c063efdc8529c2c2\transformed\gifdecoder-4.14.2\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\4da5e4b4515c1aa1c063efdc8529c2c2\transformed\gifdecoder-4.14.2\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\jdk_sourch\gradle-8.2\caches\transforms-3\770bfffb212fd07fbf720898d72d7691\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\jdk_sourch\gradle-8.2\caches\transforms-3\770bfffb212fd07fbf720898d72d7691\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\95944658358d5002c22c5bf10cfe5aae\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\95944658358d5002c22c5bf10cfe5aae\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\5b0fa06cbc82e5ee4fdf226774c20126\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\5b0fa06cbc82e5ee4fdf226774c20126\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\8ea54add171e1baebe36fcb6150a20c0\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
@@ -421,10 +426,10 @@ MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\jdk_sourch\gradle-8.2
 MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\jdk_sourch\gradle-8.2\caches\transforms-3\3032ac9cc9147db680ce2ba114487a46\transformed\library-1.6.2\AndroidManifest.xml:7:5-9:41
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\072328f5fd77beb4ff51b42fccde75ba\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\072328f5fd77beb4ff51b42fccde75ba\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
-MERGED from [com.pnikosis:materialish-progress:1.7] C:\jdk_sourch\gradle-8.2\caches\transforms-3\76415cc5d5dd19ba5d2ec186ba4923e8\transformed\materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
-MERGED from [com.pnikosis:materialish-progress:1.7] C:\jdk_sourch\gradle-8.2\caches\transforms-3\76415cc5d5dd19ba5d2ec186ba4923e8\transformed\materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:exifinterface:27.1.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\d7bac477c56c33bf2f04ea2534faeea4\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:exifinterface:27.1.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\d7bac477c56c33bf2f04ea2534faeea4\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\jdk_sourch\gradle-8.2\caches\transforms-3\76415cc5d5dd19ba5d2ec186ba4923e8\transformed\materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\jdk_sourch\gradle-8.2\caches\transforms-3\76415cc5d5dd19ba5d2ec186ba4923e8\transformed\materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
 INJECTED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml
 INJECTED from D:\htdocs\Event_Development\Android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -461,14 +466,86 @@ ADDED from [com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\cache
 		ADDED from [com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.71828] C:\jdk_sourch\gradle-8.2\caches\transforms-3\b9104c6ed9d3b5bca2dc45c0310d749f\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
-queries
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:9:5-19:15
-intent#action:name:android.media.action.IMAGE_CAPTURE
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:12:9-14:18
-action#android.media.action.IMAGE_CAPTURE
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:13:13-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:13:21-70
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:10:5-12:38
+	android:maxSdkVersion
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:11:9-65
+queries
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:14:5-36:15
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:9:5-19:15
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:9:5-19:15
+intent#action:name:android.intent.action.GET_CONTENT+category:name:android.intent.category.OPENABLE+data:mimeType:image/*
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:17:9-23:18
+action#android.intent.action.GET_CONTENT
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:18:13-72
+	android:name
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:18:21-69
+category#android.intent.category.OPENABLE
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:20:23-70
+data
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:22:13-48
+	android:mimeType
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:22:19-45
+intent#action:name:android.intent.action.PICK+data:mimeType:image/*
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:24:9-28:18
+action#android.intent.action.PICK
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:25:13-65
+	android:name
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:25:21-62
+intent#action:name:android.intent.action.CHOOSER
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:29:9-31:18
+action#android.intent.action.CHOOSER
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:30:13-68
+	android:name
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:30:21-65
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:33:9-35:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:34:13-73
+	android:name
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:34:21-70
+activity#com.github.drjacky.imagepicker.ImagePickerActivity
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:39:9-42:68
+	android:screenOrientation
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:41:13-52
+	android:theme
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:42:13-65
+	android:name
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:40:13-78
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:43:9-46:72
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:26:9-29:72
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:26:9-29:72
+	android:screenOrientation
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:45:13-49
+	android:theme
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:46:13-69
+	android:name
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:44:13-60
+provider#com.github.drjacky.imagepicker.ImagePickerFileProvider
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:48:9-56:20
+	android:grantUriPermissions
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:52:13-47
+	android:authorities
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:50:13-72
+	android:exported
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:49:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:53:13-55:71
+	android:resource
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:55:17-68
+	android:name
+		ADDED from [com.github.Drjacky:ImagePicker:2.3.22] C:\jdk_sourch\gradle-8.2\caches\transforms-3\33ab3c146e6bfc55b66396e4f1fc8d37\transformed\ImagePicker-2.3.22\AndroidManifest.xml:54:17-67
 intent#action:name:android.intent.action.OPEN_DOCUMENT_TREE
 ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:16:9-18:18
 action#android.intent.action.OPEN_DOCUMENT_TREE
@@ -483,14 +560,6 @@ ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\cach
 		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:25:13-65
 	android:name
 		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:23:13-81
-activity#com.yalantis.ucrop.UCropActivity
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:26:9-29:72
-	android:screenOrientation
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:28:13-49
-	android:theme
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:29:13-69
-	android:name
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:27:13-60
 provider#com.github.dhaval2404.imagepicker.ImagePickerFileProvider
 ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:31:9-39:20
 	android:grantUriPermissions
@@ -501,12 +570,6 @@ ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\cach
 		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:34:13-37
 	android:name
 		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:32:13-85
-meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:36:13-38:71
-	android:resource
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:38:17-68
-	android:name
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\13f3e8bdb0b656da756635abfd85c14b\transformed\imagepicker-2.1\AndroidManifest.xml:37:17-67
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\jdk_sourch\gradle-8.2\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\jdk_sourch\gradle-8.2\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
