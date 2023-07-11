@@ -24,15 +24,19 @@ public final class NavHeaderDashboardBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final TextView initial;
+
+  @NonNull
   public final TextView txtEmail;
 
   @NonNull
   public final TextView txtUsername;
 
   private NavHeaderDashboardBinding(@NonNull LinearLayout rootView, @NonNull ImageView imageView,
-      @NonNull TextView txtEmail, @NonNull TextView txtUsername) {
+      @NonNull TextView initial, @NonNull TextView txtEmail, @NonNull TextView txtUsername) {
     this.rootView = rootView;
     this.imageView = imageView;
+    this.initial = initial;
     this.txtEmail = txtEmail;
     this.txtUsername = txtUsername;
   }
@@ -70,6 +74,12 @@ public final class NavHeaderDashboardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.initial;
+      TextView initial = ViewBindings.findChildViewById(rootView, id);
+      if (initial == null) {
+        break missingId;
+      }
+
       id = R.id.txt_email;
       TextView txtEmail = ViewBindings.findChildViewById(rootView, id);
       if (txtEmail == null) {
@@ -82,7 +92,7 @@ public final class NavHeaderDashboardBinding implements ViewBinding {
         break missingId;
       }
 
-      return new NavHeaderDashboardBinding((LinearLayout) rootView, imageView, txtEmail,
+      return new NavHeaderDashboardBinding((LinearLayout) rootView, imageView, initial, txtEmail,
           txtUsername);
     }
     String missingId = rootView.getResources().getResourceName(id);

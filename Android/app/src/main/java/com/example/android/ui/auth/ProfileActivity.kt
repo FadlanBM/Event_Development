@@ -11,6 +11,7 @@ import com.example.android.core.data.resourch.network.State
 import com.example.android.core.data.resourch.request.UpdateProfileRequest
 import com.example.android.databinding.ActivityProfileBinding
 import com.example.android.ui.base.Myactivity
+import com.example.android.util.BASE_API
 import com.example.android.util.Preft
 import com.github.drjacky.imagepicker.ImagePicker
 import com.github.drjacky.imagepicker.constant.ImageProvider
@@ -50,14 +51,16 @@ class ProfileActivity : Myactivity() {
                 tbName.setText(user.name)
                 tbEmail.setText(user.email)
             }
+                Picasso.get().load(BASE_API.USER_URL+user.image).into(binding.imageProfile)
         }
     }
     private fun buttonHendeler(){
         binding.btnUpdate.setOnClickListener {
-            if (fileImage!=null){
-            update()
-            }else{
+            if (fileImage !=null){
             upload()
+                update()
+            }else{
+            update()
             }
         }
 
@@ -93,13 +96,11 @@ class ProfileActivity : Myactivity() {
         viewModel.updateUser(body).observe(this){
             when (it.state){
                 State.SUCCESS->{
-                    progress.dismiss()
                     showToast("Berhasil Update Profile " + it?.body?.name)
                     onBackPressed()
 //                    pushActivity(DashboardActivity::class.java)
                 }
                 State.ERROR->{
-                    progress.dismiss()
                     toastError(it.message?:"terjadi kesalahan")
                 }
                 State.LOADING->{

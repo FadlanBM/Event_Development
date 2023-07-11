@@ -9,6 +9,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
@@ -23,8 +24,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.android.databinding.ActivityDashboardBinding
 import com.example.android.databinding.NavHeaderDashboardBinding
 import com.example.android.ui.auth.ProfileActivity
+import com.example.android.util.BASE_API
 import com.example.android.util.Preft
 import com.inyongtisto.myhelper.extension.showLoading
+import com.squareup.picasso.Picasso
 
 class DashboardActivity : AppCompatActivity() {
 
@@ -117,6 +120,8 @@ class DashboardActivity : AppCompatActivity() {
         val email=findViewById<TextView>(R.id.txt_email)
         email.text=users.email
         }
+        val imageProfile=findViewById<ImageView>(R.id.imageView)
+        Picasso.get().load(BASE_API.USER_URL+users?.image).into(imageProfile)
 
         return super.onOptionsItemSelected(item)
     }

@@ -1,62 +1,70 @@
 [
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/fragment_participant_event.xml",
-        "source": "com.example.android.app-main-63:/layout/fragment_participant_event.xml"
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_code_event.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_code_event.xml"
     },
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/activity_code_event.xml",
-        "source": "com.example.android.app-main-63:/layout/activity_code_event.xml"
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\nav_header_dashboard.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\nav_header_dashboard.xml"
     },
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/activity_main.xml",
-        "source": "com.example.android.app-main-63:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/activity_dashboard.xml",
-        "source": "com.example.android.app-main-63:/layout/activity_dashboard.xml"
-    },
-    {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/fragment_linkevent.xml",
-        "source": "com.example.android.app-main-63:/layout/fragment_linkevent.xml"
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_login.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_login.xml"
     },
     {
         "merged": "com.example.android.app-mergeDebugResources-60:/layout/activity_profile.xml",
         "source": "com.example.android.app-main-63:/layout/activity_profile.xml"
     },
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/fragment_dashboardpage.xml",
-        "source": "com.example.android.app-main-63:/layout/fragment_dashboardpage.xml"
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_profile.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\fragment_dashboardpage.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_dashboardpage.xml"
+    },
+    {
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\fragment_managementevent.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_managementevent.xml"
     },
     {
         "merged": "com.example.android.app-mergeDebugResources-60:/layout/nav_header_dashboard.xml",
         "source": "com.example.android.app-main-63:/layout/nav_header_dashboard.xml"
     },
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/activity_splash_screen.xml",
-        "source": "com.example.android.app-main-63:/layout/activity_splash_screen.xml"
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_main.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/content_dashboard.xml",
-        "source": "com.example.android.app-main-63:/layout/content_dashboard.xml"
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\app_bar_dashboard.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\app_bar_dashboard.xml"
     },
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/app_bar_dashboard.xml",
-        "source": "com.example.android.app-main-63:/layout/app_bar_dashboard.xml"
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_dashboard.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_dashboard.xml"
     },
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/activity_auth.xml",
-        "source": "com.example.android.app-main-63:/layout/activity_auth.xml"
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_register.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/activity_login.xml",
-        "source": "com.example.android.app-main-63:/layout/activity_login.xml"
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\content_dashboard.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\content_dashboard.xml"
     },
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/fragment_managementevent.xml",
-        "source": "com.example.android.app-main-63:/layout/fragment_managementevent.xml"
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\fragment_linkevent.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_linkevent.xml"
     },
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/activity_register.xml",
-        "source": "com.example.android.app-main-63:/layout/activity_register.xml"
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_auth.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_auth.xml"
+    },
+    {
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\fragment_participant_event.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_participant_event.xml"
     }
 ]

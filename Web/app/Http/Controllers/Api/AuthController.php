@@ -4,7 +4,9 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
+use Illuminate\Contracts\Cache\Store;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 
 class AuthController extends Controller
@@ -68,11 +70,15 @@ class AuthController extends Controller
         if ($user) {
             $filename="";
             if ($request->image) {
+                if ($user->image!=null) {
+                    $lamas= $request->image->storeAs('public/user',$user->image);
+                    Storage::delete($lamas);
+                }
                 $image=$request->image->getClientOriginalName();
                 $image=str_replace(' ','',$image);
                 $image=date('Hs').rand(1,999)."_".$image;
                 $filename=$image;
-                $request->image->storeAs('public/user',$image);
+               $lamas= $request->image->storeAs('public/user',$image);
                 $user->update([
                     'image'=>$filename
                 ]);
