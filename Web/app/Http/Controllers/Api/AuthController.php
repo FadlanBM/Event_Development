@@ -63,6 +63,29 @@ class AuthController extends Controller
 
     }
 
+    public function upload(Request $request, $id){
+        $user=User::where('id',$id)->first();
+        if ($user) {
+            $filename="";
+            if ($request->image) {
+                $image=$request->image->getClientOriginalName();
+                $image=str_replace(' ','',$image);
+                $image=date('Hs').rand(1,999)."_".$image;
+                $filename=$image;
+                $request->image->storeAs('public/user',$image);
+                $user->update([
+                    'image'=>$filename
+                ]);
+                return $this->valid_200("Berhasil",$user);
+            }else {
+                return $this->error_400("harus kirim image");     
+            }
+        }else {
+            return $this->error_400("Terjadi Kesalahan");
+        }
+
+    }
+
     private function error_400($message){
         return response()->json([
             'message'=>$message,

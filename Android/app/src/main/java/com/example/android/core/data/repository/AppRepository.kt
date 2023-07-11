@@ -9,9 +9,10 @@ import com.example.android.core.data.resourch.request.UpdateProfileRequest
 import com.example.android.util.Preft
 import com.inyongtisto.myhelper.extension.getErrorBody
 import kotlinx.coroutines.flow.flow
+import okhttp3.MultipartBody
 import java.lang.Exception
 
-class AppRepository (val remote:RemoteDataSourch) {
+class AppRepository (private val remote:RemoteDataSourch) {
     fun login(data: LoginRequest) = flow {
         emit(Resourch.loading(null))
         try {
@@ -58,6 +59,23 @@ class AppRepository (val remote:RemoteDataSourch) {
         emit(Resourch.loading(null))
         try {
             remote.updateUser(data).let {
+                if (it.isSuccessful){
+                    val body=it.body()
+                    val user=body?.data
+                    Preft.setUser(user)
+                    emit(Resourch.success(user))
+                }else{
+                    emit(Resourch.error(it.getErrorBody()?.message?:"The update account error ",null))
+                }
+            }
+        }catch (e:Exception){
+            emit(Resourch.error(e.message?:"terjadi Kesalahan",null))
+        }
+    }
+    fun uploadUser(id:Int?=null, fileImage: MultipartBody.Part?=null) = flow {
+        emit(Resourch.loading(null))
+        try {
+            remote.uploadUser(id,fileImage).let {
                 if (it.isSuccessful){
                     val body=it.body()
                     val user=body?.data

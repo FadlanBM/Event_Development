@@ -6,5 +6,6 @@ data class User(
     val email_verified_at: Any?,
     val id: Int?,
     val name: String?,
+    val image: String?,
     val updated_at: String?
 )

@@ -21,4 +21,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('register',[AuthController::class,'register']);
 Route::post('login',[AuthController::class,'login']);
-Route::put('update/{id}',[AuthController::class,'update']);
+Route::put('update_user/{id}',[AuthController::class,'update']);
+Route::post('upload_user/{id}',[AuthController::class,'upload']);

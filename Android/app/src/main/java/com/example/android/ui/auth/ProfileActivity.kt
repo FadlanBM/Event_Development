@@ -18,14 +18,17 @@ import com.inyongtisto.myhelper.extension.int
 import com.inyongtisto.myhelper.extension.isEmpty
 import com.inyongtisto.myhelper.extension.setToolbar
 import com.inyongtisto.myhelper.extension.showToast
+import com.inyongtisto.myhelper.extension.toMultipartBody
 import com.inyongtisto.myhelper.extension.toastError
 import com.squareup.picasso.Picasso
 import org.koin.androidx.viewmodel.ext.android.viewModel
+import java.io.File
 
 class ProfileActivity : Myactivity() {
 
     private var _binding: ActivityProfileBinding? = null
     private val viewModel: ProfileViewModel by viewModel()
+    private var fileImage:File?=null
 
     private val binding get() = _binding!!
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,7 +54,11 @@ class ProfileActivity : Myactivity() {
     }
     private fun buttonHendeler(){
         binding.btnUpdate.setOnClickListener {
+            if (fileImage!=null){
             update()
+            }else{
+            upload()
+            }
         }
 
         binding.imageProfile.setOnClickListener {
@@ -72,8 +79,7 @@ class ProfileActivity : Myactivity() {
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
             if (it.resultCode == Activity.RESULT_OK) {
                 val uri = it.data?.data!!
-                // Use the uri to load the image
-                // Only if you are not using crop feature:
+                fileImage=File(uri.path?:"")
                 Picasso.get().load(uri).into(binding.imageProfile)
             }
         }
@@ -89,6 +95,7 @@ class ProfileActivity : Myactivity() {
                 State.SUCCESS->{
                     progress.dismiss()
                     showToast("Berhasil Update Profile " + it?.body?.name)
+                    onBackPressed()
 //                    pushActivity(DashboardActivity::class.java)
                 }
                 State.ERROR->{
@@ -116,5 +123,27 @@ class ProfileActivity : Myactivity() {
             })
         builder.show()
         return super.onSupportNavigateUp()
+    }
+
+    private fun upload(){
+        val id=Preft.getUser()?.id
+        val file=fileImage.toMultipartBody("image")
+        viewModel.uploadUser(id,file).observe(this){
+            when (it.state){
+                State.SUCCESS->{
+                    progress.dismiss()
+                    showToast("Berhasil Update Profile " + it?.body?.name)
+                    onBackPressed()
+//                    pushActivity(DashboardActivity::class.java)
+                }
+                State.ERROR->{
+                    progress.dismiss()
+                    toastError(it.message?:"terjadi kesalahan")
+                }
+                State.LOADING->{
+                    progress.show()
+                }
+            }
+        }
     }
 }
