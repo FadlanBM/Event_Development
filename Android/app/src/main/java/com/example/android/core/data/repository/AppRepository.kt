@@ -3,6 +3,7 @@ package com.example.android.core.data.repository
 import android.util.Log
 import com.example.android.core.data.resourch.RemoteDataSourch
 import com.example.android.core.data.resourch.network.Resourch
+import com.example.android.core.data.resourch.request.EventsRequest
 import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.core.data.resourch.request.RegisterRequest
 import com.example.android.core.data.resourch.request.UpdateProfileRequest
@@ -81,6 +82,21 @@ class AppRepository (private val remote:RemoteDataSourch) {
                     val user=body?.data
                     Preft.setUser(user)
                     emit(Resourch.success(user))
+                }else{
+                    emit(Resourch.error(it.getErrorBody()?.message?:"The update account error ",null))
+                }
+            }
+        }catch (e:Exception){
+            emit(Resourch.error(e.message?:"terjadi Kesalahan",null))
+        }
+    }
+
+    fun events(data: EventsRequest) = flow {
+        emit(Resourch.loading(null))
+        try {
+            remote.events(data).let {
+                if (it.isSuccessful){
+                    emit(Resourch.success(data.name))
                 }else{
                     emit(Resourch.error(it.getErrorBody()?.message?:"The update account error ",null))
                 }

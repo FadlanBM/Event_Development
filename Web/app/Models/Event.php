@@ -11,9 +11,11 @@ class Event extends Model
 
     protected $table='events';
      protected $fillable = [
+        'name',
         'uraian',
         'tujuan',
         'tanggal',
         'waktu',
+        'users_id'
     ];
 }

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\EventsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -19,7 +20,11 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
+//Auth
 Route::post('register',[AuthController::class,'register']);
 Route::post('login',[AuthController::class,'login']);
 Route::put('update_user/{id}',[AuthController::class,'update']);
 Route::post('upload_user/{id}',[AuthController::class,'upload']);
+
+//Event
+Route::post('add_event',[EventsController::class,'create']);

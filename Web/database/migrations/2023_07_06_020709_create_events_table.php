@@ -13,7 +13,9 @@ return new class extends Migration
     {
         Schema::create('events', function (Blueprint $table) {
             $table->id();
-            // $table->integer('userid');
+            $table->string('name');
+            $table->unsignedBigInteger('users_id');
+            $table->foreign('users_id')->references('id')->on('users')->onDelete('cascade');
             $table->string('uraian');
             $table->string('tujuan');
             $table->date('tanggal');

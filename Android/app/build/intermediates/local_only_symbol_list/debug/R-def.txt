@@ -66,6 +66,7 @@ id btn_back_register
 id btn_login
 id btn_sign_in
 id btn_sign_up
+id btn_submit_event
 id btn_to_account
 id btn_to_code
 id btn_update
@@ -88,11 +89,17 @@ id nav_linkevent
 id nav_management_Event
 id nav_participant_event
 id nav_view
+id progress_barr_event
 id tb_email
 id tb_name
 id tb_password
 id tb_showEvent
 id tb_tambah
+id tb_tanggal
+id tb_tujuan
+id tb_uraian
+id tb_waktu
+id tbn_cancel_event
 id text_link_event
 id text_participant_event
 id text_splash

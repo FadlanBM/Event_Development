@@ -4379,6 +4379,7 @@ id btn_login
 id btn_sign_in
 id btn_sign_up
 id btn_simpan
+id btn_submit_event
 id btn_to_account
 id btn_to_code
 id btn_update
@@ -4699,6 +4700,7 @@ id postLayout
 id pressed
 id progressView
 id progressWheel
+id progress_barr_event
 id progress_circular
 id progress_dialog
 id progress_horizontal
@@ -4820,6 +4822,11 @@ id tb_name
 id tb_password
 id tb_showEvent
 id tb_tambah
+id tb_tanggal
+id tb_tujuan
+id tb_uraian
+id tb_waktu
+id tbn_cancel_event
 id text
 id text2
 id textEnd

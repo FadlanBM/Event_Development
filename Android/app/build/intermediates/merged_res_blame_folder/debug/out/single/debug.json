@@ -64,10 +64,6 @@
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\ic_menu_slideshow.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-61:/layout_fragment_managementevent.xml.flat",
-        "source": "com.example.android.app-main-63:/layout/fragment_managementevent.xml"
-    },
-    {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_auth.xml.flat",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_auth.xml"
     },
@@ -174,6 +170,10 @@
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_profile_shape.xml.flat",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\profile_shape.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-61:/xml_internet_security.xml.flat",
+        "source": "com.example.android.app-main-63:/xml/internet_security.xml"
     },
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_login.xml.flat",

@@ -1,5 +1,6 @@
 package com.example.android.core.data.resourch.network
 
+import com.example.android.core.data.resourch.request.EventsRequest
 import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.core.data.resourch.request.RegisterRequest
 import com.example.android.core.data.resourch.request.UpdateProfileRequest
@@ -35,5 +36,10 @@ interface ApiService{
     suspend fun uploadUser(
         @Path("id") int: Int?=null,
         @Part data:MultipartBody.Part?=null
+    ):Response<LoginResponse>
+
+    @POST("add_event")
+    suspend fun events(
+        @Body event:EventsRequest
     ):Response<LoginResponse>
 }
