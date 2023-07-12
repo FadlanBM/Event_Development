@@ -38,8 +38,8 @@ Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/Event',[EventController::class,'index'])->middleware(['auth', 'verified'])->name('Event');;
-Route::post('/Event/post',[EventController::class,'store'])->middleware(['auth', 'verified'])->name('store');;
+Route::get('/event',[EventController::class,'index'])->middleware(['auth', 'verified'])->name('Event');;
+Route::post('/event/post',[EventController::class,'store'])->middleware(['auth', 'verified'])->name('store');;
 
 
 Route::middleware('auth')->group(function () {
