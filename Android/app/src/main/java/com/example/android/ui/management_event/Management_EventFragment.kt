@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.android.databinding.FragmentManagementeventBinding
+import com.inyongtisto.myhelper.extension.visible
 
 class Management_EventFragment : Fragment() {
 
@@ -22,16 +23,14 @@ class Management_EventFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val galleryViewModel =
-            ViewModelProvider(this).get(Management_ViewModel::class.java)
-
         _binding = FragmentManagementeventBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
-        val textView: TextView = binding.textManagementEvent
-        galleryViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+        binding.tbTambah.setOnClickListener {
+            binding.txtTambahEvent.visible(true)
+            binding.formEvent.visible(true)
+            binding.tbShowEvent.visible(false)
         }
+        binding
         return root
     }
 

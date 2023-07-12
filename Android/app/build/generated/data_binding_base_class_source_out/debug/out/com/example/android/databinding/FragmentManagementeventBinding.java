@@ -4,33 +4,53 @@ package com.example.android.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.android.R;
+import com.google.android.material.button.MaterialButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentManagementeventBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final TextView textManagementEvent;
+  public final LinearLayout formEvent;
 
-  private FragmentManagementeventBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textManagementEvent) {
+  @NonNull
+  public final LinearLayout linerButton;
+
+  @NonNull
+  public final TextView tbShowEvent;
+
+  @NonNull
+  public final MaterialButton tbTambah;
+
+  @NonNull
+  public final TextView txtTambahEvent;
+
+  private FragmentManagementeventBinding(@NonNull RelativeLayout rootView,
+      @NonNull LinearLayout formEvent, @NonNull LinearLayout linerButton,
+      @NonNull TextView tbShowEvent, @NonNull MaterialButton tbTambah,
+      @NonNull TextView txtTambahEvent) {
     this.rootView = rootView;
-    this.textManagementEvent = textManagementEvent;
+    this.formEvent = formEvent;
+    this.linerButton = linerButton;
+    this.tbShowEvent = tbShowEvent;
+    this.tbTambah = tbTambah;
+    this.txtTambahEvent = txtTambahEvent;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -55,13 +75,38 @@ public final class FragmentManagementeventBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_management_Event;
-      TextView textManagementEvent = ViewBindings.findChildViewById(rootView, id);
-      if (textManagementEvent == null) {
+      id = R.id.form_event;
+      LinearLayout formEvent = ViewBindings.findChildViewById(rootView, id);
+      if (formEvent == null) {
         break missingId;
       }
 
-      return new FragmentManagementeventBinding((ConstraintLayout) rootView, textManagementEvent);
+      id = R.id.liner_button;
+      LinearLayout linerButton = ViewBindings.findChildViewById(rootView, id);
+      if (linerButton == null) {
+        break missingId;
+      }
+
+      id = R.id.tb_showEvent;
+      TextView tbShowEvent = ViewBindings.findChildViewById(rootView, id);
+      if (tbShowEvent == null) {
+        break missingId;
+      }
+
+      id = R.id.tb_tambah;
+      MaterialButton tbTambah = ViewBindings.findChildViewById(rootView, id);
+      if (tbTambah == null) {
+        break missingId;
+      }
+
+      id = R.id.txt_tambahEvent;
+      TextView txtTambahEvent = ViewBindings.findChildViewById(rootView, id);
+      if (txtTambahEvent == null) {
+        break missingId;
+      }
+
+      return new FragmentManagementeventBinding((RelativeLayout) rootView, formEvent, linerButton,
+          tbShowEvent, tbTambah, txtTambahEvent);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

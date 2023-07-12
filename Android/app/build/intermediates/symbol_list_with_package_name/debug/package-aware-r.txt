@@ -4506,6 +4506,7 @@ id fixed
 id flip
 id floating
 id forever
+id form_event
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -4564,6 +4565,7 @@ id legacy
 id line1
 id line3
 id linear
+id liner_button
 id listMode
 id list_item
 id loading
@@ -4816,6 +4818,8 @@ id tag_window_insets_animation_callback
 id tb_email
 id tb_name
 id tb_password
+id tb_showEvent
+id tb_tambah
 id text
 id text2
 id textEnd
@@ -4827,7 +4831,6 @@ id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
 id text_link_event
-id text_management_Event
 id text_participant_event
 id text_splash
 id text_view_crop
@@ -4867,6 +4870,7 @@ id txt_email
 id txt_or
 id txt_register
 id txt_sign_up
+id txt_tambahEvent
 id txt_username
 id ucrop
 id ucrop_frame

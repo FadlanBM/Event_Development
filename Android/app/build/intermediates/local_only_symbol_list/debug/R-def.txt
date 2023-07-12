@@ -75,9 +75,11 @@ id edt_email
 id edt_name
 id edt_password
 id fab
+id form_event
 id imageView
 id image_profile
 id initial
+id liner_button
 id loading
 id mobile_navigation
 id nav_dashboardpage
@@ -89,8 +91,9 @@ id nav_view
 id tb_email
 id tb_name
 id tb_password
+id tb_showEvent
+id tb_tambah
 id text_link_event
-id text_management_Event
 id text_participant_event
 id text_splash
 id toolbar
@@ -98,6 +101,7 @@ id txt_email
 id txt_or
 id txt_register
 id txt_sign_up
+id txt_tambahEvent
 id txt_username
 layout activity_auth
 layout activity_code_event
