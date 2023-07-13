@@ -1,4 +1,5 @@
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
+import DashboardLayout from "@/Layouts/DashboardLayout";
 import { Inertia } from "@inertiajs/inertia";
 import { Head } from "@inertiajs/react";
 import { handler } from "daisyui";
@@ -9,7 +10,7 @@ export default function Event({ auth, props }) {
     const [tujuan, setTujuan] = useState("");
     const [tanggal, setTanggal] = useState("");
     const [waktu, setWaktu] = useState("");
-    const [isNotif,setIsNotif] = useState(false)
+    const [isNotif, setIsNotif] = useState(false)
 
     const handleSubmit = () => {
         const data = {
