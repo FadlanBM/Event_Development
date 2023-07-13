@@ -54,11 +54,13 @@ class Management_EventFragment : Fragment() {
             binding.txtTambahEvent.visible(true)
             binding.formEvent.visible(true)
             binding.tbShowEvent.visible(false)
+        binding.tbTambah.visible(false)
     }
     private fun hendelerListEvent(){
             binding.tbShowEvent.visible(true)
             binding.txtTambahEvent.visible(false)
             binding.formEvent.visible(false)
+        binding.tbTambah.visible(true)
     }
     private fun buttonHendller(){
         binding.btnSubmitEvent.setOnClickListener {
