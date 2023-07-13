@@ -7,7 +7,7 @@ export default function Dashboard({ auth }) {
         <DashboardLayout
             user={auth.user}
             header={
-                <h2 className="font-semibold text-xl">
+                <h2 className="font-semibold text-xl w-full text-black">
                     Dashboard
                 </h2>
             }
@@ -15,7 +15,10 @@ export default function Dashboard({ auth }) {
             <Head title="Dashboard" />
 
             <div className="pt-10 pl-10">
-                <h1>sadf</h1>
+                <div className="bg-white rounded-md">
+                    <h1>kntl</h1>
+
+                </div>
             </div>
             
         </DashboardLayout>
