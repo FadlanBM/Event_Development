@@ -1,4 +1,5 @@
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
+import DashboardLayout from "@/Layouts/DashboardLayout";
 import { Inertia } from "@inertiajs/inertia";
 import { Head } from "@inertiajs/react";
 import { handler } from "daisyui";
@@ -9,7 +10,7 @@ export default function Event({ auth, props }) {
     const [tujuan, setTujuan] = useState("");
     const [tanggal, setTanggal] = useState("");
     const [waktu, setWaktu] = useState("");
-    const [isNotif,setIsNotif] = useState(false)
+    const [isNotif, setIsNotif] = useState(false)
 
     const handleSubmit = () => {
         const data = {
@@ -18,7 +19,7 @@ export default function Event({ auth, props }) {
             tanggal,
             waktu,
         };
-        Inertia.post("/Event/post", data);
+        Inertia.post("/event/post", data);
         setIsNotif(true)
         setUraian('')
         setTujuan('')
@@ -28,7 +29,7 @@ export default function Event({ auth, props }) {
 
     // console.log(props);
     return (
-        <AuthenticatedLayout
+        <DashboardLayout
             user={auth.user}
             header={
                 <h2 className="font-semibold text-xl text-gray-800 leading-tight">
@@ -38,7 +39,7 @@ export default function Event({ auth, props }) {
         >
             <Head title="Event" />
 
-            <div className="py-12">
+            <div className="w-full py-12">
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                     <div className="p-20 bg-white border-b border-gray-200 overflow-hidden shadow-sm sm:rounded-lg">
                         {isNotif && 
@@ -102,6 +103,6 @@ export default function Event({ auth, props }) {
                     </div>
                 </div>
             </div>
-        </AuthenticatedLayout>
+        </DashboardLayout>
     );
 }
