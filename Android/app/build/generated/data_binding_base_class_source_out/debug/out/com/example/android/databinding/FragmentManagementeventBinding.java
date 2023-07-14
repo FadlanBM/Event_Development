@@ -24,6 +24,15 @@ public final class FragmentManagementeventBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final MaterialButton btnDelete;
+
+  @NonNull
+  public final MaterialButton btnEdit;
+
+  @NonNull
+  public final MaterialButton btnLink;
+
+  @NonNull
   public final MaterialButton btnSubmitEvent;
 
   @NonNull
@@ -60,17 +69,32 @@ public final class FragmentManagementeventBinding implements ViewBinding {
   public final MaterialButton tbnCancelEvent;
 
   @NonNull
+  public final TextView textName;
+
+  @NonNull
+  public final TextView textTanggal;
+
+  @NonNull
+  public final TextView textWaktu;
+
+  @NonNull
   public final TextView txtTambahEvent;
 
   private FragmentManagementeventBinding(@NonNull RelativeLayout rootView,
-      @NonNull MaterialButton btnSubmitEvent, @NonNull LinearLayout formEvent,
-      @NonNull LinearLayout linerButton, @NonNull ProgressBar progressBarrEvent,
-      @NonNull TextInputEditText tbName, @NonNull TextView tbShowEvent,
-      @NonNull MaterialButton tbTambah, @NonNull TextInputEditText tbTanggal,
-      @NonNull TextInputEditText tbTujuan, @NonNull TextInputEditText tbUraian,
-      @NonNull TextInputEditText tbWaktu, @NonNull MaterialButton tbnCancelEvent,
+      @NonNull MaterialButton btnDelete, @NonNull MaterialButton btnEdit,
+      @NonNull MaterialButton btnLink, @NonNull MaterialButton btnSubmitEvent,
+      @NonNull LinearLayout formEvent, @NonNull LinearLayout linerButton,
+      @NonNull ProgressBar progressBarrEvent, @NonNull TextInputEditText tbName,
+      @NonNull TextView tbShowEvent, @NonNull MaterialButton tbTambah,
+      @NonNull TextInputEditText tbTanggal, @NonNull TextInputEditText tbTujuan,
+      @NonNull TextInputEditText tbUraian, @NonNull TextInputEditText tbWaktu,
+      @NonNull MaterialButton tbnCancelEvent, @NonNull TextView textName,
+      @NonNull TextView textTanggal, @NonNull TextView textWaktu,
       @NonNull TextView txtTambahEvent) {
     this.rootView = rootView;
+    this.btnDelete = btnDelete;
+    this.btnEdit = btnEdit;
+    this.btnLink = btnLink;
     this.btnSubmitEvent = btnSubmitEvent;
     this.formEvent = formEvent;
     this.linerButton = linerButton;
@@ -83,6 +107,9 @@ public final class FragmentManagementeventBinding implements ViewBinding {
     this.tbUraian = tbUraian;
     this.tbWaktu = tbWaktu;
     this.tbnCancelEvent = tbnCancelEvent;
+    this.textName = textName;
+    this.textTanggal = textTanggal;
+    this.textWaktu = textWaktu;
     this.txtTambahEvent = txtTambahEvent;
   }
 
@@ -113,6 +140,24 @@ public final class FragmentManagementeventBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_delete;
+      MaterialButton btnDelete = ViewBindings.findChildViewById(rootView, id);
+      if (btnDelete == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_edit;
+      MaterialButton btnEdit = ViewBindings.findChildViewById(rootView, id);
+      if (btnEdit == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_link;
+      MaterialButton btnLink = ViewBindings.findChildViewById(rootView, id);
+      if (btnLink == null) {
+        break missingId;
+      }
+
       id = R.id.btn_submit_event;
       MaterialButton btnSubmitEvent = ViewBindings.findChildViewById(rootView, id);
       if (btnSubmitEvent == null) {
@@ -185,15 +230,34 @@ public final class FragmentManagementeventBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.text_name;
+      TextView textName = ViewBindings.findChildViewById(rootView, id);
+      if (textName == null) {
+        break missingId;
+      }
+
+      id = R.id.text_tanggal;
+      TextView textTanggal = ViewBindings.findChildViewById(rootView, id);
+      if (textTanggal == null) {
+        break missingId;
+      }
+
+      id = R.id.text_waktu;
+      TextView textWaktu = ViewBindings.findChildViewById(rootView, id);
+      if (textWaktu == null) {
+        break missingId;
+      }
+
       id = R.id.txt_tambahEvent;
       TextView txtTambahEvent = ViewBindings.findChildViewById(rootView, id);
       if (txtTambahEvent == null) {
         break missingId;
       }
 
-      return new FragmentManagementeventBinding((RelativeLayout) rootView, btnSubmitEvent,
-          formEvent, linerButton, progressBarrEvent, tbName, tbShowEvent, tbTambah, tbTanggal,
-          tbTujuan, tbUraian, tbWaktu, tbnCancelEvent, txtTambahEvent);
+      return new FragmentManagementeventBinding((RelativeLayout) rootView, btnDelete, btnEdit,
+          btnLink, btnSubmitEvent, formEvent, linerButton, progressBarrEvent, tbName, tbShowEvent,
+          tbTambah, tbTanggal, tbTujuan, tbUraian, tbWaktu, tbnCancelEvent, textName, textTanggal,
+          textWaktu, txtTambahEvent);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

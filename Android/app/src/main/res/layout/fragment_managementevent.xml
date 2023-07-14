@@ -133,4 +133,64 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner_button"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:text="Name"
+            android:fontFamily="@font/poppinsbold"
+            android:id="@+id/text_name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:text="tanggal"
+            android:fontFamily="@font/poppinsmedium"
+            android:id="@+id/text_tanggal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:text="waktu"
+            android:fontFamily="@font/poppinsmedium"
+            android:id="@+id/text_waktu"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:layout_marginStart="@dimen/_5sdp"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                app:cornerRadius="@dimen/_5sdp"
+                android:id="@+id/btn_edit"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="wrap_content"
+                android:text="Link"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                app:cornerRadius="@dimen/_5sdp"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:id="@+id/btn_delete"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                app:cornerRadius="@dimen/_5sdp"
+                android:id="@+id/btn_link"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
 </RelativeLayout>

@@ -4375,6 +4375,9 @@ id btn_back_login
 id btn_back_register
 id btn_close
 id btn_confirm
+id btn_delete
+id btn_edit
+id btn_link
 id btn_login
 id btn_sign_in
 id btn_sign_up
@@ -4838,11 +4841,14 @@ id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
 id text_link_event
+id text_name
 id text_participant_event
 id text_splash
+id text_tanggal
 id text_view_crop
 id text_view_rotate
 id text_view_scale
+id text_waktu
 id textinput_counter
 id textinput_error
 id textinput_helper_text
