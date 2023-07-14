@@ -4,9 +4,9 @@ import home from "../assets/home.png";
 
 export default function Home() {
     return (
-        <div className="flex py-[10rem] px-[15rem]">
+        <div className="flex py-[10rem] px-[12rem] xl:px-[15rem]">
             <div>
-                <h1 className="text-[6rem] leading-[6rem] font-semibold">
+                <h1 className="xl:text-[6rem] leading-[6rem] font-semibold text-[5.1rem]">
                     Reliable, secure
                     <img className="inline align-top" src={Ornament} />
                     <br />

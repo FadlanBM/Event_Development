@@ -4,7 +4,7 @@ import { Link } from "@inertiajs/react";
 
 export default function DashboardLayout({ user, header, children }) {
     return (
-        <div className="min-h-screen flex bg-white">
+        <div className="min-h-screen bg-whit flex flex-row">
             <div className="h-screen w-[280px] bg-zinc-700">
                 <div className="pl-6 py-6">
                     <div className="flex gap-x-4 items-center">
@@ -71,17 +71,16 @@ export default function DashboardLayout({ user, header, children }) {
                 </div>
             </div>
 
-            <div className="mx-20 my-20">
-                {header && (
-                    <header className="bg-white">
-                        <div className=" mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                            {header}
-                        </div>
-                    </header>
-                )}
+        
+            {header && (
+                <header className="bg-white">
+                     <div className=" mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                        {header}
+                     </div>
+                </header>
+             )}
 
-                <main>{children}</main>
-            </div>
+            {children}
         </div>
     );
 }

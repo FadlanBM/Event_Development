@@ -11,6 +11,13 @@ export default {
     ],
 
     theme: {
+        screens: {
+            'sm' : '640px',
+            'md' : '768',
+            'lg' : '1024',
+            'xl' : '1280',
+        },
+
         extend: {
             fontFamily: {
                 sans: ['Poppins', ...defaultTheme.fontFamily.sans],
