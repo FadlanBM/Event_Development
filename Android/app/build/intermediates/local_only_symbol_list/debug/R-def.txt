@@ -84,6 +84,7 @@ id imageView
 id image_profile
 id initial
 id liner_button
+id liner_show_data
 id loading
 id mobile_navigation
 id nav_dashboardpage

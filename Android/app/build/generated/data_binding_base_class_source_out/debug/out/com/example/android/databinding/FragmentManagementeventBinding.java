@@ -42,6 +42,9 @@ public final class FragmentManagementeventBinding implements ViewBinding {
   public final LinearLayout linerButton;
 
   @NonNull
+  public final LinearLayout linerShowData;
+
+  @NonNull
   public final ProgressBar progressBarrEvent;
 
   @NonNull
@@ -84,12 +87,12 @@ public final class FragmentManagementeventBinding implements ViewBinding {
       @NonNull MaterialButton btnDelete, @NonNull MaterialButton btnEdit,
       @NonNull MaterialButton btnLink, @NonNull MaterialButton btnSubmitEvent,
       @NonNull LinearLayout formEvent, @NonNull LinearLayout linerButton,
-      @NonNull ProgressBar progressBarrEvent, @NonNull TextInputEditText tbName,
-      @NonNull TextView tbShowEvent, @NonNull MaterialButton tbTambah,
-      @NonNull TextInputEditText tbTanggal, @NonNull TextInputEditText tbTujuan,
-      @NonNull TextInputEditText tbUraian, @NonNull TextInputEditText tbWaktu,
-      @NonNull MaterialButton tbnCancelEvent, @NonNull TextView textName,
-      @NonNull TextView textTanggal, @NonNull TextView textWaktu,
+      @NonNull LinearLayout linerShowData, @NonNull ProgressBar progressBarrEvent,
+      @NonNull TextInputEditText tbName, @NonNull TextView tbShowEvent,
+      @NonNull MaterialButton tbTambah, @NonNull TextInputEditText tbTanggal,
+      @NonNull TextInputEditText tbTujuan, @NonNull TextInputEditText tbUraian,
+      @NonNull TextInputEditText tbWaktu, @NonNull MaterialButton tbnCancelEvent,
+      @NonNull TextView textName, @NonNull TextView textTanggal, @NonNull TextView textWaktu,
       @NonNull TextView txtTambahEvent) {
     this.rootView = rootView;
     this.btnDelete = btnDelete;
@@ -98,6 +101,7 @@ public final class FragmentManagementeventBinding implements ViewBinding {
     this.btnSubmitEvent = btnSubmitEvent;
     this.formEvent = formEvent;
     this.linerButton = linerButton;
+    this.linerShowData = linerShowData;
     this.progressBarrEvent = progressBarrEvent;
     this.tbName = tbName;
     this.tbShowEvent = tbShowEvent;
@@ -173,6 +177,12 @@ public final class FragmentManagementeventBinding implements ViewBinding {
       id = R.id.liner_button;
       LinearLayout linerButton = ViewBindings.findChildViewById(rootView, id);
       if (linerButton == null) {
+        break missingId;
+      }
+
+      id = R.id.liner_show_data;
+      LinearLayout linerShowData = ViewBindings.findChildViewById(rootView, id);
+      if (linerShowData == null) {
         break missingId;
       }
 
@@ -255,9 +265,9 @@ public final class FragmentManagementeventBinding implements ViewBinding {
       }
 
       return new FragmentManagementeventBinding((RelativeLayout) rootView, btnDelete, btnEdit,
-          btnLink, btnSubmitEvent, formEvent, linerButton, progressBarrEvent, tbName, tbShowEvent,
-          tbTambah, tbTanggal, tbTujuan, tbUraian, tbWaktu, tbnCancelEvent, textName, textTanggal,
-          textWaktu, txtTambahEvent);
+          btnLink, btnSubmitEvent, formEvent, linerButton, linerShowData, progressBarrEvent, tbName,
+          tbShowEvent, tbTambah, tbTanggal, tbTujuan, tbUraian, tbWaktu, tbnCancelEvent, textName,
+          textTanggal, textWaktu, txtTambahEvent);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

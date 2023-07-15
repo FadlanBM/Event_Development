@@ -137,56 +137,67 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/liner_button"
-        android:layout_margin="@dimen/_10sdp"
-        android:orientation="vertical">
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:id="@+id/liner_show_data">
+
         <TextView
+            android:id="@+id/text_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_20sdp"
-            android:text="Name"
             android:fontFamily="@font/poppinsbold"
-            android:id="@+id/text_name"/>
+            android:text="Name" />
+
         <TextView
+            android:id="@+id/text_tanggal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_20sdp"
-            android:text="tanggal"
             android:fontFamily="@font/poppinsmedium"
-            android:id="@+id/text_tanggal"/>
+            android:text="tanggal" />
+
         <TextView
+            android:id="@+id/text_waktu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_20sdp"
-            android:text="waktu"
             android:fontFamily="@font/poppinsmedium"
-            android:id="@+id/text_waktu"/>
+            android:text="waktu" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_edit"
+                style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
                 android:text="Edit"
-                style="@style/Widget.Material3.Button.OutlinedButton"
-                app:cornerRadius="@dimen/_5sdp"
-                android:id="@+id/btn_edit"/>
+                app:cornerRadius="@dimen/_5sdp" />
+
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_delete"
+                style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="wrap_content"
-                android:text="Link"
-                style="@style/Widget.Material3.Button.OutlinedButton"
-                app:cornerRadius="@dimen/_5sdp"
                 android:layout_marginHorizontal="@dimen/_5sdp"
-                android:id="@+id/btn_delete"/>
+                android:text="Link"
+                app:cornerRadius="@dimen/_5sdp" />
+
             <com.google.android.material.button.MaterialButton
-                android:layout_width="@dimen/_90sdp"
+                android:id="@+id/btn_link"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="@dimen/_80sdp"
                 android:layout_height="wrap_content"
                 android:text="Delete"
-                style="@style/Widget.Material3.Button.OutlinedButton"
-                app:cornerRadius="@dimen/_5sdp"
-                android:layout_marginHorizontal="@dimen/_5sdp"
-                android:id="@+id/btn_link"/>
+                app:cornerRadius="@dimen/_5sdp" />
 
         </LinearLayout>
 
