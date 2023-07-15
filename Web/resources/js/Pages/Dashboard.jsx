@@ -7,7 +7,7 @@ export default function Dashboard({ auth }) {
         <DashboardLayout
             user={auth.user}
             header={
-                <h2 className="font-semibold text-xl w-full text-black">
+                <h2 className="font-semibold text-xl text-black">
                     Dashboard
                 </h2>
             }
