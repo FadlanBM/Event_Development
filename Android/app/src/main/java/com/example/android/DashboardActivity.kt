@@ -24,6 +24,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.android.databinding.ActivityDashboardBinding
 import com.example.android.databinding.NavHeaderDashboardBinding
 import com.example.android.ui.auth.ProfileActivity
+import com.example.android.ui.auth.ProfileSettingsActivity
 import com.example.android.util.BASE_API
 import com.example.android.util.Preft
 import com.inyongtisto.myhelper.extension.showLoading
@@ -91,7 +92,7 @@ class DashboardActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.action_account->{
-                startActivity(Intent(this,ProfileActivity::class.java))
+                startActivity(Intent(this,ProfileSettingsActivity::class.java))
             }
         }
         when(item.itemId){

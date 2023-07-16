@@ -12,6 +12,10 @@
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_login.xml"
     },
     {
+        "merged": "com.example.android.app-mergeDebugResources-60:/layout/activity_change_personal_data.xml",
+        "source": "com.example.android.app-main-63:/layout/activity_change_personal_data.xml"
+    },
+    {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_profile.xml",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_profile.xml"
     },
@@ -22,6 +26,10 @@
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\fragment_managementevent.xml",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_managementevent.xml"
+    },
+    {
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_change_personal_data.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_change_personal_data.xml"
     },
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_main.xml",
@@ -38,6 +46,10 @@
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_register.xml",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_profile_settings.xml",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_profile_settings.xml"
     },
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\content_dashboard.xml",
@@ -58,9 +70,5 @@
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\fragment_participant_event.xml",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_participant_event.xml"
-    },
-    {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/fragment_managementevent.xml",
-        "source": "com.example.android.app-main-63:/layout/fragment_managementevent.xml"
     }
 ]

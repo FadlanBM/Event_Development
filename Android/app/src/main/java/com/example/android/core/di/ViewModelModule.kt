@@ -1,5 +1,6 @@
 package com.example.android.core.di
 
+import com.example.android.ui.auth.ChangePersonalViewModel
 import com.example.android.ui.auth.LoginViewModel
 import com.example.android.ui.auth.ProfileViewModel
 import com.example.android.ui.auth.RegisterViewModel
@@ -12,4 +13,5 @@ val ViewModelModule= module {
     viewModel { RegisterViewModel(get()) }
     viewModel { ProfileViewModel(get()) }
     viewModel { Management_ViewModel(get()) }
+    viewModel { ChangePersonalViewModel(get()) }
 }

@@ -2,7 +2,8 @@
 
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\EventsController;
-use Illuminate\Http\Request;
+use App\Http\Controllers\Api\PersonController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,3 +29,6 @@ Route::post('upload_user/{id}',[AuthController::class,'upload']);
 
 //Event
 Route::post('add_event',[EventsController::class,'create']);
+
+//profile
+Route::resource('person', PersonController::class);

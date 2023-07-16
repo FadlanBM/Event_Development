@@ -8,9 +8,11 @@ use Illuminate\Contracts\Cache\Store;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
+use Tests\Helper;
 
 class AuthController extends Controller
 {
+    use Helper;
     public function register(Request $request){
         $validasi=Validator::make($request->all(),[
             'name'=>'required',
@@ -90,20 +92,5 @@ class AuthController extends Controller
             return $this->error_400("Terjadi Kesalahan");
         }
 
-    }
-
-    private function error_400($message){
-        return response()->json([
-            'message'=>$message,
-            'code'=>400
-        ],400);
-    }
-
-    private function valid_200($message="SUCCESS",$data){
-        return response()->json([
-            'message'=>$message,
-            'data'=>$data,
-            'code'=>200
-        ],200);
     }
 }

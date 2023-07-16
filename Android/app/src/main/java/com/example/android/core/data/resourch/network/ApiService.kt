@@ -2,12 +2,13 @@ package com.example.android.core.data.resourch.network
 
 import com.example.android.core.data.resourch.request.EventsRequest
 import com.example.android.core.data.resourch.request.LoginRequest
+import com.example.android.core.data.resourch.request.PersonalRequest
 import com.example.android.core.data.resourch.request.RegisterRequest
 import com.example.android.core.data.resourch.request.UpdateProfileRequest
 import com.example.android.core.data.resourch.response.LoginResponse
+import com.example.android.core.data.resourch.response.BaseResponse
+import com.example.android.core.data.resourch.response.PersonalResponse
 import okhttp3.MultipartBody
-import okhttp3.RequestBody
-import okhttp3.ResponseBody
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.Multipart
@@ -38,8 +39,15 @@ interface ApiService{
         @Part data:MultipartBody.Part?=null
     ):Response<LoginResponse>
 
+    @POST("person")
+    suspend fun postPersonal(
+        @Body data:PersonalRequest
+    ):Response<BaseResponse<PersonalResponse>>
+
     @POST("add_event")
     suspend fun events(
         @Body event:EventsRequest
     ):Response<LoginResponse>
+
+
 }

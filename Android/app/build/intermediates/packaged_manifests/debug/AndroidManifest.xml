@@ -71,6 +71,12 @@
         android:theme="@style/Theme.Android"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.android.ui.auth.ChangePersonalDataActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.android.ui.auth.ProfileSettingsActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.android.ui.auth.ProfileActivity"
             android:exported="false" />
         <activity
