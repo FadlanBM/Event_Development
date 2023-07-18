@@ -5,16 +5,10 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.RadioButton
-import com.example.android.DashboardActivity
 import com.example.android.R
 import com.example.android.core.data.resourch.network.State
-import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.core.data.resourch.request.PersonalRequest
 import com.example.android.databinding.ActivityChangePersonalDataBinding
-import com.example.android.databinding.ActivityLoginBinding
-import com.example.android.util.BASE_API
 import com.example.android.util.Preft
 import com.inyongtisto.myhelper.extension.dismisLoading
 import com.inyongtisto.myhelper.extension.int
@@ -23,9 +17,6 @@ import com.inyongtisto.myhelper.extension.pushActivity
 import com.inyongtisto.myhelper.extension.showLoading
 import com.inyongtisto.myhelper.extension.showToast
 import com.inyongtisto.myhelper.extension.toastError
-import com.squareup.picasso.Picasso
-import org.koin.android.ext.android.bind
-import org.koin.android.ext.android.get
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class ChangePersonalDataActivity : AppCompatActivity() {
@@ -34,12 +25,31 @@ class ChangePersonalDataActivity : AppCompatActivity() {
     private val binding get() = _binding!!
     private var getradio:String=""
     private val person= Preft.getPerson()
+
+    override fun onBackPressed() {
+        if (person?.fullname.toString()!=binding.tbFullname.text.toString()||person?.birth.toString()!=binding.tbBirth.text.toString()||person?.address.toString()!=binding.tbAddress.text.toString()||person?.phone.toString()!=binding.tbPhone.text.toString()||person?.sex.toString()!=getradio){
+            val builder: AlertDialog.Builder = AlertDialog.Builder(this)
+            builder.setTitle("Beralih")
+            builder.setMessage("Jika anda keluar perubahan di hapus")
+            builder.setPositiveButton("Ya", DialogInterface.OnClickListener { dialog, which ->
+                startActivity(Intent(this,ProfileSettingsActivity::class.java))
+            })
+            builder.setNegativeButton("Tidak",
+                DialogInterface.OnClickListener { dialog, which ->
+                    // Tambahkan kode yang ingin Anda jalankan saat pengguna menekan "Tidak"
+                    dialog.dismiss() // Menutup dialog
+                })
+            builder.show()
+        }else{
+            startActivity(Intent(this,ProfileSettingsActivity::class.java))
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_change_personal_data)
         _binding = ActivityChangePersonalDataBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         //functions
         hendelerFun()
     }
@@ -49,22 +59,7 @@ class ChangePersonalDataActivity : AppCompatActivity() {
             setPersonal()
         }
         binding.btnBackSettings.setOnClickListener {
-            if (person?.fullname.toString()!=binding.tbFullname.text.toString()||person?.birth.toString()!=binding.tbBirth.text.toString()||person?.address.toString()!=binding.tbAddress.text.toString()||person?.phone.toString()!=binding.tbPhone.text.toString()||person?.sex.toString()!=getradio){
-                    val builder: AlertDialog.Builder = AlertDialog.Builder(this)
-                    builder.setTitle("Beralih")
-                    builder.setMessage("Jika anda keluar perubahan di hapus")
-                    builder.setPositiveButton("Ya", DialogInterface.OnClickListener { dialog, which ->
-                        onBackPressed()
-                    })
-                    builder.setNegativeButton("Tidak",
-                        DialogInterface.OnClickListener { dialog, which ->
-                            // Tambahkan kode yang ingin Anda jalankan saat pengguna menekan "Tidak"
-                            dialog.dismiss() // Menutup dialog
-                        })
-                    builder.show()
-            }else{
-            onBackPressed()
-            }
+         onBackPressed()
         }
     }
 
@@ -75,7 +70,6 @@ class ChangePersonalDataActivity : AppCompatActivity() {
         hendelerRadio()
     }
     private fun setUser(){
-
         if (person !=null){
             binding.apply {
                 tbFullname.setText(person.fullname)
@@ -105,7 +99,7 @@ class ChangePersonalDataActivity : AppCompatActivity() {
                 State.SUCCESS->{
                     dismisLoading()
                     showToast("Data Berhasil Di Perbarui")
-                    pushActivity(ProfileSettingsActivity::class.java)
+                    startActivity(Intent(this,ProfileSettingsActivity::class.java))
                 }
                 State.ERROR->{
                     dismisLoading()
@@ -118,6 +112,12 @@ class ChangePersonalDataActivity : AppCompatActivity() {
         }
     }
 
+
+    private fun getPersonal(){
+        val getid=Preft.getUser()?.id;
+        viewModel.getPersonal(getid).observe(this){
+        }
+    }
     private fun hendelerRadio(){
 
         binding.rdMale.setOnClickListener {

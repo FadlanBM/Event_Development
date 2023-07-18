@@ -108,6 +108,40 @@ class AppRepository (private val remote:RemoteDataSourch) {
             emit(Resourch.error(e.message?:"terjadi Kesalahan",null))
         }
     }
+    fun getPersonal(id:Int?=null) = flow {
+        emit(Resourch.loading(null))
+        try {
+            remote.getPersonal(id).let {
+                if (it.isSuccessful){
+                    val body=it.body()
+                    val person=body?.data
+                    Preft.setPerson(person)
+                    emit(Resourch.success(person))
+                }else{
+                    emit(Resourch.error(it.getErrorBody()?.message?:"The update account error ",null))
+                }
+            }
+        }catch (e:Exception){
+            emit(Resourch.error(e.message?:"terjadi Kesalahan",null))
+        }
+    }
+
+    fun delete_account(id:Int?=null) = flow {
+        emit(Resourch.loading(null))
+        try {
+            remote.delete_account(id).let {
+                if (it.isSuccessful){
+                    val body=it.body()
+                    val person=body?.data
+                    emit(Resourch.success(person))
+                }else{
+                    emit(Resourch.error(it.getErrorBody()?.message?:"The update account error ",null))
+                }
+            }
+        }catch (e:Exception){
+            emit(Resourch.error(e.message?:"terjadi Kesalahan",null))
+        }
+    }
 
     fun events(data: EventsRequest) = flow {
         emit(Resourch.loading(null))

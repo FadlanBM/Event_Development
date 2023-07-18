@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Models\Person;
 use App\Models\User;
 use Illuminate\Contracts\Cache\Store;
 use Illuminate\Http\Request;
@@ -92,5 +93,22 @@ class AuthController extends Controller
             return $this->error_400("Terjadi Kesalahan");
         }
 
+    }
+
+    public function destroy($id){
+        $users=User::where('id',$id)->first();
+        if ($users) {
+            $person=Person::where('users_id',$users->id);
+            if ($person) {
+                $person->delete();
+                $users->delete();
+                return $this->valid_200("Berhasil delete account",$users);
+            }else {
+                $users->delete();
+                return $this->valid_200("Berhasil delete account",$users);
+            }
+        }else {
+            return $this->error_400("terjadi Kegalaan");
+        }
     }
 }

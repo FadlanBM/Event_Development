@@ -16,4 +16,6 @@ class RemoteDataSourch(private val api:ApiService) {
 
     suspend fun events(data: EventsRequest)=api.events(data)
     suspend fun postPersonal(data: PersonalRequest)=api.postPersonal(data)
+    suspend fun getPersonal(id: Int?)=api.getPerson(id)
+    suspend fun delete_account(id: Int?)=api.deleteAccount(id)
 }

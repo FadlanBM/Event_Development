@@ -4,7 +4,7 @@
             "outputFile": "com.example.android.app-mergeDebugResources-59:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\htdocs\\Event_Development\\Android\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "C:\\laragon\\www\\Event_Development\\Android\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

@@ -72,9 +72,14 @@ class PersonController extends Api
     /**
      * Display the specified resource.
      */
-    public function show(Person $person)
+    public function show($id)
     {
-        //
+        $person=Person::where('users_id',$id)->first();
+        if ($person) {
+            return $this->valid_200("Show data",$person);
+        }else {
+            return $this->error_400("Gagal");
+        }
     }
 
     /**

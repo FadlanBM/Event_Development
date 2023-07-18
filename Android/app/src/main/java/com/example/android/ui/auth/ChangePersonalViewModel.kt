@@ -10,4 +10,6 @@ import okhttp3.MultipartBody
 
 class ChangePersonalViewModel(private val repo:AppRepository):ViewModel() {
     fun postPersonal(data: PersonalRequest)=repo.postPersonal(data).asLiveData()
+    fun getPersonal(id: Int?=null)=repo.getPersonal(id).asLiveData()
+    fun delete_account(id: Int?=null)=repo.delete_account(id).asLiveData()
 }

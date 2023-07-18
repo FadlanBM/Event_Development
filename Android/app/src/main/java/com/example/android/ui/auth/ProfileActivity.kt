@@ -17,6 +17,7 @@ import com.github.drjacky.imagepicker.ImagePicker
 import com.github.drjacky.imagepicker.constant.ImageProvider
 import com.inyongtisto.myhelper.extension.int
 import com.inyongtisto.myhelper.extension.isEmpty
+import com.inyongtisto.myhelper.extension.pushActivity
 import com.inyongtisto.myhelper.extension.setToolbar
 import com.inyongtisto.myhelper.extension.showToast
 import com.inyongtisto.myhelper.extension.toMultipartBody
@@ -97,7 +98,7 @@ class ProfileActivity : Myactivity() {
             when (it.state){
                 State.SUCCESS->{
                     showToast("Berhasil Update Profile " + it?.body?.name)
-                    onBackPressed()
+                    startActivity(Intent(this,ProfileSettingsActivity::class.java))
 //                    pushActivity(DashboardActivity::class.java)
                 }
                 State.ERROR->{
@@ -134,8 +135,7 @@ class ProfileActivity : Myactivity() {
                 State.SUCCESS->{
                     progress.dismiss()
                     showToast("Berhasil Update Profile " + it?.body?.name)
-                    onBackPressed()
-//                    pushActivity(DashboardActivity::class.java)
+                    pushActivity(ProfileSettingsActivity::class.java)
                 }
                 State.ERROR->{
                     progress.dismiss()

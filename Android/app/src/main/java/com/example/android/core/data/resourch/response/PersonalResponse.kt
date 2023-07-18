@@ -7,7 +7,7 @@ data class PersonalResponse(
     val address: String?,
     val birth: String?,
     val created_at: String?,
-    val fullname: String?,
+    val fullname: String?="Guest",
     val id: Int?,
     val phone: String?,
     val sex: String?,

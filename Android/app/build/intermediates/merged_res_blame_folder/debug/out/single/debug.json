@@ -1,358 +1,362 @@
 [
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsbolditalic.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsbolditalic.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\xml_internet_security.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\xml\\internet_security.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_reset.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\reset.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_content_dashboard.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\content_dashboard.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_dashboard_layout.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\dashboard_layout.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_dashboard_layout.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\dashboard_layout.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_register.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-mdpi_edit.png.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-mdpi\\edit.png"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-xxxhdpi_edit.png.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-xxxhdpi\\edit.png"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\navigation\\mobile_navigation.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_login_orange.json.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\login_orange.json"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsregular.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsregular.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_floating.json.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\floating.json"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-hdpi_edit.png.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-hdpi\\edit.png"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\menu_dashboard.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\menu\\dashboard.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_splash_screen.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_arrow_left.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\arrow_left.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_login_orange.json.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\login_orange.json"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_settings_shape.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\settings_shape.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinssemibolditalic.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinssemibolditalic.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinslight.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinslight.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_loadinganim.json.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\loadinganim.json"
+        "merged": "com.example.android.app-merged_res-61:/layout_activity_profile_settings.xml.flat",
+        "source": "com.example.android.app-main-63:/layout/activity_profile_settings.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_ic_menu_slideshow.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\ic_menu_slideshow.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\xml_internet_security.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\xml\\internet_security.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_auth.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_auth.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_loadingsplash.json.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\loadingsplash.json"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_formregistration.json.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\formregistration.json"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_app_bar_dashboard.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\app_bar_dashboard.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_main.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_hello.json.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\hello.json"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-anydpi-v24_edit.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-anydpi-v24\\edit.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsextrabold.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsextrabold.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinslight.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinslight.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_profile_shape.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\profile_shape.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_event.json.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\event.json"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_loadinganim.json.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\loadinganim.json"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_logout.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\logout.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-ldpi_edit.png.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-ldpi\\edit.png"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_onboarding_code.json.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\onboarding_code.json"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsblackitalic.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsblackitalic.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_oppinsblack.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\oppinsblack.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_oppinsblack.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\oppinsblack.ttf"
     },
     {
-        "merged": "com.example.android.app-merged_res-61:/layout_activity_change_personal_data.xml.flat",
-        "source": "com.example.android.app-main-63:/layout/activity_change_personal_data.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsextrabolditalic.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsextrabolditalic.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsthinitalic.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsthinitalic.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_auth.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_auth.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsbold.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsbold.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_fragment_managementevent.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_managementevent.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_profile.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_profile.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-hdpi_edit.png.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-hdpi\\edit.png"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_logout.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\logout.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsregular.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsregular.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_ic_menu_camera.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\ic_menu_camera.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_profile.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_profile.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsitalic.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsitalic.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_fragment_linkevent.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_linkevent.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-xhdpi_edit.png.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-xhdpi\\edit.png"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_app_bar_dashboard.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\app_bar_dashboard.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_fragment_participant_event.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_participant_event.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsthin.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsthin.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsmediumitalic.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsmediumitalic.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-anydpi-v24_edit.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-anydpi-v24\\edit.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_formregistration.json.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\formregistration.json"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_profile_settings.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_profile_settings.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_loadingsplash.json.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\loadingsplash.json"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_dashboard.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-xxhdpi_edit.png.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-xxhdpi\\edit.png"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsmediumitalic.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsmediumitalic.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_dashboard.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_dashboard.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_data_migration.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\data_migration.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-xxhdpi_edit.png.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-xxhdpi\\edit.png"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_profile_shape.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\profile_shape.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsthinitalic.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsthinitalic.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_login.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_login.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-xhdpi_edit.png.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-xhdpi\\edit.png"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_form.json.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\form.json"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_nav_header_dashboard.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\nav_header_dashboard.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_hello.json.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\hello.json"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_register.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_register.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_fragment_participant_event.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_participant_event.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_settings.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\settings.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinslightitalic.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinslightitalic.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsbolditalic.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsbolditalic.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_fragment_dashboardpage.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_dashboardpage.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_fragment_dashboardpage.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_dashboardpage.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_profile.png.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\profile.png"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinslightitalic.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinslightitalic.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_content_dashboard.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\content_dashboard.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\xml_backup_rules.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\xml\\backup_rules.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_fragment_linkevent.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_linkevent.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_data_migration.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\data_migration.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-mdpi_edit.png.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-mdpi\\edit.png"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\ic_menu_slideshow.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_main.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_main.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsextralightitalic.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsextralightitalic.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\menu_dashboard.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\menu\\dashboard.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_event.json.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\event.json"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsextralight.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsextralight.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_nav_header_dashboard.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\nav_header_dashboard.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsextrabolditalic.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsextrabolditalic.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsmedium.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsmedium.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_change_personal_data.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_change_personal_data.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_onboarding_code.json.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\onboarding_code.json"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\xml_backup_rules.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsmedium.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsmedium.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_settings.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\settings.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinssemibolditalic.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinssemibolditalic.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_reset.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\reset.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_code_event.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_code_event.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsextrabold.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsextrabold.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_profile_settings.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_profile_settings.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_form.json.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\form.json"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_more_than.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\more_than.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_change_personal_data.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_change_personal_data.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_code_event.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_code_event.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsbold.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsbold.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_arrow_left.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\arrow_left.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_management.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\management.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_settings_shape.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\settings_shape.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_login_icon.json.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\login_icon.json"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-xxxhdpi_edit.png.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-xxxhdpi\\edit.png"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsextralight.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsextralight.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_ic_menu_gallery.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\ic_menu_gallery.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_reset_password.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_reset_password.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_more_than.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\more_than.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsextralightitalic.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsextralightitalic.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsitalic.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsitalic.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_delete.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\delete.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_login.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_floating.json.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\floating.json"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_profile.png.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\profile.png"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_side_nav_bar.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\side_nav_bar.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsblackitalic.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsblackitalic.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_management.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\management.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsthin.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsthin.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\raw_login_icon.json.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\raw\\login_icon.json"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\ic_menu_gallery.xml"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\menu_activity_main_drawer.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\menu\\activity_main_drawer.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_fragment_managementevent.xml.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_managementevent.xml"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-ldpi_edit.png.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-ldpi\\edit.png"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinssemibold.ttf.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinssemibold.ttf"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinssemibold.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinssemibold.ttf"
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable_delete.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\drawable\\delete.xml"
+    },
+    {
+        "merged": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\jdk\\gradle-8.1.1\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_splash_screen.xml"
     }
 ]

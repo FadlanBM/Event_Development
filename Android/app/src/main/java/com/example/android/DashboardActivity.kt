@@ -21,20 +21,24 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
+import com.example.android.core.data.resourch.response.PersonalResponse
 import com.example.android.databinding.ActivityDashboardBinding
 import com.example.android.databinding.NavHeaderDashboardBinding
+import com.example.android.ui.auth.ChangePersonalViewModel
 import com.example.android.ui.auth.ProfileActivity
 import com.example.android.ui.auth.ProfileSettingsActivity
 import com.example.android.util.BASE_API
 import com.example.android.util.Preft
 import com.inyongtisto.myhelper.extension.showLoading
 import com.squareup.picasso.Picasso
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class DashboardActivity : AppCompatActivity() {
 
     //    private lateinit var binding2: NavHeaderDashboardBinding
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityDashboardBinding
+    private val viewModel: ChangePersonalViewModel by viewModel()
 
 
     override fun onBackPressed() {
@@ -80,13 +84,19 @@ class DashboardActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 //        setUser()
-
+        getPersonal()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.dashboard, menu)
         return true
+    }
+
+    private fun getPersonal(){
+        val getid=Preft.getUser()?.id;
+        viewModel.getPersonal(getid).observe(this){
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -102,6 +112,7 @@ class DashboardActivity : AppCompatActivity() {
                 builder.setMessage("Apakah Anda yakin ingin Logout ?")
                 builder.setPositiveButton("Ya", DialogInterface.OnClickListener { dialog, which ->
                     Preft.isLogin=false
+                    Preft.setPerson(PersonalResponse("","",null,null,0,"","",null,null))
                     startActivity(Intent(this,MainActivity::class.java))
                     finish()
                 })

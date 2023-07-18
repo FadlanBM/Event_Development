@@ -13,6 +13,7 @@ import com.example.android.core.data.resourch.network.State
 import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.databinding.ActivityAuthBinding
 import com.example.android.databinding.ActivityLoginBinding
+import com.example.android.util.Preft
 import com.inyongtisto.myhelper.extension.dismisLoading
 import com.inyongtisto.myhelper.extension.isEmpty
 import com.inyongtisto.myhelper.extension.pushActivity
@@ -70,9 +71,11 @@ class LoginActivity : AppCompatActivity() {
     }
 
   private fun setData(){
+      if (Preft.getPerson()!=null){
         binding.btnLogin.setOnClickListener {
             login()
         }
+      }
     }
     private fun login(){
         if (binding.tbEmail.isEmpty()) return

@@ -98,6 +98,7 @@ id imageView
 id image_profile
 id initial
 id liner_button
+id liner_header
 id liner_pp
 id liner_show_data
 id loading
@@ -149,6 +150,7 @@ layout activity_main
 layout activity_profile
 layout activity_profile_settings
 layout activity_register
+layout activity_reset_password
 layout activity_splash_screen
 layout app_bar_dashboard
 layout content_dashboard
