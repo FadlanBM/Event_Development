@@ -12,6 +12,8 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.android.R;
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -24,13 +26,31 @@ public final class ActivityResetPasswordBinding implements ViewBinding {
   public final ImageView btnBackLogin;
 
   @NonNull
+  public final MaterialButton btnUpdatePass;
+
+  @NonNull
   public final LinearLayout linerHeader;
 
+  @NonNull
+  public final TextInputEditText tbComfirmPassword;
+
+  @NonNull
+  public final TextInputEditText tbNewPassword;
+
+  @NonNull
+  public final TextInputEditText tbPasswordOld;
+
   private ActivityResetPasswordBinding(@NonNull RelativeLayout rootView,
-      @NonNull ImageView btnBackLogin, @NonNull LinearLayout linerHeader) {
+      @NonNull ImageView btnBackLogin, @NonNull MaterialButton btnUpdatePass,
+      @NonNull LinearLayout linerHeader, @NonNull TextInputEditText tbComfirmPassword,
+      @NonNull TextInputEditText tbNewPassword, @NonNull TextInputEditText tbPasswordOld) {
     this.rootView = rootView;
     this.btnBackLogin = btnBackLogin;
+    this.btnUpdatePass = btnUpdatePass;
     this.linerHeader = linerHeader;
+    this.tbComfirmPassword = tbComfirmPassword;
+    this.tbNewPassword = tbNewPassword;
+    this.tbPasswordOld = tbPasswordOld;
   }
 
   @Override
@@ -66,13 +86,38 @@ public final class ActivityResetPasswordBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_update_pass;
+      MaterialButton btnUpdatePass = ViewBindings.findChildViewById(rootView, id);
+      if (btnUpdatePass == null) {
+        break missingId;
+      }
+
       id = R.id.liner_header;
       LinearLayout linerHeader = ViewBindings.findChildViewById(rootView, id);
       if (linerHeader == null) {
         break missingId;
       }
 
-      return new ActivityResetPasswordBinding((RelativeLayout) rootView, btnBackLogin, linerHeader);
+      id = R.id.tb_comfirm_password;
+      TextInputEditText tbComfirmPassword = ViewBindings.findChildViewById(rootView, id);
+      if (tbComfirmPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.tb_new_Password;
+      TextInputEditText tbNewPassword = ViewBindings.findChildViewById(rootView, id);
+      if (tbNewPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.tb_password_old;
+      TextInputEditText tbPasswordOld = ViewBindings.findChildViewById(rootView, id);
+      if (tbPasswordOld == null) {
+        break missingId;
+      }
+
+      return new ActivityResetPasswordBinding((RelativeLayout) rootView, btnBackLogin,
+          btnUpdatePass, linerHeader, tbComfirmPassword, tbNewPassword, tbPasswordOld);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

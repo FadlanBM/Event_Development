@@ -6,6 +6,7 @@ import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.core.data.resourch.request.PersonalRequest
 import com.example.android.core.data.resourch.request.RegisterRequest
 import com.example.android.core.data.resourch.request.UpdateProfileRequest
+import com.example.android.core.data.resourch.request.getPassRequest
 import okhttp3.MultipartBody
 
 class RemoteDataSourch(private val api:ApiService) {
@@ -18,4 +19,5 @@ class RemoteDataSourch(private val api:ApiService) {
     suspend fun postPersonal(data: PersonalRequest)=api.postPersonal(data)
     suspend fun getPersonal(id: Int?)=api.getPerson(id)
     suspend fun delete_account(id: Int?)=api.deleteAccount(id)
+    suspend fun getPass(id: Int?,data: getPassRequest)=api.getPass(id,data)
 }

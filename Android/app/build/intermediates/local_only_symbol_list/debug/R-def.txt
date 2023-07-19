@@ -87,6 +87,7 @@ id btn_to_account
 id btn_to_change_accunt
 id btn_to_code
 id btn_update
+id btn_update_pass
 id drawer_layout
 id edt_comfirm_password
 id edt_email
@@ -114,10 +115,13 @@ id rd_female
 id rd_male
 id tb_address
 id tb_birth
+id tb_comfirm_password
 id tb_email
 id tb_fullname
 id tb_name
+id tb_new_Password
 id tb_password
+id tb_password_old
 id tb_phone
 id tb_showEvent
 id tb_tambah

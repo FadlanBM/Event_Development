@@ -5,6 +5,7 @@ import com.example.android.core.data.resourch.request.LoginRequest
 import com.example.android.core.data.resourch.request.PersonalRequest
 import com.example.android.core.data.resourch.request.RegisterRequest
 import com.example.android.core.data.resourch.request.UpdateProfileRequest
+import com.example.android.core.data.resourch.request.getPassRequest
 import com.example.android.core.data.resourch.response.LoginResponse
 import com.example.android.core.data.resourch.response.BaseResponse
 import com.example.android.core.data.resourch.response.PersonalResponse
@@ -53,6 +54,11 @@ interface ApiService{
     @POST("delete_account/{id}")
     suspend fun deleteAccount(
         @Path("id")Int:Int?=null,
+    ):Response<LoginResponse>
+    @POST("getPass/{id}")
+    suspend fun getPass(
+        @Path("id")Int:Int?=null,
+        @Body data:getPassRequest
     ):Response<LoginResponse>
 
     @GET("person/{id}")

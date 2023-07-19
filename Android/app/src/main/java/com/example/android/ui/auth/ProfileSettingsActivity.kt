@@ -84,6 +84,10 @@ class ProfileSettingsActivity : AppCompatActivity() {
                 })
             builder.show()
         }
+
+        binding.btnReset.setOnClickListener {
+            pushActivity(ResetPasswordActivity::class.java)
+        }
     }
 
     private fun delete_akun(){

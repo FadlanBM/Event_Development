@@ -4,7 +4,24 @@
             "outputFile": "com.example.android.app-mergeDebugResources-59:/values-cs/values-cs.xml",
             "map": [
                 {
-                    "source": "C:\\jdk\\gradle-8.1.1\\caches\\transforms-3\\b989374e0f5fdf74249d412a5719e994\\transformed\\material-1.9.0\\res\\values-cs\\values-cs.xml",
+                    "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\7fc3028c45a0b57b361d4f727fd04c9e\\transformed\\core-1.10.1\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,356,455,560,667,786",
+                        "endColumns": "97,101,100,98,104,106,118,100",
+                        "endOffsets": "148,250,351,450,555,662,781,882"
+                    },
+                    "to": {
+                        "startLines": "40,41,42,43,44,45,46,107",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3540,3638,3740,3841,3940,4045,4152,9059",
+                        "endColumns": "97,101,100,98,104,106,118,100",
+                        "endOffsets": "3633,3735,3836,3935,4040,4147,4266,9155"
+                    }
+                },
+                {
+                    "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\b989374e0f5fdf74249d412a5719e994\\transformed\\material-1.9.0\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,24 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\jdk\\gradle-8.1.1\\caches\\transforms-3\\7fc3028c45a0b57b361d4f727fd04c9e\\transformed\\core-1.10.1\\res\\values-cs\\values-cs.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,356,455,560,667,786",
-                        "endColumns": "97,101,100,98,104,106,118,100",
-                        "endOffsets": "148,250,351,450,555,662,781,882"
-                    },
-                    "to": {
-                        "startLines": "40,41,42,43,44,45,46,107",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3540,3638,3740,3841,3940,4045,4152,9059",
-                        "endColumns": "97,101,100,98,104,106,118,100",
-                        "endOffsets": "3633,3735,3836,3935,4040,4147,4266,9155"
-                    }
-                },
-                {
-                    "source": "C:\\jdk\\gradle-8.1.1\\caches\\transforms-3\\7e9e844f8bed5bdeb15244b149d0e6f4\\transformed\\navigation-ui-2.6.0\\res\\values-cs\\values-cs.xml",
+                    "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\7e9e844f8bed5bdeb15244b149d0e6f4\\transformed\\navigation-ui-2.6.0\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\jdk\\gradle-8.1.1\\caches\\transforms-3\\6714c1b506c6a9f1a0aee459907b35e6\\transformed\\appcompat-1.6.1\\res\\values-cs\\values-cs.xml",
+                    "source": "C:\\jdk_sourch\\gradle-8.2\\caches\\transforms-3\\6714c1b506c6a9f1a0aee459907b35e6\\transformed\\appcompat-1.6.1\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

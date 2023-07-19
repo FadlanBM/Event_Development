@@ -111,4 +111,17 @@ class AuthController extends Controller
             return $this->error_400("terjadi Kegalaan");
         }
     }
+
+    public function getPass(Request $request,$id){
+        $user=User::where('id',$id)->first();
+        if ($user) {
+            if (password_verify($request->passwordOld,$user->password)) {
+                return $this->valid_200("Password Benar",$user);
+            }else {
+                return $this->error_400("Password salah");
+            }
+        }else {
+            return $this->error_400("email tidak di temukan");
+        }
+    }
 }

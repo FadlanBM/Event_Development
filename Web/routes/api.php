@@ -27,6 +27,7 @@ Route::post('login',[AuthController::class,'login']);
 Route::put('update_user/{id}',[AuthController::class,'update']);
 Route::post('upload_user/{id}',[AuthController::class,'upload']);
 Route::post('delete_account/{id}',[AuthController::class,'destroy']);
+Route::post('getPass/{id}',[AuthController::class,'getPass']);
 
 //Event
 Route::post('add_event',[EventsController::class,'create']);
