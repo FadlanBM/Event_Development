@@ -7,10 +7,10 @@ export default function NavLink({ active = false, className = '', children, ...p
             className={
                 "inline-flex items-center text-sm font-medium leading-5 " +
                 (active
-                    ? "text-gray-50 "
+                    ? "bg-white w-full h-full rounded-[24px] text-[#E65F2B] "
                     : "border-none text-white hover:text-gray-50 focus:text-gray-700 ") +
                 className
-            }
+            }   
         >
             {children}
         </Link>
