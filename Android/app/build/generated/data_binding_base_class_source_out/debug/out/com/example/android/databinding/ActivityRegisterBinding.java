@@ -12,6 +12,8 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.android.R;
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -27,14 +29,36 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextView btnSignIn;
 
   @NonNull
+  public final MaterialButton btnSignUp;
+
+  @NonNull
+  public final TextInputEditText edtComfirmPassword;
+
+  @NonNull
+  public final TextInputEditText edtEmail;
+
+  @NonNull
+  public final TextInputEditText edtName;
+
+  @NonNull
+  public final TextInputEditText edtPassword;
+
+  @NonNull
   public final TextView txtRegister;
 
   private ActivityRegisterBinding(@NonNull RelativeLayout rootView,
       @NonNull ImageView btnBackRegister, @NonNull TextView btnSignIn,
-      @NonNull TextView txtRegister) {
+      @NonNull MaterialButton btnSignUp, @NonNull TextInputEditText edtComfirmPassword,
+      @NonNull TextInputEditText edtEmail, @NonNull TextInputEditText edtName,
+      @NonNull TextInputEditText edtPassword, @NonNull TextView txtRegister) {
     this.rootView = rootView;
     this.btnBackRegister = btnBackRegister;
     this.btnSignIn = btnSignIn;
+    this.btnSignUp = btnSignUp;
+    this.edtComfirmPassword = edtComfirmPassword;
+    this.edtEmail = edtEmail;
+    this.edtName = edtName;
+    this.edtPassword = edtPassword;
     this.txtRegister = txtRegister;
   }
 
@@ -77,6 +101,36 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_sign_up;
+      MaterialButton btnSignUp = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignUp == null) {
+        break missingId;
+      }
+
+      id = R.id.edt_comfirm_password;
+      TextInputEditText edtComfirmPassword = ViewBindings.findChildViewById(rootView, id);
+      if (edtComfirmPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.edt_email;
+      TextInputEditText edtEmail = ViewBindings.findChildViewById(rootView, id);
+      if (edtEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.edt_name;
+      TextInputEditText edtName = ViewBindings.findChildViewById(rootView, id);
+      if (edtName == null) {
+        break missingId;
+      }
+
+      id = R.id.edt_password;
+      TextInputEditText edtPassword = ViewBindings.findChildViewById(rootView, id);
+      if (edtPassword == null) {
+        break missingId;
+      }
+
       id = R.id.txt_register;
       TextView txtRegister = ViewBindings.findChildViewById(rootView, id);
       if (txtRegister == null) {
@@ -84,7 +138,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
       }
 
       return new ActivityRegisterBinding((RelativeLayout) rootView, btnBackRegister, btnSignIn,
-          txtRegister);
+          btnSignUp, edtComfirmPassword, edtEmail, edtName, edtPassword, txtRegister);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

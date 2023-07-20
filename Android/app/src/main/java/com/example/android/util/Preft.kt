@@ -1,22 +1,32 @@
 package com.example.android.util
 
 import android.app.Activity
+import android.app.Person
 import android.content.Context
 import android.content.SharedPreferences
+import com.chibatching.kotpref.KotprefModel
+import com.example.android.core.data.resourch.model.User
+import com.example.android.core.data.resourch.response.PersonalResponse
+import com.inyongtisto.myhelper.extension.toJson
+import com.inyongtisto.myhelper.extension.toModel
 
-class Preft(activity: Activity) {
-    private var sp:SharedPreferences?=null
-    private val login="login"
+object Preft:KotprefModel() {
+    var isLogin by booleanPref(false)
+    var user by stringPref()
+    var person by stringPref()
 
-    init {
-        sp=activity.getSharedPreferences("PREFT",Context.MODE_PRIVATE)
+    fun setUser(data: User?){
+        user= data.toJson()
+    }  fun setPerson(data: PersonalResponse?){
+        person= data.toJson()
     }
 
-    fun setIsLogin(Value:Boolean){
-        sp!!.edit().putBoolean(login,Value)
+    fun getUser():User?{
+        if (user.isEmpty()) return null
+        return user.toModel(User::class.java)
     }
-    fun getIsLogin():Boolean{
-       return sp!!.getBoolean(login,true)
+    fun getPerson():PersonalResponse?{
+        if (person.isEmpty()) return null
+        return person.toModel(PersonalResponse::class.java)
     }
-
 }

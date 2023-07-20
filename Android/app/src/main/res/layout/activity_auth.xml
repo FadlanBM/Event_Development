@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EEEEEE"
     tools:context=".AuthActivity">
 
     <ImageView
@@ -20,6 +21,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_below="@+id/btn_back_auth"
+        android:layout_marginTop="@dimen/_10sdp"
         >
         <TextView
             android:layout_width="match_parent"
@@ -39,7 +41,7 @@
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
             android:layout_height="@dimen/_260sdp"
-            app:lottie_rawRes="@raw/login_icon"/>
+            app:lottie_rawRes="@raw/floating"/>
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
             android:layout_height="@dimen/_45sdp"

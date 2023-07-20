@@ -37,8 +37,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
     <style name="Base.Theme.Android" parent="Theme.Material3.DayNight.NoActionBar">
-        
-        
+        <item name="colorSecondary">@color/colorhighlight</item>
     </style>
     <style name="Theme.Android" parent="Base.Theme.Android"/>
     <style name="Theme.Android.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>

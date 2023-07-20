@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EEEEEE"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -23,6 +24,7 @@
         android:layout_width="@dimen/_200sdp"
         android:layout_height="@dimen/_200sdp"
         app:lottie_autoPlay="true"
+        android:layout_marginTop="@dimen/_20sdp"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/event"
         android:layout_gravity="center"/>
@@ -31,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_45sdp"
             android:text="Join Event"
-            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_80sdp"
             android:layout_marginHorizontal="@dimen/_20sdp"
             android:backgroundTint="@color/colorhighlight"
             android:fontFamily="@font/poppinsbold"

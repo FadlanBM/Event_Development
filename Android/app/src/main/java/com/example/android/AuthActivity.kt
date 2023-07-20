@@ -10,6 +10,9 @@ import com.example.android.ui.auth.RegisterActivity
 import com.example.android.util.Preft
 
 class AuthActivity : AppCompatActivity() {
+    override fun onBackPressed() {
+        startActivity(Intent(this,MainActivity::class.java))
+    }
     private var _binding: ActivityAuthBinding? = null
 
     // This property is only valid between onCreateView and
@@ -31,8 +34,7 @@ class AuthActivity : AppCompatActivity() {
         binding.btnBackAuth.setOnClickListener {
             onBackPressed()
         }
-        val sp=Preft(this)
-        if (sp.getIsLogin()){
+        if (Preft.isLogin){
             startActivity(Intent(this,DashboardActivity::class.java))
         }else{
         }

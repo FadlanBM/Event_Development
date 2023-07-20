@@ -5,31 +5,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
-import androidx.viewbinding.ViewBindings;
 import com.example.android.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
-import java.lang.String;
 
 public final class FragmentDashboardpageBinding implements ViewBinding {
   @NonNull
   private final RelativeLayout rootView;
 
-  @NonNull
-  public final TextView btnLogout;
-
-  @NonNull
-  public final TextView textDashboardpage;
-
-  private FragmentDashboardpageBinding(@NonNull RelativeLayout rootView,
-      @NonNull TextView btnLogout, @NonNull TextView textDashboardpage) {
+  private FragmentDashboardpageBinding(@NonNull RelativeLayout rootView) {
     this.rootView = rootView;
-    this.btnLogout = btnLogout;
-    this.textDashboardpage = textDashboardpage;
   }
 
   @Override
@@ -55,26 +43,10 @@ public final class FragmentDashboardpageBinding implements ViewBinding {
 
   @NonNull
   public static FragmentDashboardpageBinding bind(@NonNull View rootView) {
-    // The body of this method is generated in a way you would not otherwise write.
-    // This is done to optimize the compiled bytecode for size and performance.
-    int id;
-    missingId: {
-      id = R.id.btn_logout;
-      TextView btnLogout = ViewBindings.findChildViewById(rootView, id);
-      if (btnLogout == null) {
-        break missingId;
-      }
-
-      id = R.id.text_dashboardpage;
-      TextView textDashboardpage = ViewBindings.findChildViewById(rootView, id);
-      if (textDashboardpage == null) {
-        break missingId;
-      }
-
-      return new FragmentDashboardpageBinding((RelativeLayout) rootView, btnLogout,
-          textDashboardpage);
+    if (rootView == null) {
+      throw new NullPointerException("rootView");
     }
-    String missingId = rootView.getResources().getResourceName(id);
-    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
+
+    return new FragmentDashboardpageBinding((RelativeLayout) rootView);
   }
 }
