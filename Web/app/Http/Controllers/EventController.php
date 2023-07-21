@@ -31,7 +31,9 @@ class EventController extends Controller
     public function store(StoreEventRequest $request)
     {
         $event=new Event();
+        $event->name=$request->name;
         $event->uraian = $request->uraian;
+        $event->users_id=auth()->user()->id;
         $event->tujuan = $request->tujuan;
         $event->tanggal = $request->tanggal;
         $event->waktu = $request->waktu;

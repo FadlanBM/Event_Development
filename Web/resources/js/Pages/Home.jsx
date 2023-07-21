@@ -4,7 +4,7 @@ import home from "../assets/home.png";
 
 export default function Home() {
     return (
-        <div className="flex py-[7rem] px-[8rem] xl:px-[14rem]">
+        <div className="flex py-[9rem] px-[8rem] xl:px-[14rem]">
             <div>
                 <h1 className="xl:text-[6rem] text-[4rem] leading-[6rem] font-semibold">
                     Reliable, secure

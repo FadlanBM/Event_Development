@@ -50,6 +50,14 @@ class Management_EventFragment : Fragment() {
         return root
     }
 
+    private fun clearData(){
+        binding.tbName.setText("")
+        binding.tbUraian.setText("")
+        binding.tbTujuan.setText("")
+        binding.tbTanggal.setText("")
+        binding.tbWaktu.setText("")
+    }
+
     private  fun hendelerFromEvent(){
             binding.txtTambahEvent.visible(true)
             binding.formEvent.visible(true)
@@ -90,6 +98,7 @@ class Management_EventFragment : Fragment() {
                 State.SUCCESS->{
                     binding.progressBarrEvent.visible(false)
                     toastInfo("Berhasi Menambahkan data")
+                    clearData()
                 }
                 State.ERROR->{
                     binding.progressBarrEvent.visible(false)

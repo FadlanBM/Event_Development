@@ -4,8 +4,8 @@ import Dropdown from "@/Components/Dropdown";
 
 export default function DashboardLayout({ user, header, children }) {
     return (
-        <div className="bg-[#EBDFD7] flex flex-row">
-            <div className="h-screen w-[250px] bg-[#060606]">
+        <div>
+            <div className="h-full w-[250px] bg-[#060606]">
                 <div className="pl-3 pr-4 py-6">
                     <div className="flex gap-x-4 items-center">
                         <ApplicationLogo className="h-10" />
@@ -70,7 +70,7 @@ export default function DashboardLayout({ user, header, children }) {
                     </div>
                 </div>
             </div>
-            {header && (
+            {/* {header && (
                 <header className="px-7 py-5 border-b-[1px] border-[#CACACA] h-[5rem] w-full inline-flex">
                     <div>{header}</div>
                     <Dropdown>
@@ -112,9 +112,9 @@ export default function DashboardLayout({ user, header, children }) {
                         </Dropdown.Content>
                     </Dropdown>
                 </header>
-            )}
+            )} */}
 
-            <main>{children}</main>
+            {/* <main>{children}</main> */}
         </div>
     );
 }
