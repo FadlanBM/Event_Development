@@ -5,7 +5,8 @@ import { Head } from "@inertiajs/react";
 import { handler } from "daisyui";
 import { useState } from "react";
 
-export default function Event({ auth, props }) {
+export default function Event({auth,props,message,data}) {
+    const [name, setName] = useState("");
     const [uraian, setUraian] = useState("");
     const [tujuan, setTujuan] = useState("");
     const [tanggal, setTanggal] = useState("");
@@ -14,6 +15,7 @@ export default function Event({ auth, props }) {
 
     const handleSubmit = () => {
         const data = {
+            name,
             uraian,
             tujuan,
             tanggal,
@@ -21,6 +23,7 @@ export default function Event({ auth, props }) {
         };
         Inertia.post("/event/post", data);
         setIsNotif(true);
+        setName("");
         setUraian("");
         setTujuan("");
         setTanggal("");
@@ -54,9 +57,19 @@ export default function Event({ auth, props }) {
                                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                                     />
                                 </svg>
-                                <span>Event added successfully!</span>
+                                <span>{message}</span>
                             </div>
                         )}
+                        <h1>{data.name}</h1>
+                        <input
+                            type="text"
+                            placeholder="Name Event"
+                            onChange={(name) =>
+                                setName(name.target.value)
+                            }
+                            value={name}
+                            className="input w-full mt-4 input-bordered bg-white md:"
+                        />
                         <input
                             type="text"
                             placeholder="Uraian"

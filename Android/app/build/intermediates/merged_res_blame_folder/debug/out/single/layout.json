@@ -16,10 +16,6 @@
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_reset_password.xml"
     },
     {
-        "merged": "com.example.android.app-mergeDebugResources-60:/layout/activity_reset_password.xml",
-        "source": "com.example.android.app-main-63:/layout/activity_reset_password.xml"
-    },
-    {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\activity_profile.xml",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\activity_profile.xml"
     },
@@ -74,5 +70,9 @@
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-mergeDebugResources-60:\\layout\\fragment_participant_event.xml",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\layout\\fragment_participant_event.xml"
+    },
+    {
+        "merged": "com.example.android.app-mergeDebugResources-60:/layout/activity_register.xml",
+        "source": "com.example.android.app-main-63:/layout/activity_register.xml"
     }
 ]

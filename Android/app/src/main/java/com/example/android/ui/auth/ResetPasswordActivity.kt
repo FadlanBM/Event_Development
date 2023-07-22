@@ -1,13 +1,17 @@
 package com.example.android.ui.auth
 
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.android.MainActivity
 import com.example.android.R
 import com.example.android.core.data.resourch.network.State
 import com.example.android.core.data.resourch.request.PersonalRequest
 import com.example.android.core.data.resourch.request.UpdateProfileRequest
 import com.example.android.core.data.resourch.request.getPassRequest
+import com.example.android.core.data.resourch.response.PersonalResponse
 import com.example.android.databinding.ActivityChangePersonalDataBinding
 import com.example.android.databinding.ActivityResetPasswordBinding
 import com.example.android.util.Preft
@@ -63,19 +67,31 @@ class ResetPasswordActivity : AppCompatActivity() {
         viewModel.getPass(getid,body).observe(this){
             when (it.state){
                 State.SUCCESS->{
-                    dismisLoading()
-                    showToast("Data Berhasil Di Perbarui")
+//                    dismisLoading()
+//                    showToast("Data Berhasil Di Perbarui")
                     updatePassword()
                 }
                 State.ERROR->{
-                    dismisLoading()
-                    toastError(it.message?:"terjadi kesalahan")
+//                    dismisLoading()
+//                    toastError(it.message?:"terjadi kesalahan")
                 }
                 State.LOADING->{
-                    showLoading()
+//                    showLoading()
                 }
             }
         }
+    }
+
+    private fun notif(){
+        val builder: AlertDialog.Builder = AlertDialog.Builder(this)
+        builder.setTitle("Beralih")
+        builder.setMessage("Anda Telah merubah password akun anda anda harus Login lagi!")
+        builder.setPositiveButton("Ya", DialogInterface.OnClickListener { dialog, which ->
+            Preft.isLogin=false
+            Preft.setPerson(PersonalResponse("","",null,null,0,"","",null,null))
+            startActivity(Intent(this,MainActivity::class.java))
+        })
+        builder.show()
     }
 
     private fun updatePassword(){
@@ -85,8 +101,8 @@ class ResetPasswordActivity : AppCompatActivity() {
         viewModeledt.updateUser(body).observe(this){
             when (it.state){
                 State.SUCCESS->{
-                    showToast("Berhasil Update Profile " + it?.body?.name)
-                    startActivity(Intent(this,ProfileSettingsActivity::class.java))
+//                    showToast("Berhasil Update Profile " + it?.body?.name)
+                    notif()
                 }
                 State.ERROR->{
                     toastError(it.message?:"terjadi kesalahan")

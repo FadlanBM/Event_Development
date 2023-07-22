@@ -97,16 +97,16 @@ class ChangePersonalDataActivity : AppCompatActivity() {
         viewModel.postPersonal(body).observe(this){
             when (it.state){
                 State.SUCCESS->{
-                    dismisLoading()
-                    showToast("Data Berhasil Di Perbarui")
+//                    dismisLoading()
+//                    showToast("Data Berhasil Di Perbarui")
                     startActivity(Intent(this,ProfileSettingsActivity::class.java))
                 }
                 State.ERROR->{
-                    dismisLoading()
-                    toastError(it.message?:"terjadi kesalahan")
+//                    dismisLoading()
+//                    toastError(it.message?:"terjadi kesalahan")
                 }
                 State.LOADING->{
-                    showLoading()
+//                    showLoading()
                 }
             }
         }

@@ -15,11 +15,13 @@ import com.example.android.core.data.resourch.request.RegisterRequest
 import com.example.android.databinding.ActivityLoginBinding
 import com.example.android.databinding.ActivityRegisterBinding
 import com.inyongtisto.myhelper.extension.dismisLoading
+import com.inyongtisto.myhelper.extension.getAlertDialog
 import com.inyongtisto.myhelper.extension.isEmpty
 import com.inyongtisto.myhelper.extension.pushActivity
 import com.inyongtisto.myhelper.extension.showLoading
 import com.inyongtisto.myhelper.extension.showToast
 import com.inyongtisto.myhelper.extension.toastError
+import com.inyongtisto.myhelper.extension.visible
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class RegisterActivity : AppCompatActivity() {
@@ -86,16 +88,21 @@ setData()
         viewModel.register(body).observe(this){
             when (it.state){
                 State.SUCCESS->{
-                    dismisLoading()
-                    showToast("Selamat datang " + it?.body?.name)
+//                    dismisLoading()
+                    binding.loading.visible(false)
+                    Toast.makeText(this,"Selamat Datang "+it?.body?.name,Toast.LENGTH_SHORT).show()
+//                    showToast("Selamat datang " + it?.body?.name)
                     pushActivity(DashboardActivity::class.java)
                 }
                 State.ERROR->{
-                    dismisLoading()
-                    toastError(it.message?:"terjadi kesalahan")
+                    binding.loading.visible(false)
+//                    dismisLoading()
+                    alert.showAlert(this,"Ërror",it.message?:"Terjadi Kesalahan")
+//                    toastError(it.message?:"terjadi kesalahan")
                 }
                 State.LOADING->{
-                    showLoading()
+                    binding.loading.visible(true)
+//                    showLoading()
                 }
             }
         }

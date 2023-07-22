@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Event;
 use App\Http\Requests\StoreEventRequest;
 use App\Http\Requests\UpdateEventRequest;
+use Illuminate\Http\Request;
 use Inertia\Inertia;
 
 class EventController extends Controller
@@ -14,7 +15,14 @@ class EventController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Event');
+        $message="Success";
+        $id=auth()->user()->id;
+        $event=Event::where('users_id',$id)->get();
+        $data=[
+            'name'=>$event,
+            'kelas'=>'1'
+        ];
+        return Inertia::render('Event',['message'=>$message,'data'=>$data]);    
     }
 
     /**
@@ -28,15 +36,16 @@ class EventController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreEventRequest $request)
+    public function store(Request $request)
     {
         $event=new Event();
+        $event->name = $request->name;
         $event->uraian = $request->uraian;
+        $event->users_id=auth()->user()->id;
         $event->tujuan = $request->tujuan;
         $event->tanggal = $request->tanggal;
         $event->waktu = $request->waktu;
         $event->save();
-        return redirect()->back()->with('message','Event added successfully');
     }
 
     /**

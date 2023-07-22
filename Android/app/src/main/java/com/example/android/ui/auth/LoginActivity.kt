@@ -3,6 +3,7 @@ package com.example.android.ui.auth
 import android.app.AlertDialog
 import android.content.DialogInterface
 import android.content.Intent
+import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -22,6 +23,7 @@ import com.inyongtisto.myhelper.extension.showToast
 import com.inyongtisto.myhelper.extension.toGone
 import com.inyongtisto.myhelper.extension.toVisible
 import com.inyongtisto.myhelper.extension.toastError
+import com.inyongtisto.myhelper.extension.visible
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class LoginActivity : AppCompatActivity() {
@@ -70,6 +72,8 @@ class LoginActivity : AppCompatActivity() {
         setData()
     }
 
+
+
   private fun setData(){
       if (Preft.getPerson()!=null){
         binding.btnLogin.setOnClickListener {
@@ -84,19 +88,26 @@ class LoginActivity : AppCompatActivity() {
         viewModel.login(body).observe(this){
             when (it.state){
                 State.SUCCESS->{
-                    dismisLoading()
-                    showToast("Selamat datang " + it?.body?.name)
+                    binding.loading.visible(false)
+//                    dismisLoading()
+                    Toast.makeText(this,"Selamar datang "+it.body?.name,Toast.LENGTH_SHORT).show()
+//                    showToast("Selamat datang " + it?.body?.name)
                     pushActivity(DashboardActivity::class.java)
                 }
                 State.ERROR->{
-                    dismisLoading()
-                    toastError(it.message?:"terjadi kesalahan")
+                    binding.loading.visible(false)
+//                    dismisLoading()
+                    alert.showAlert(this,"Error",it.message?:"Terjadi Kesalaahan")
+//                    toastError(it.message?:"terjadi kesalahan")
                 }
                 State.LOADING->{
-                    showLoading()
+//                    showLoading()
+                    binding.loading.visible(true);
                 }
             }
         }
     }
+
+
 
 }

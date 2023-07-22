@@ -97,15 +97,16 @@ class ProfileActivity : Myactivity() {
         viewModel.updateUser(body).observe(this){
             when (it.state){
                 State.SUCCESS->{
-                    showToast("Berhasil Update Profile " + it?.body?.name)
+//                    progress.dismiss()
+//                    showToast("Berhasil Update Profile " + it?.body?.name)
                     startActivity(Intent(this,ProfileSettingsActivity::class.java))
-//                    pushActivity(DashboardActivity::class.java)
                 }
                 State.ERROR->{
-                    toastError(it.message?:"terjadi kesalahan")
+//                    progress.dismiss()
+//                    toastError(it.message?:"terjadi kesalahan")
                 }
                 State.LOADING->{
-                    progress.show()
+//                    progress.show()
                 }
             }
         }
