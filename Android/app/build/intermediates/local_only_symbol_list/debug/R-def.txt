@@ -65,6 +65,7 @@ font poppinsthinitalic
 id action_account
 id action_logout
 id app_bar_dashboard
+id btn_back
 id btn_back_auth
 id btn_back_code
 id btn_back_login

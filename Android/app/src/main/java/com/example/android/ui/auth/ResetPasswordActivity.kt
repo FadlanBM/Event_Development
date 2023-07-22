@@ -5,6 +5,7 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.android.MainActivity
 import com.example.android.R
 import com.example.android.core.data.resourch.network.State
@@ -21,6 +22,7 @@ import com.inyongtisto.myhelper.extension.isEmpty
 import com.inyongtisto.myhelper.extension.showLoading
 import com.inyongtisto.myhelper.extension.showToast
 import com.inyongtisto.myhelper.extension.toastError
+import com.inyongtisto.myhelper.extension.visible
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class ResetPasswordActivity : AppCompatActivity() {
@@ -55,9 +57,27 @@ class ResetPasswordActivity : AppCompatActivity() {
         }
     }
 
+    override fun onBackPressed() {
+        val builder: AlertDialog.Builder = AlertDialog.Builder(this)
+        builder.setTitle("Beralih")
+        builder.setMessage("Jika anda keluar perubahan di hapus")
+        builder.setPositiveButton("Ya", DialogInterface.OnClickListener { dialog, which ->
+            startActivity(Intent(this,ProfileSettingsActivity::class.java))
+        })
+        builder.setNegativeButton("Tidak",
+            DialogInterface.OnClickListener { dialog, which ->
+                // Tambahkan kode yang ingin Anda jalankan saat pengguna menekan "Tidak"
+                dialog.dismiss() // Menutup dialog
+            })
+        builder.show()
+    }
+
     private fun hendelerButton(){
         binding.btnUpdatePass.setOnClickListener {
             verifyInput()
+        }
+        binding.btnBack.setOnClickListener {
+            onBackPressed()
         }
     }
 
@@ -72,10 +92,13 @@ class ResetPasswordActivity : AppCompatActivity() {
                     updatePassword()
                 }
                 State.ERROR->{
+                    binding.loading.visible(false)
+                    alert.showAlert(this,"Error",it.message?:"Terjadi Kesalahan")
 //                    dismisLoading()
 //                    toastError(it.message?:"terjadi kesalahan")
                 }
                 State.LOADING->{
+                    binding.loading.visible(true)
 //                    showLoading()
                 }
             }
@@ -101,13 +124,17 @@ class ResetPasswordActivity : AppCompatActivity() {
         viewModeledt.updateUser(body).observe(this){
             when (it.state){
                 State.SUCCESS->{
+                    binding.loading.visible(false)
 //                    showToast("Berhasil Update Profile " + it?.body?.name)
                     notif()
                 }
                 State.ERROR->{
-                    toastError(it.message?:"terjadi kesalahan")
+                    binding.loading.visible(false)
+                    alert.showAlert(this,"Error",it.message?:"Terjadi Kesalahan")
+//                    toastError(it.message?:"terjadi kesalahan")
                 }
                 State.LOADING->{
+                    binding.loading.visible(true)
                 }
             }
         }

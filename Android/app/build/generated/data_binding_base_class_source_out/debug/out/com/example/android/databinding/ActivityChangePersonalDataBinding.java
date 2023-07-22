@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
@@ -29,6 +30,9 @@ public final class ActivityChangePersonalDataBinding implements ViewBinding {
   public final MaterialButton btnSubmit;
 
   @NonNull
+  public final ProgressBar loading;
+
+  @NonNull
   public final RadioButton rdFemale;
 
   @NonNull
@@ -48,12 +52,13 @@ public final class ActivityChangePersonalDataBinding implements ViewBinding {
 
   private ActivityChangePersonalDataBinding(@NonNull RelativeLayout rootView,
       @NonNull ImageView btnBackSettings, @NonNull MaterialButton btnSubmit,
-      @NonNull RadioButton rdFemale, @NonNull RadioButton rdMale,
+      @NonNull ProgressBar loading, @NonNull RadioButton rdFemale, @NonNull RadioButton rdMale,
       @NonNull TextInputEditText tbAddress, @NonNull TextInputEditText tbBirth,
       @NonNull TextInputEditText tbFullname, @NonNull TextInputEditText tbPhone) {
     this.rootView = rootView;
     this.btnBackSettings = btnBackSettings;
     this.btnSubmit = btnSubmit;
+    this.loading = loading;
     this.rdFemale = rdFemale;
     this.rdMale = rdMale;
     this.tbAddress = tbAddress;
@@ -101,6 +106,12 @@ public final class ActivityChangePersonalDataBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loading;
+      ProgressBar loading = ViewBindings.findChildViewById(rootView, id);
+      if (loading == null) {
+        break missingId;
+      }
+
       id = R.id.rd_female;
       RadioButton rdFemale = ViewBindings.findChildViewById(rootView, id);
       if (rdFemale == null) {
@@ -138,7 +149,7 @@ public final class ActivityChangePersonalDataBinding implements ViewBinding {
       }
 
       return new ActivityChangePersonalDataBinding((RelativeLayout) rootView, btnBackSettings,
-          btnSubmit, rdFemale, rdMale, tbAddress, tbBirth, tbFullname, tbPhone);
+          btnSubmit, loading, rdFemale, rdMale, tbAddress, tbBirth, tbFullname, tbPhone);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

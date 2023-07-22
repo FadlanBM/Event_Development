@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,13 +24,16 @@ public final class ActivityResetPasswordBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ImageView btnBackLogin;
+  public final ImageView btnBack;
 
   @NonNull
   public final MaterialButton btnUpdatePass;
 
   @NonNull
   public final LinearLayout linerHeader;
+
+  @NonNull
+  public final ProgressBar loading;
 
   @NonNull
   public final TextInputEditText tbComfirmPassword;
@@ -40,14 +44,15 @@ public final class ActivityResetPasswordBinding implements ViewBinding {
   @NonNull
   public final TextInputEditText tbPasswordOld;
 
-  private ActivityResetPasswordBinding(@NonNull RelativeLayout rootView,
-      @NonNull ImageView btnBackLogin, @NonNull MaterialButton btnUpdatePass,
-      @NonNull LinearLayout linerHeader, @NonNull TextInputEditText tbComfirmPassword,
+  private ActivityResetPasswordBinding(@NonNull RelativeLayout rootView, @NonNull ImageView btnBack,
+      @NonNull MaterialButton btnUpdatePass, @NonNull LinearLayout linerHeader,
+      @NonNull ProgressBar loading, @NonNull TextInputEditText tbComfirmPassword,
       @NonNull TextInputEditText tbNewPassword, @NonNull TextInputEditText tbPasswordOld) {
     this.rootView = rootView;
-    this.btnBackLogin = btnBackLogin;
+    this.btnBack = btnBack;
     this.btnUpdatePass = btnUpdatePass;
     this.linerHeader = linerHeader;
+    this.loading = loading;
     this.tbComfirmPassword = tbComfirmPassword;
     this.tbNewPassword = tbNewPassword;
     this.tbPasswordOld = tbPasswordOld;
@@ -80,9 +85,9 @@ public final class ActivityResetPasswordBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_back_login;
-      ImageView btnBackLogin = ViewBindings.findChildViewById(rootView, id);
-      if (btnBackLogin == null) {
+      id = R.id.btn_back;
+      ImageView btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
         break missingId;
       }
 
@@ -95,6 +100,12 @@ public final class ActivityResetPasswordBinding implements ViewBinding {
       id = R.id.liner_header;
       LinearLayout linerHeader = ViewBindings.findChildViewById(rootView, id);
       if (linerHeader == null) {
+        break missingId;
+      }
+
+      id = R.id.loading;
+      ProgressBar loading = ViewBindings.findChildViewById(rootView, id);
+      if (loading == null) {
         break missingId;
       }
 
@@ -116,8 +127,8 @@ public final class ActivityResetPasswordBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityResetPasswordBinding((RelativeLayout) rootView, btnBackLogin,
-          btnUpdatePass, linerHeader, tbComfirmPassword, tbNewPassword, tbPasswordOld);
+      return new ActivityResetPasswordBinding((RelativeLayout) rootView, btnBack, btnUpdatePass,
+          linerHeader, loading, tbComfirmPassword, tbNewPassword, tbPasswordOld);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

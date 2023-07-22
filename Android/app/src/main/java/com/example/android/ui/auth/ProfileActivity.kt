@@ -5,6 +5,7 @@ import android.app.AlertDialog
 import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import com.example.android.R
 import com.example.android.core.data.resourch.network.State
@@ -22,6 +23,7 @@ import com.inyongtisto.myhelper.extension.setToolbar
 import com.inyongtisto.myhelper.extension.showToast
 import com.inyongtisto.myhelper.extension.toMultipartBody
 import com.inyongtisto.myhelper.extension.toastError
+import com.inyongtisto.myhelper.extension.visible
 import com.squareup.picasso.Picasso
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.io.File
@@ -97,15 +99,20 @@ class ProfileActivity : Myactivity() {
         viewModel.updateUser(body).observe(this){
             when (it.state){
                 State.SUCCESS->{
+                    binding.loading.visible(false)
 //                    progress.dismiss()
-//                    showToast("Berhasil Update Profile " + it?.body?.name)
+//                    showToast("Berhasil Upda Profile " + it?.tebody?.name)
                     startActivity(Intent(this,ProfileSettingsActivity::class.java))
+                    Toast.makeText(this,"Berhasil Memperbarui Profile",Toast.LENGTH_SHORT).show()
                 }
                 State.ERROR->{
+                    binding.loading.visible(false)
+                    alert.showAlert(this,"Error",it.message?:"Terjadi Kesalahan")
 //                    progress.dismiss()
 //                    toastError(it.message?:"terjadi kesalahan")
                 }
                 State.LOADING->{
+                    binding.loading.visible(true)
 //                    progress.show()
                 }
             }
@@ -134,16 +141,21 @@ class ProfileActivity : Myactivity() {
         viewModel.uploadUser(id,file).observe(this){
             when (it.state){
                 State.SUCCESS->{
-                    progress.dismiss()
-                    showToast("Berhasil Update Profile " + it?.body?.name)
-                    pushActivity(ProfileSettingsActivity::class.java)
+//                    progress.dismiss()
+//                    showToast("Berhasil Update Profile " + it?.body?.name)
+                    startActivity(Intent(this,ProfileSettingsActivity::class.java))
+                    binding.loading.visible(false)
+                    Toast.makeText(this,"Berhasil Update Profile "+it?.body?.name,Toast.LENGTH_SHORT).show()
                 }
                 State.ERROR->{
-                    progress.dismiss()
-                    toastError(it.message?:"terjadi kesalahan")
+//                    progress.dismiss()
+                    binding.loading.visible(false)
+//                    toastError(it.message?:"terjadi kesalahan")
+                    Toast.makeText(this,"Terjadi kesalahan "+it.message?:"Terjadi kesalahan",Toast.LENGTH_SHORT).show()
                 }
                 State.LOADING->{
-                    progress.show()
+//                    progress.show()
+                    binding.loading.visible(true)
                 }
             }
         }

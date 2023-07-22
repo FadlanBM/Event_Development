@@ -96,12 +96,16 @@
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsblackitalic.ttf.flat",
+        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsblackitalic.ttf"
+    },
+    {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-ldpi_edit.png.flat",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-ldpi\\edit.png"
     },
     {
-        "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_poppinsblackitalic.ttf.flat",
-        "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-main-63:\\font\\poppinsblackitalic.ttf"
+        "merged": "com.example.android.app-merged_res-61:/layout_activity_reset_password.xml.flat",
+        "source": "com.example.android.app-main-63:/layout/activity_reset_password.xml"
     },
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\font_oppinsblack.ttf.flat",
@@ -190,10 +194,6 @@
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-pngs-57:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "com.example.android.app-merged_res-61:/layout_activity_register.xml.flat",
-        "source": "com.example.android.app-main-63:/layout/activity_register.xml"
     },
     {
         "merged": "C:\\jdk_sourch\\gradle-8.2\\daemon\\8.2\\com.example.android.app-merged_res-61:\\layout_nav_header_dashboard.xml.flat",

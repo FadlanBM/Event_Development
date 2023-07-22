@@ -5,6 +5,7 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.android.R
 import com.example.android.core.data.resourch.network.State
 import com.example.android.core.data.resourch.request.PersonalRequest
@@ -17,6 +18,7 @@ import com.inyongtisto.myhelper.extension.pushActivity
 import com.inyongtisto.myhelper.extension.showLoading
 import com.inyongtisto.myhelper.extension.showToast
 import com.inyongtisto.myhelper.extension.toastError
+import com.inyongtisto.myhelper.extension.visible
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class ChangePersonalDataActivity : AppCompatActivity() {
@@ -97,15 +99,20 @@ class ChangePersonalDataActivity : AppCompatActivity() {
         viewModel.postPersonal(body).observe(this){
             when (it.state){
                 State.SUCCESS->{
+                        binding.loading.visible(false)
 //                    dismisLoading()
 //                    showToast("Data Berhasil Di Perbarui")
                     startActivity(Intent(this,ProfileSettingsActivity::class.java))
+                    Toast.makeText(this,"Berhasil Update Data Personal!",Toast.LENGTH_SHORT).show()
                 }
                 State.ERROR->{
+                    binding.loading.visible(false)
 //                    dismisLoading()
 //                    toastError(it.message?:"terjadi kesalahan")
+                    alert.showAlert(this,"Erorr",it.message?:"Terjadi Kesalahan")
                 }
                 State.LOADING->{
+                    binding.loading.visible(true)
 //                    showLoading()
                 }
             }

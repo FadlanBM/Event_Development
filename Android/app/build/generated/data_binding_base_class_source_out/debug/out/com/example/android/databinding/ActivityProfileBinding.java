@@ -5,7 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,7 +22,7 @@ import java.lang.String;
 
 public final class ActivityProfileBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final MaterialButton btnUpdate;
@@ -33,6 +34,9 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final TextView initial;
 
   @NonNull
+  public final ProgressBar loading;
+
+  @NonNull
   public final TextInputEditText tbEmail;
 
   @NonNull
@@ -41,14 +45,15 @@ public final class ActivityProfileBinding implements ViewBinding {
   @NonNull
   public final Toolbar toolbar;
 
-  private ActivityProfileBinding(@NonNull LinearLayout rootView, @NonNull MaterialButton btnUpdate,
-      @NonNull ImageView imageProfile, @NonNull TextView initial,
-      @NonNull TextInputEditText tbEmail, @NonNull TextInputEditText tbName,
-      @NonNull Toolbar toolbar) {
+  private ActivityProfileBinding(@NonNull RelativeLayout rootView,
+      @NonNull MaterialButton btnUpdate, @NonNull ImageView imageProfile, @NonNull TextView initial,
+      @NonNull ProgressBar loading, @NonNull TextInputEditText tbEmail,
+      @NonNull TextInputEditText tbName, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.btnUpdate = btnUpdate;
     this.imageProfile = imageProfile;
     this.initial = initial;
+    this.loading = loading;
     this.tbEmail = tbEmail;
     this.tbName = tbName;
     this.toolbar = toolbar;
@@ -56,7 +61,7 @@ public final class ActivityProfileBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -99,6 +104,12 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loading;
+      ProgressBar loading = ViewBindings.findChildViewById(rootView, id);
+      if (loading == null) {
+        break missingId;
+      }
+
       id = R.id.tb_email;
       TextInputEditText tbEmail = ViewBindings.findChildViewById(rootView, id);
       if (tbEmail == null) {
@@ -117,8 +128,8 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProfileBinding((LinearLayout) rootView, btnUpdate, imageProfile, initial,
-          tbEmail, tbName, toolbar);
+      return new ActivityProfileBinding((RelativeLayout) rootView, btnUpdate, imageProfile, initial,
+          loading, tbEmail, tbName, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
