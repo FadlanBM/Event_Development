@@ -31,7 +31,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                    <img className="ml-[4.5rem]" src={home} />
+                    <img className="ml-[6.9rem]" src={home} />
                 </div>
             </div>
 
