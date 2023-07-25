@@ -13,9 +13,9 @@ export default {
     theme: {
         screens: {
             'sm' : '640px',
-            'md' : '768',
-            'lg' : '1024',
-            'xl' : '1280',
+            'md' : '768px',
+            'lg' : '1024px',
+            'xl' : '1280px',
         },
 
         extend: {

@@ -3,13 +3,14 @@ import Ornament from "../assets/Ornament.svg";
 import home from "../assets/home.png";
 import Assets from "../assets/Assets.png";
 import NatashaSunny from "@/Components/NatashaSunny";
+import SunnyMarwah from "@/Components/SunnyMarwah";
 
 export default function Home() {
     return (
         <>
-            <div className="flex py-[7rem] px-[5rem] xl:px-[14rem] bg-[#0F1017]">
+            <div className="flex py-[7rem] px-[5rem] bg-[#0F1017] justify-center">
                 <div className="pt-[3rem]">
-                    <h1 className="xl:text-[6rem] text-[4rem] leading-[4.7rem] text-white font-semibold">
+                    <h1 className="xl:text-[4rem] xl:leading-[4.9rem] text-white font-semibold">
                         Reliable, secure
                         <img className="inline align-top" src={Ornament} />
                         <br />
@@ -63,6 +64,7 @@ export default function Home() {
 
             <div className="bg-white h-[1066px]">
                 <NatashaSunny />
+                <SunnyMarwah />
             </div>
         </>
     );
